@@ -1,0 +1,139 @@
+\documentclass[../main/tex]{subfiles}
+
+\begin{document}
+
+\section{Topological Yang-Mills theory}\label{sec:tym}
+
+\subsection{Mathematical preliminaries}\label{ssec:math-preliminaries;sec:tym}
+
+Let spacetime be the standard $\mathbb{R}^4$, endowed with the globally flat metric $ \mathrm{g} =\delta_{\mu\nu}dx^\mu dx^\nu$\footnote{The tensor product symbol $\otimes$, its fully symmetrized version $\vee$, and its fully anti-symmetrized version (the wedge product) $\wedge$, will be omitted when the context is sufficiently clear. Greek indexes run from 0 to 3.}. The global moving co-frame $dx^\mu$ diagonalizes $ g $, $ \partial_{ _\mu } $ is its dual frame, and $d=dx^{\mu}\partial_{ \mu }$ is the exterior derivative on $\mathbb{R}^4$.
+
+Let $G$ be a matrix Lie group, and $\mathfrak{g}$ its Lie algebra with Lie bracket
+\begin{equation}
+  \label{eq:G lie algebra}
+  \left[ J_{A}, J_{B} \right]=\tensor{f}{_{AB}^C}J_C \:.
+\end{equation}
+$J_A$ is a tangent frame next to the identity in $G$, and $\tensor{f}{_{AB}^C}$ are the structure constants\footnote{Majuscule Latin indexes run from 1 to $\dim\left(G\right)$.}. $G$ is also a smoothable manifold, naturally endowed with a globally flat metric $ \mathrm{k} = \tensor{ f }{ _{AC}^D } \tensor{ f }{ _{BD}^C } J^A J^B $. The co-frame $ J^A $ is dual to $J_A$, and $ \mathrm{k} $ diagonalizes if
+\begin{equation}
+  \label{eq:orthonormal generators}
+  \tr\left(J_A J_B\right) = \frac{1}{2}\delta_{AB} \;.
+\end{equation}
+This choice also fully anti-symmetrizes $f_{ABC}\equiv \tensor{f}{_{AB}^D}\delta_{DC}$.
+
+Consider another smoothable manifold $ P $, the principal bundle structure $G \hookrightarrow P \rightarrow \mathbb{R}^4$, its adjoint bundles $ \mathrm{Ad} P \equiv P \times_G G $ and $ \mathrm{ad}P \equiv P \times_G \mathfrak{g}$. A gauge field on $ \mathbb{R}^4 $ is an element of $C^\infty \left( \mathrm{ad}P \otimes T^*\mathbb{R}^4 \right)$ --- a $ \mathrm{ad} P $-valued 1-form field, $ A=\tensor{A}{ ^A_\mu }J_A dx^\mu $. It results from the pullback of a $G$-connection living on $ P $. The space of all $G$-connections on $ P $ is $ \mathcal{A} \equiv C^{ \infty } \left( J^1 P \right) $, where $ J^1 P $ is its 1st jet bundle. The space of all gauge transformations is $ \mathcal{G} \equiv C^{ \infty }\left( \mathrm{Ad}P \right) $, and $ C^{ \infty } \left( \mathrm{ad} P \right) $ is its Lie algebra.
+
+The full geometrical arena of a gauge theory is that of the universal bundle $\left( G\times\mathcal{G} \right) \hookrightarrow \left( P \times \mathcal{A} \right) \rightarrow \left( \mathbb{R}^4\times\mathcal{A}/\mathcal{G} \right)$. Analogous to above, a universal gauge field $\tilde{A}$ is the result of a pullback to $\mathbb{R}^4 \times \mathcal{A}/\mathcal{G}$, of a universal $\left( G \times \mathcal{G} \right)$-connection living on $P \times \mathcal{A}$. It can be written as
+\begin{equation}
+  \tilde{A} = A + c \;,
+\end{equation}
+where the $\mathrm{ad}P$-valued 0-form $c=c^A J_A$ is a local projection of a Maurer-Cartan form on $ \mathcal{G} $ --- also known as the Faddeev-Popov (FP) ghost field. $A$ and $c$ can be seen as the (1,0) and (0,1) component of $\tilde{A}$, respectively, in relation to the product $\mathbb{R}^4 \times \mathcal{A}/\mathcal{G}$.
+
+The exterior derivative $\tilde{d}$ on $\mathbb{R}^4 \times \mathcal{A}/\mathcal{G}$ can be written as
+\begin{equation}\label{eq:universal-exterior-derivative}
+  \tilde{d} = d + s \;,
+\end{equation}
+where $s$ is the exterior derivative on $\mathcal{G}$ --- also known as the BRST operator. The graded exterior algebra defined by $\tilde{d}$ gives the meaning of an 1-form with ghost number 0, and a 0-form with ghost number 1, respectively, to the components $ \left( 1,0 \right) $, and $ \left( 0,1 \right) $. Accordingly, the total grading (\textit{a.k.a.}, statistics) of $A$, and $c$, is odd (\textit{a.k.a.}, fermionic). Additionally, $\tilde{d}$, $d$, and $s$ are all nilpotent by definition. Equation~\eqref{eq:universal-exterior-derivative} resumes to $sd+ds=0$, which means $d$ and $s$ are fermionic operators.
+
+The universal curvature $ \tilde{F} $ of $\tilde{A}$ is given by
+\begin{subequations}\label{eq:universal-curvature}
+  \begin{align}
+    \tilde{F} & \equiv \tilde{d}\tilde{A}+\tilde{A}^2\;, \\
+              & = F+\psi+\phi \;.
+  \end{align}
+\end{subequations}
+It has the curvature $F\equiv dA+A^2$ of $A$ as the (2,0) component, and the so-called \emph{2nd generation ghost fields}, $\psi \equiv sA + Dc$ and $\phi \equiv sc + c^2$, as the (1,1) and (0,2) components, respectively. Here, $D=d+ \left[ A, \phantom{A} \right]$ is the covariant exterior derivative acting on $\mathrm{ad}P$-valued forms\footnote{From now on, $\left[ \phantom{ A }, \phantom{ A } \right]$ should be seen as a $\tilde{d}$ graded Lie bracket, taking into account the total statistics of each $\mathrm{ad}P$-valued form being input in it.}. The total grading of $F$, $\psi$ and $\phi$ is even (\textit{a.k.a.}, bosonic). The grading of all the fields introduced so far can be found in Table~\ref{tab:tym-grading}. Bianchi identities for $\tilde{F}$, and $F$, give
+\begin{subequations}\label{eq:universal-bianchi-identity}
+  \begin{align}
+    \tilde{D}\tilde{F}          & =0 \;,            \\
+    sF+D\psi+\left[ c,F \right] & =\phantom{ 0 }\;.
+  \end{align}
+\end{subequations}
+
+\subsection{Symmetries, observables and dynamics}\label{ssec:sym-and-obs;sec:tym}
+
+The traditional Yang-Mills (YM) BRST symmetry transformations,
+\begin{subequations}\label{eq:ym-brst}
+  \begin{align}
+    s_{\text{YM}}A & = -Dc \;,                   \\
+    s_{\text{YM}}c & = - c^2 \;,                 \\
+    s_{\text{YM}}F & = - \left[ c, F \right] \;,
+  \end{align}
+\end{subequations}
+can be obtained from~\eqref{eq:universal-curvature}, and~\eqref{eq:universal-bianchi-identity}, by enforcing the so-called \emph{horizontal condition}, $\psi=\phi=0$. However, the full gauge structure described in Section~\ref{ssec:math-preliminaries;sec:tym}, in general, leads to a much stronger set of symmetry transformations. Explicitly,
+\begin{subequations}\label{eq:tym-brst}
+  \begin{align}
+    sA    & = -Dc + \psi \;,                      \\
+    sc    & = - c^2 + \phi \;,                    \\
+    s\psi & = -D\phi - \left[ c, \psi \right] \;, \\
+    s\phi & = - \left[ c, \phi \right]\;,         \\
+    sF    & = -D\psi - \left[ c, F \right] \;.
+  \end{align}
+\end{subequations}
+This is known as the Topological Yang-Mills (TYM) BRST\@.
+
+The $ s $-cohomology forbids the presence of the traditional YM Lagrangian density, $ \tr \left( F \star F \right) $ --- where $ \star $ is the Hodge dual\footnote{ $ \star F = \frac{ \sqrt{ |\mathrm{g}| } }{ 4 } \tensor{ \epsilon }{ _{\mu \nu}^{\alpha \beta} } F_{\alpha \beta} dx^\mu dx^\nu $. } on $ \mathbb{R}^4 $. In fact, it forbids the presence of any \textquote{$ \mathrm{g} $~metric-contaminated} observable. In the absence of spontaneous symmetry breaking, all non-trivial observables are elements in the $s$-cohomology modulo $d$-boundaries. The only non-trivial ones allowed by~\eqref{eq:tym-brst} are of the type
+\begin{equation}\label{eq:tym-observables}
+  \mathcal{O}_k = \tr \left( \tilde{F}^k \right) \; ; \; k \in {\mathbb{N}}^{\ge 1} \;.
+\end{equation}
+These invariant polynomials of $\tilde{F}$ can be used to construct the Chern classes of the universal bundle. In other words, they are all topological in nature. In particular,
+\begin{equation}\label{eq:donaldson-polynomials}
+  \mathcal{O}_2 = \tr \left[ F^2 + 2\psi F + \left( 2\phi F + \psi^2 \right) + 2\psi \phi + \phi^2\right]
+\end{equation}
+contains, precisely, the Donaldson polynomials evaluated in the seminal works of S.~K.~Donaldson~\cite{donaldson1983a,donaldson1990a}, and E.~Witten~\cite{witten1988d}.
+
+Among all allowed observables, only the (4,0) component of~\eqref{eq:donaldson-polynomials} is suitable for a Lagrangian density on $ \mathbb{R}^4 $. The TYM action functional is defined to be
+\begin{equation}\label{eq:tym-action}
+  S_{\text{TYM}}\left[ A \right] \equiv  \int\tr\left( g F^2\right) \;,
+\end{equation}
+where $ g $ is an adimensional coupling parameter. The Lagrangian density $\tr \left(g F^2 \right)$ is proportional to the 1st Pontryagin number of $\mathbb{R}^4$. And, its integral is proportional to the (compactly supported) Hirzebruch signature of $\mathbb{R}^4$. In other words,~\eqref{eq:tym-action} is a topological  invariant of spacetime and, by definition, an $s$-cycle which is not an $s$-boundary.
+
+The field equations are trivial ($0=0$), which signals a lack of local dynamics. Instead, TYM has a non-trivial non-local dynamics. Many topological field theories can be formulated as fully extended functorial field theories~\cite{atiyah1988a,segal1988a,baez1995a,schreiber2009a,baez2009a}. In this context, their non-local dynamics can be roughly understood as the propagation and scattering of topologically embedded fully extended cobordisms.
+
+\subsection{Quantum properties}\label{ssec:quantum-properties;sec:tym}
+
+A partition function for TYM, formally defined in the weakly coupled regime, requires~\eqref{eq:tym-action} to be gauge fixed. Quantum TYM (QTYM) has been studies in several different choices of gauge~\cite{baulieu1988a,myers1990c,brandhuber1994a,piguet1995a,sadovski2017c,sadovski2018a,sadovski2018b}. Here, we adopt the (anti-)self-dual Landau ((A)SDL) gauge conditions
+\begin{subequations}\label{eq:asdlg}
+  \begin{align}
+    d \star A     & = 0 \;, \\
+    d \star \psi  & = 0 \;, \\
+    F \pm \star F & = 0 \,.
+  \end{align}
+\end{subequations}
+The $ s $-cohomology guarantees that QTYM is free of gauge anomalies~\cite{baulieu1988a}. The (A)SDL gauge choice is convenient because it results in a very strong set of Ward identities. In this gauge, QTYM is shown to be renormalizable to all orders in perturbation theory. It has only one independent, and non-physical, renormalization~\cite{sadovski2017c}. The physical coupling parameter $g$ does not renormalize at all, indicating the vanishing of its $\beta$-function. All connected $n$-point Green functions also vanish: the theory is tree-level exact~\cite{sadovski2018a}. Clearly, this gauge makes evident that QTYM also has no local degrees of freedom. And, due to the lack of loop corrections, the classical observables in~\eqref{eq:tym-observables} maintain their topological nature: the QTYM observables are still Donaldson polynomials.
+
+Gauge conditions are, generally, $ \mathrm{g} $ metric-contaminated. This is evident in~\eqref{eq:asdlg}, due to the presence of the $\star$ operator. Consequentially, care is needed to implement them without spoiling the topological nature of the partition function. The standard procedure, in the BRST quantization scheme, is to introduce Zwanzinger sources --- a pair for each gauge condition --- satisfying the $s$-doublet condition,
+\begin{subequations}\label{eq:anti-ghost_lautrup-nakanishi}
+  \begin{align}
+    s \bar{c}      & = b \;,          \\
+    s b            & = 0 \;,          \\
+    s \bar{\chi}   & = B \;,          \\
+    s B            & = 0 \;,          \\
+    s \bar{\phi}   & = \bar{\eta} \;, \\
+    s \bar{ \eta } & = 0 \;.
+  \end{align}
+\end{subequations}
+Again, we refer to Table~\ref{tab:tym-grading} for the grading of all these fields.
+
+The doublet theorem guarantees that no observable can be made out of these sources --- terms containing $\bar{c}$, $b$, $\bar{\chi}$, $B$, $\bar{\phi}$, and/or $\bar{\eta}$ are, at most, $s$-boundaries. Following this spirit, we define the gauge fixing action as
+\begin{subequations}\label{eq:tym-gf-action}
+  \begin{align}
+    S_{\text{GF}} & = s \int \tr \left[ \bar{c} d \star A + \bar{\phi} d \star \psi + \bar{\chi} \left( F \pm \star F \right) \right] \;,                                                                                                            \\
+                  & =  \int \tr \left[ b d \star A - \bar{c} d \star Dc + \left( \bar{c} + \bar{\eta} + \left[ c,\bar{\phi} \right] \right) d \star \psi + \bar{\phi} d \star D \phi + d c \left[ \star \psi ,\bar{\phi} \right] + \right. \nonumber \\
+                  & + \left. \left( B + \left[ c,\bar{\chi} \right] \right) \left( F \pm \star F \right) + \bar{\chi} \left( D \pm \star D \right) \psi \right] \;.
+  \end{align}
+\end{subequations}
+
+\begin{table}[htpb]
+  \caption{Grading of all TYM fields.}
+  \label{tab:tym-grading}
+  \begin{tabular}{cccccccccccccc}
+    \toprule
+    Field      & $A$ & $F$  & $c$ & $\psi$ & $\phi$ & $\bar{c}$ & $b$  & $\bar{\chi}$ & $B$  & $\bar{\phi}$ & $\bar{\eta}$ \\
+    \midrule
+    Form rank  & 1   & 2    & 0   & 1      & 0      & 0         & 0    & 2            & 2    & 0            & 0            \\
+    Ghost no.  & 0   & 0    & 1   & 1      & 2      & -1        & 0    & -1           & 0    & -2           & -1           \\
+    Statistics & odd & even & odd & even   & even   & odd       & even & odd          & even & even         & odd          \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+\end{document}

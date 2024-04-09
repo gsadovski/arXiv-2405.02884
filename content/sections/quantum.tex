@@ -1,0 +1,206 @@
+\documentclass[../main.tex]{subfiles}
+
+\begin{document}
+
+\section{Quantum properties}\label{sec:quantum}
+
+\subsection{Algebraic renormalizability}\label{ssec:renorm;sec:quantum}
+
+The renormalizability of the action~\eqref{eq:tg+sb} follows the usual program~\cite{brandhuber1994a,sadovski2017c}. First, we fix its gauge symmetry by adding the (A)SDL gauge fixing action,
+\begin{subequations}%
+  \label{eq:tg-gf-action}
+  \begin{align}
+    S_{\text{GF}} & = s \int \tr \left[ \bar{c} d \star \omega + \bar{\phi} d \star \psi + \bar{\chi} \left( R \pm \star R \right) \right] \;,                                                                                                           \\
+                  & = \int \tr \left[ b d \star \omega - \bar{c} d \star Dc + \left( \bar{c} + \bar{\eta} + \left[ c,\bar{\phi} \right] \right) d \star \psi + \bar{\phi} d \star D \phi + d c \left[ \star \psi ,\bar{\phi} \right] + \right. \nonumber \\
+                  & + \left. \left( B + \left[ c,\bar{\chi} \right] \right) \left( R \pm \star R \right) + \bar{\chi} \left( D \pm \star D \right) \psi \right] \;.
+  \end{align}
+\end{subequations}
+
+Second, the non-linearity of the BRST, and of the \textquote{non-linear bosonic ghost symmetry}~\eqref{eq:nl-bosonic-symmetry}, will inevitably appear as insertions in the correlation function of the quantum theory. To account for these infinities, we need to explicitly include them as $ s $-boundaries. Consider the $ s $-doublets,
+\begin{subequations}%
+  \label{eq:nl-s-doublets}
+  \begin{align}
+    s\tau    & = \Omega \;, \\
+    s\Omega  & = 0 \;,      \\
+    sE       & = L \;,      \\
+    sL       & = 0 \;,      \\
+    s\lambda & = K \;,      \\
+    sK       & = 0 \;,      \\
+    sZ       & = H \;,      \\
+    sH       & = 0 \;.
+    \;
+  \end{align}
+\end{subequations}
+We define the non-linearity action functional as
+\begin{subequations}%
+  \label{eq:nl-action}
+  \begin{align}
+    S_{\text{NL}} & = s \int \tr \left( \tau Dc + E c^2 + \lambda \left[ c,\bar\chi \right] + Z \left[ c,Y \right] \right) \;, \label{eq:nl-action-1}                                                                                           \\
+                  & = \int \tr \left\{ \Omega Dc + Lc^2 + \tau \left( D\phi + \left[ c,\psi \right] \right) + E \left[ c,\phi \right] + K \left[ c,\bar\chi \right] + \lambda \left(\vphantom{^2}\left[ c,B \right] + \right. \right. \nonumber \\
+                  & + \left. \left. \left[ c^2,\bar\chi \right] + \left[ \bar\chi,\phi \right] \right) \right\} \;.
+  \end{align}
+\end{subequations}
+The grading of the newly introduced fields can be found at~\ref{tab:nl-sources}.
+
+\begin{table}[htpb]
+  \caption{Grading of Zwanzinger sources for symmetry non-linearities.}%
+  \label{tab:nl-sources}
+  \begin{tabular}{ccccccccc}
+    \toprule
+    Field      & $\tau$ & $\Omega$ & $E$ & $L$  & $\Lambda$ & $K$  & $Z$ & $H$  \\
+    \midrule
+    Form rank  & 3      & 3        & 4   & 4    & 2         & 2    & 2   & 2    \\
+    Ghost no.  & -2     & -1       & -3  & -2   & -1        & 0    & -1  & 0    \\
+    Statistics & odd    & even     & odd & even & odd       & even & odd & even \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+%\subsubsection{Ward identities}%
+%\label{ssub:ward_identities}
+%
+%The symmetries of the action $\Sigma$ are
+%
+%The usual gauge fixing equation
+%\begin{equation}
+%  \label{eq:gfeq}
+%  \frac{\delta\Sigma}{\delta{b}}=d\star{A} \;.
+%\end{equation}
+%The topological gauge fixing equation
+%\begin{equation}
+%  \label{eq:topgfeq}
+%  \frac{\delta\Sigma}{\delta\bar{\eta}}=d\star{\psi} \;
+%\end{equation}
+%The Faddeev-Popov anti-ghost equation
+%\begin{equation}
+%  \label{eq:fpantighosteq}
+%  \mathcal{G}_{\bar{c}} \left(\Sigma\right)=d\star{\psi}\;,
+%\end{equation}
+%where
+%\begin{equation}
+%  \label{eq:fpantighostop}
+%  \mathcal{G}_{\bar{c}}\equiv \frac{\delta\phantom{c}}{\delta\bar{c}}+d\star{\frac{\delta\phantom{\Omega}}{\delta\Omega}}\;.
+%\end{equation}
+%The bosonic anti-ghost equation
+%\begin{equation}
+%  \label{eq:bosonicantighosteq}
+%  \mathcal{G}_{\bar{\phi}} \left(\Sigma\right)=0\;,
+%\end{equation}
+%where
+%\begin{equation}
+%  \label{eq:bosonicantighostop}
+%  \mathcal{G}_{\bar{\phi}}\equiv \frac{\delta}{\delta\bar{\phi}}-d\star{\frac{\delta}{\delta\tau}}\;.
+%\end{equation}
+%
+%The Slavnov-Taylor identity
+%\begin{equation}
+%  \label{eq:STidentity}
+%  \mathcal{S}\left(\Sigma\right)=0 \;,
+%\end{equation}
+%where
+%\begin{align}
+%  \label{eq:SToperator}
+%  \mathcal{S} & \equiv \varint\mathrm{Tr}\left[\left(\psi-\frac{\delta\phantom{\Omega}}{\delta\Omega}\right)\frac{\delta\phantom{A}}{\delta A}+\left(\phi-\frac{\delta\phantom{L}}{\delta L}\right)\frac{\delta\phantom{c}}{\delta c}-\frac{\delta\phantom{\tau}}{\delta\tau}\frac{\delta\phantom{\psi}}{\delta\psi}-\frac{\delta\phantom{E}}{\delta E}\frac{\delta\phantom{\phi}}{\delta\phi}+X\frac{\delta\phantom{Y}}{\delta Y}+b\frac{\delta\phantom{\bar{c}}}{\delta\bar{c}}+B\frac{\delta\phantom{\bar{\chi}}}{\delta\bar{\chi}}+\bar{\eta}\frac{\delta\phantom{\bar{\phi}}}{\delta\bar{\phi}}\; +\right. \nonumber \\
+%              & + \left. \Omega\frac{\delta\phantom{\tau}}{\delta\tau}+L\frac{\delta\phantom{E}}{\delta E}+K\frac{\delta\phantom{\lambda}}{\delta\lambda}+H\frac{\delta\phantom{Z}}{\delta Z}\right]\;
+%\end{align}
+%
+%The bosonic anti-ghost equation
+%\begin{equation}
+%  \mathcal{G}_\phi \left(\Sigma\right)=\Delta_\phi \;,
+%\end{equation}
+%where
+%\begin{equation}
+%  \mathcal{G}_\phi \equiv \varint \left(\frac{\delta\phantom{\phi}}{\delta\phi}-\left[\bar{\phi},\frac{\delta\phantom{b}}{\delta b}\right]\right)\;,
+%\end{equation}
+%and
+%\begin{equation}
+%  \label{eq:linearbreakphi}
+%  \Delta_\phi \equiv \varint \left(\left[A,\tau\right]+\left[c,E\right]+\left[\bar{\chi},\lambda\right]+\left[Y,Z\right]\right) \;
+%\end{equation}
+%is a breaking term. It, however, is linear in the quantum fields, namely $A$ and $c$.
+%
+%The first Faddeev-Popov ghost equation,
+%\begin{equation}
+%  \label{eq:1stfpghosteq}
+%  \mathcal{G}^{\left(1\right)}_c \left(\Sigma\right)=\Delta_c \;,
+%\end{equation}
+%where
+%\begin{equation}
+%  \label{eq:1stfpghostop}
+%  \mathcal{G}^{\left(1\right)}_c \equiv \varint \left(\frac{\delta\phantom{c}}{\delta c}-\left[Y,\frac{\delta\phantom{X}}{\delta X}\right]-\left[\bar{c},\frac{\delta\phantom{b}}{\delta b}\right]-\left[\bar{\phi},\frac{\delta\phantom{\bar{\eta}}}{\delta\bar{\eta}}\right]-\left[\bar{\chi},\frac{\delta\phantom{B}}{\delta B}\right]-\left[\lambda,\frac{\delta\phantom{K}}{\delta K}\right]-\left[Z,\frac{\delta\phantom{H}}{\delta H}\right]\right)\;,
+%\end{equation}
+%and
+%\begin{equation}
+%  \label{eq:linearbreakc}
+%  \Delta_c \equiv \varint \left(\left[A,\Omega\right]+\left[L,c\right]+\left[\tau,\psi\right]+\left[E,\phi\right]+\left[\bar{\chi},K\right]+\left[\lambda,B\right]+\left[Y,H\right]+\left[Z,X\right]\right)\;
+%\end{equation}
+%is again a breaking term. It is, then again, linear in the quantum fields, here $A$ and $c$ as well as $\psi$ and $\phi$.
+%
+%The second Faddeev-Popov ghost equation is
+%\begin{equation}
+%  \label{eq:2ndfpghosteq}
+%  \mathcal{G}^{\left(2\right)}_c \left(\Sigma\right)=\Delta_c \;,
+%\end{equation}
+%where
+%\begin{equation}
+%  \label{eq:2ndfpghostop}
+%  \mathcal{G}^{\left(2\right)}_c \equiv \varint \left(\frac{\delta\phantom{c}}{\delta c}+\left[A,\frac{\delta\phantom{\psi}}{\delta \psi}\right]+\left[c,\frac{\delta\phantom{\phi}}{\delta \phi}\right]-\left[\bar{\phi},\frac{\delta\phantom{\bar{c}}}{\delta\bar{c}}\right]+\left[\tau,\frac{\delta\phantom{\Omega}}{\delta \Omega}\right]+\left[E,\frac{\delta\phantom{L}}{\delta L}\right]\right)\;,
+%\end{equation}
+%
+%The Vectorial Supersymmetry equation is
+%\begin{equation}
+%  \label{eq:vecsusyeq}
+%  \mathcal{W}\left(\Sigma\right)=0 \;,
+%\end{equation}
+%where
+%\begin{align}
+%  \label{eq:vecsusyop}
+%  \mathcal{W} & \equiv \varint \mathrm{Tr} \left[\mathcal{L}_\xi A\frac{\delta\phantom{\psi}}{\delta\psi}+\mathcal{L}_\xi c\frac{\delta\phantom{\phi}}{\delta\phi}+\mathcal{L}_\xi Y \frac{\delta\phantom{X}}{\delta X}-\mathcal{L}_\xi\left(\bar{c}+\bar{\eta}\right)\frac{\delta\phantom{b}}{\delta b}+\mathcal{L}_\xi \bar{\chi}\frac{\delta\phantom{B}}{\delta B}+\mathcal{L}_\xi\bar{\phi}\left(\frac{\delta\phantom{\bar{c}}}{\delta\bar{c}}-\frac{\delta\phantom{\bar{\eta}}}{\delta\bar{\eta}}\right)+ \right. \nonumber \\
+%              & + \left. \mathcal{L}_\xi\tau\frac{\delta\phantom{\Omega}}{\delta\Omega}+\mathcal{L}_\xi E\frac{\delta\phantom{L}}{\delta L}+\mathcal{L}_\xi \lambda\frac{\delta\phantom{K}}{\delta K}\right]
+%\end{align}
+%
+%The non-linear bosonic symmetry is
+%\begin{equation}
+%  \label{eq:t-symmetry}
+%  \mathcal{T}\left(\Sigma\right)=0\;,
+%  \;
+%\end{equation}
+%where
+%\begin{equation}
+%  \label{eq:t-operator}
+%  \mathcal{T} \equiv \varint \mathrm{Tr} \left[\frac{\delta\phantom{\Omega}}{\delta \Omega}\frac{\delta\phantom{\psi}}{\delta \psi} + \frac{\delta\phantom{H}}{\delta H}\frac{\delta\phantom{X}}{\delta X}+\frac{\delta\phantom{L}}{\delta L}\frac{\delta\phantom{\phi}}{\delta \phi}+\frac{\delta\phantom{K}}{\delta K}\frac{\delta\phantom{B}}{\delta B}+\left(\bar{c}+\bar{\eta}\right)\left(\frac{\delta\phantom{\bar{c}}}{\delta\bar{c}}-\frac{\delta\phantom{\bar{\eta}}}{\delta\bar{\eta}}\right)\right] \;
+%\end{equation}
+%
+%The fermionic ghost symmetry is
+%\begin{equation}
+%  \label{eq:fermionicghostsymmetry}
+%  \mathcal{F}\left(\Sigma\right)=0 \;,
+%\end{equation}
+%where
+%\begin{equation}
+%  \label{eq:fermionicghostop}
+%  \mathcal{F} \equiv \varint \mathrm{Tr} \left[c\frac{\delta\phantom{\phi}}{\delta \phi}+\bar{\phi}\left(\frac{\delta\phantom{\bar{c}}}{\delta\bar{c}}-\frac{\delta\phantom{\bar{\eta}}}{\delta\bar{\eta}}\right)-\tau\frac{\delta\phantom{\Omega}}{\delta \Omega}-2E\frac{\delta\phantom{L}}{\delta L}-\lambda\frac{\delta\phantom{K}}{\delta K}\right] \;
+%\end{equation}
+%
+%\subsubsection{The most general counterterm}%
+%\label{ssub:the_most_general_counterterm}
+%\begin{equation}
+%  \label{eq:quantumaction}
+%  \Gamma^{(1)}=\Sigma+\epsilon \Sigma^{\text{ct}} \;
+%\end{equation}
+%
+%where
+%\begin{align}
+%  \mathcal{S}_\Sigma & \equiv \varint\mathrm{Tr}\left[\left(\psi-\frac{\delta\Sigma}{\delta\Omega}\right)\frac{\delta\phantom{A}}{\delta A}+\frac{\delta\Sigma}{\delta A}\frac{\delta\phantom{\Omega}}{\delta \Omega}+\left(\phi-\frac{\delta\Sigma}{\delta L}\right)\frac{\delta\phantom{c}}{\delta c}+\frac{\delta\Sigma}{\delta c}\frac{\delta\phantom{L}}{\delta L}-\frac{\delta\Sigma}{\delta\tau}\frac{\delta\phantom{\psi}}{\delta\psi}+\frac{\delta\Sigma}{\delta \psi}\frac{\delta\phantom{\tau}}{\delta \tau}-\frac{\delta\Sigma}{\delta E}\frac{\delta\phantom{\phi}}{\delta\phi}\;\right.+\nonumber \\
+%                     & + \left. \frac{\delta\Sigma}{\delta \phi}\frac{\delta\phantom{E}}{\delta E}+X\frac{\delta\phantom{Y}}{\delta Y}+b\frac{\delta\phantom{\bar{c}}}{\delta\bar{c}}+B\frac{\delta\phantom{\bar{\chi}}}{\delta\bar{\chi}}+\bar{\eta}\frac{\delta\phantom{\bar{\phi}}}{\delta\bar{\phi}}+\Omega\frac{\delta\phantom{\tau}}{\delta\tau}+L\frac{\delta\phantom{E}}{\delta E}+K\frac{\delta\phantom{\lambda}}{\delta\lambda}+H\frac{\delta\phantom{Z}}{\delta Z}\right]\;,
+%\end{align}
+%and
+%\begin{align}
+%  \mathcal{T}_\Sigma & \equiv \varint \mathrm{Tr} \left[\frac{\delta\Sigma}{\delta \Omega}\frac{\delta\phantom{\psi}}{\delta \psi}-\frac{\delta\Sigma}{\delta\psi}\frac{\delta\phantom{\Omega}}{\delta \Omega} + \frac{\delta\Sigma}{\delta H}\frac{\delta\phantom{X}}{\delta X}-\frac{\delta\Sigma}{\delta X}\frac{\delta\phantom{H}}{\delta H}+\frac{\delta\Sigma}{\delta L}\frac{\delta\phantom{\phi}}{\delta \phi}-\frac{\delta\Sigma}{\delta \phi}\frac{\delta\phantom{L}}{\delta L}+\frac{\delta\Sigma}{\delta K}\frac{\delta\phantom{B}}{\delta B}-\frac{\delta\Sigma}{\delta B}\frac{\delta\phantom{K}}{\delta K}\right.+\;\nonumber \\
+%                     & +\left.\left(\bar{c}+\bar{\eta}\right)\left(\frac{\delta\phantom{\bar{c}}}{\delta\bar{c}}-\frac{\delta\phantom{\bar{\eta}}}{\delta\bar{\eta}}\right)\right]
+%\end{align}
+%are the linearized versions of \eqref{eq:SToperator} and \eqref{eq:t-operator}, respectively.
+%
+\subsection{Quantum stability}\label{sec:stability;sec:quantum}
+
+\end{document}

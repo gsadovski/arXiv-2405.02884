@@ -1,0 +1,41 @@
+%%%%%%%%%%%%%%%%%
+% DOCUMENTCLASS %
+%%%%%%%%%%%%%%%%%
+\documentclass[
+  fontsize=12pt,
+  fleqn,
+%  draft
+  final
+]{scrartcl}
+
+%%%%%%%%%%%%%%%%
+% CUSTOM STYLE %
+%%%%%%%%%%%%%%%%
+\RequirePackage{metadata/manuscript}
+
+%%%%%%%%%%%%
+% DOCUMENT %
+%%%%%%%%%%%%
+\begin{document}
+
+%%%%%%%%%%%%
+% METADATA %
+%%%%%%%%%%%%
+\subfile{metadata/titlepage.tex}
+
+%%%%%%%%%%%%
+% SECTIONS %
+%%%%%%%%%%%%
+\subfile{content/sections/introduction.tex}
+\subfile{content/sections/tym.tex}
+\subfile{content/sections/top_grav.tex}
+\subfile{content/sections/quantum.tex}
+\subfile{content/sections/conclusions.tex}
+\subfile{content/sections/acknowledgements.tex}
+
+%%%%%%%%%%%%%%%%
+% BIBLIOGRAPHY %
+%%%%%%%%%%%%%%%%
+\printbibliography{}
+
+\end{document}

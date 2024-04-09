@@ -1,0 +1,224 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% MANUSCRIPT STYLESHEET                %%
+%% Author: Guilherme Sadovski           %%
+%% Contact: guilhermesadovski@gmail.com %%
+%% Last modified: 2024/03/13            %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%
+% STYLE DECLATION %
+%%%%%%%%%%%%%%%%%%%
+\ProvidesPackage{metadata/manuscript}
+
+%%%%%%%%
+% FONT %
+%%%%%%%%
+% Only necessary
+% for PDFLaTeX;
+% provides font
+% 8-bit enconding.
+\usepackage[
+  T1
+]{fontenc}
+
+% Manages typographical
+% rules, and hyphenation
+% patterns for the
+% declared languages.
+\usepackage[
+  english
+]{babel}
+
+% Font family
+\usepackage{
+  lmodern,
+}
+
+% Provides better
+% interwords spacing;
+% compatible with
+% babel settings.
+\usepackage[
+  babel,
+]{microtype}
+
+%%%%%%%%%%
+% LAYOUT %
+%%%%%%%%%%
+\usepackage[
+  paper=a4paper,
+  top=20mm,
+  bottom=20mm,
+  twoside=true,
+  left=30mm,
+  right=25mm,
+  headheight=15mm,
+  headsep=5mm,
+  footskip=15mm,
+  includehead=true,
+  includefoot=true,
+  nomarginpar,
+  verbose=true,
+]{geometry}
+
+% Footnote
+% options
+\usepackage[
+  hang
+]{footmisc}
+
+%%%%%%%%%%%%%%
+% MULTIMEDIA %
+%%%%%%%%%%%%%%
+% Adds support
+% for graphics;
+% images path is
+% relative to CWD
+\usepackage{graphicx}
+\graphicspath{{content/images/}}
+
+% Adds support
+% for colors;
+\usepackage[
+  dvipsnames,
+  natural,
+]{xcolor}
+
+%%%%%%%%%%%%%%%%%%%%%%
+% PACKAGE COLLECTION %
+%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{
+  amsmath,
+  amsfonts,
+  amssymb,
+  amsthm,
+  mathtools,
+  mathrsfs,
+  dsfont,
+  wasysym,
+  slashed,
+  bm,
+  soul,
+  tensor,
+  siunitx,
+  dcolumn,
+  booktabs,
+  float,
+  multicol,
+  csquotes,
+  textcomp,
+  enumitem,
+  tikz-cd,
+}
+
+%%%%%%%%%%%%%%%%
+% BIBLIOGRAPHY %
+%%%%%%%%%%%%%%%%
+\usepackage[
+  backend=biber,
+  style=numeric-comp,
+  sorting=none,
+  backref=false,
+  maxnames=3,
+  minnames=3,
+  giveninits=true,
+  hyperref=true,
+  doi=true,
+  eprint=true,
+  url=false,
+  isbn=false
+]{biblatex}
+
+\addbibresource{library.bib}
+
+%%%%%%%%%%%%%%%%
+% KOMA SCRIPTS %
+%%%%%%%%%%%%%%%%
+% Headings
+\setkomafont{section}{\normalfont\normalsize\bfseries}
+\setkomafont{subsection}{\normalsize\normalfont}
+\setkomafont{subsubsection}{\normalsize\normalfont}
+% Captions
+\setkomafont{captionlabel}{\footnotesize\sffamily\bfseries}
+\addtokomafont{caption}{\footnotesize}
+\KOMAoption{captions}{
+  tableheading,
+  nooneline,
+}
+
+%%%%%%%%%%%%%
+% SETLENGTH %
+%%%%%%%%%%%%%
+% Enlarges table cells
+\setlength{\extrarowheight}{.5ex}
+% Removes math
+% indentation
+\setlength{\mathindent}{0pt}
+
+%%%%%%%%%%
+% FLOATS %
+%%%%%%%%%%
+% Overwrite TeX
+% internal variables (!)
+% and places tables
+% here (h), if possible,
+% or on the top (t)
+% or on a dedicated (p),
+% or on the bottom (b)
+% of a page, respectively.
+\floatplacement{table}{!htpb}
+\floatplacement{figure}{!htpb}
+
+%%%%%%%%%%%%
+% COMMANDS %
+%%%%%%%%%%%%
+% Angled brackets
+\newcommand{\qdist}[1]{
+  \ifmmode\langle#1\rangle\else\textlangle#1\textrangle\fi
+}
+% Adds .8em of
+% foonote margin
+\renewcommand{\footnotemargin}{.8em}
+% Smaller font
+% for references
+\renewcommand{\bibfont}{\footnotesize}
+
+%%%%%%%%%%%%%%%%%%
+% MATH OPERATORS %
+%%%%%%%%%%%%%%%%%%
+\DeclareMathOperator{\tr}{tr}
+\DeclareMathOperator{\im}{im}
+\DeclareMathOperator{\pf}{pf}
+
+%%%%%%%%%%%%%%
+% HYPERLINKS %
+%%%%%%%%%%%%%%
+\usepackage[
+  colorlinks=true,
+  citecolor=MidnightBlue,
+  urlcolor=MidnightBlue,
+  linkcolor=MidnightBlue,
+]{hyperref}
+
+%%%%%%%%%%%%%%
+% DRAFT MODE %
+%%%%%%%%%%%%%%
+\usepackage{ifdraft}
+\ifdraft{
+  \usepackage{
+    lineno,
+    lipsum,
+  }
+  \linenumbers{}
+  \geometry{
+    showframe=true,
+  }
+  \hypersetup{
+    colorlinks=false,
+  }
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+% MULTI FILES PROJECT %
+%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{subfiles}

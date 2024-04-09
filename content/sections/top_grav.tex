@@ -1,0 +1,169 @@
+\documentclass[../main.tex]{subfiles}
+
+\begin{document}
+
+\section{Topological phase of gravity}%
+\label{sec:top_grav}
+
+\subsection{\texorpdfstring{$SO(4)$}{SO\@(4)} TYM theory}%
+\label{ssec:so4tym;sec:top_grav}
+
+Gauge descriptions of gravity are usually associated with a principal frame bundle $G \hookrightarrow Fr \rightarrow \mathbb{R}^4 $. Frequently, the assumption $G = GL^{+}\left( 4, \mathbb{R} \right)$ is considered. Additionally, any smoothable manifold accepts Riemannian structure. By choosing only orthogonal frames with respect to it, one effectively contracts $GL^{+} \left( 4,\mathbb{R} \right)$ down to its orthogonal subgroup $SO \left( 4 \right)$. Unfortunately, not every smoothable 4-manifold accepts a Lorentzian structure. The analogue procedure, resulting in the more physical $SO \left( 1,3 \right)$ gauge theory, is topology-dependent.
+
+Here, we consider only non-compact smoothable 4-manifolds as they are guaranteed to have either Riemannian or Lorentzian structure. The particular choice is irrelevant for TYM theory since its observables are $ \mathrm{g} $~metric-independent: Riemannian and Lorentzian TYM define the same physical theory. For convenience, we adopt the positive-definite $ \mathrm{g} $.
+
+Let $\sigma_{ab}=-\sigma_{ba}$ be the 6 linearly independent generators\footnote{Minuscule Latin indexes run from 0 to 3.} of the Lie algebra $\mathfrak{so}\left( 4 \right)$ of $SO(4)$. They are chosen such that
+\begin{subequations}%
+  \label{eq:so4algebra}
+  \begin{align}
+    \left[ \sigma_{ab}, \sigma_{cd} \right] & =-8\tensor{\delta}{^{e}_{\left[ c \right.}}\tensor{\delta}{_{\left. d \right] \left[ a \right.}} \tensor{\delta}{_{\left. b \right]}^f} \sigma_{ef} \;, \\ % chktex 9
+    \tr (\sigma_{ab}\sigma_{cd})            & = 4 \tensor{\delta}{_{ a \left[ c \right. }} \tensor{\delta}{_{ \left. d \right] b }} \;.                                                               % chktex 9
+  \end{align}
+\end{subequations}
+It is commonplace in the literature to denote by $\omega=\tensor{\omega}{^{ab}_\mu} \sigma_{ab}dx^\mu$ the $\mathrm{ad} Fr $-valued connection 1-form, and by $R=d \omega + \omega^2$ its curvature 2-form. We stress that $ \omega $ and $ R $ are, respectively, the same mathematical objects as $A$ and $F$, defined in Section~\ref{sec:tym}. Nevertheless, a particular consequence of having $G=SO(4)$ is that the Pfaffian of $R$ is, now, well-defined and non-vanishing,
+\begin{subequations}%
+  \label{eq:euler-class}
+  \begin{align}
+    \pf \left( R \right) & \equiv \frac{ 1 }{ 8 } \epsilon_{abcd} R^{ab}R^{cd} \;, \\
+                         & =\frac{ 1 }{ 16 } \tr \left( RR^* \right) \;,
+  \end{align}
+\end{subequations}
+where $*$ is the Hodge dual\footnote{ $ R^* = \frac{ 1 }{ 2 } R^{ab}\tensor{ \epsilon }{_{ab}^{cd}} \sigma_{cd} $. } on $SO(4)$. This is equivalent to define the Euler class of $ Fr $.
+
+Continuing the construction,
+\begin{subequations}%
+  \label{eq:top_grav_brst}
+  \begin{align}
+    s\omega & = -Dc + \psi \;,                      \\
+    sc      & = - c^2 + \phi \;,                    \\
+    s\psi   & = -D\phi - \left[ c, \psi \right] \;, \\
+    s\phi   & = - \left[ c, \phi \right]\;,         \\
+    sR      & = -D\psi - \left[ c, R \right] \;.
+  \end{align}
+\end{subequations}
+This is exactly the same TYM BRST of Section~\ref{sec:tym}. In particular, the observables are the same, except for~\eqref{eq:euler-class}.
+
+We define our topological symmetry-restored phase of gravity via the action functional
+\begin{equation}
+  \label{eq:top_grav_action}
+  S_{\text{TG}}\left[ \omega \right] \equiv \int \tr \left( g_1 R^2 + g_2 RR^* \right)\;,
+\end{equation}
+where $g_1$ and $g_2$ are adimensional coupling parameters. The reason to call~\eqref{eq:top_grav_action} a \textquote{topological symmetry-restored phase of gravity} will become clear in Section~\ref{ssec:from_top_to_grav;sec:top_grav}. For now, we restrict ourselves to comment that $S_{\text{TG}}$ is the most general action functional that is:
+\begin{enumerate}[label=\roman*)] % chktex 9 chktex 10 
+  \item an invariant polynomial of $\omega$ and its derivatives;
+  \item local;
+  \item power-counting renormalizable;
+  \item fully topological --- it is the sum of the (compactly supported) Hirzebrunch signature and the (compactly supported) Euler characteristic of spacetime;
+  \item  and, by definition, an $s$-cycle which is not an $s$-boundary.
+\end{enumerate}
+
+\subsection{Adding a BRST boundary}%
+\label{ssec:brst_boundary;sec:top_grav}
+
+If we add an $s$-boundary to~\eqref{eq:top_grav_action}, we strictly define a new dynamics. However, since $s$-boundaries lie outside the $s$-cohomology groups, the set of observables remains unchanged. In other words, we are still describing the same physical system. This is exactly what we did in Section~\ref{ssec:quantum-properties;sec:tym} to gauge fix TYM.\@ However, our objective here is not to gauge fix any symmetries. Consider the pair of new fields, $X$ and $Y$, satisfying the $s$-doublet condition
+\begin{subequations}%
+  \label{eq:s-doublet}
+  \begin{align}
+    sY & = X \;, \\
+    sX & = 0 \;.
+  \end{align}
+\end{subequations}
+Their grading are displayed in table~\ref{tab:grading2}. And, the most general action functional that is:
+\begin{enumerate}[label=\roman*)] % chktex 10 % chktex 9 
+  \item an invariant polynomial of $\omega$, $X$, $Y$ and their derivatives;
+  \item local;
+  \item power-counting renormalizable;
+  \item  and, an $s$-boundary.
+\end{enumerate}
+This is given by
+\begin{subequations}%
+  \label{eq:s-boundary_action}
+  \begin{align}
+    S_{\text{sb}} & = s \int \tr \left[ Y \left( g_3 R + g_4 \star R + g_5 R^* + g_6 \star R^* + g_7 X + g_8 \star X + g_9 X^* \right. + \right.                                                                \nonumber                                               \\
+                  & \left. + \left. g_{10} \star X^* \right) \right] \;,                                                                                                                                                                                                \\
+                  & = \int \tr \left\{ \left( g_3 R + g_4 R \star + g_5 R^* + g_6 R^* \star + g_7 X + g_8 X \star + g_9 X^* + g_{10} X^* \star \right) X \right. +                                                       \nonumber                                      \\
+                  & + Y \left[ g_3 \left( D \psi + \left[ c , R \right] \right) + g_4 \star \left( D \psi + \left[ c , R \right] \right) + g_5 {\left( D \psi + \left[ c , R \right] \right)}^* + g_6 \star \left( D \psi \right. + \right.                   \nonumber \\
+                  & \left. + \left. { \left. \left[ c , R \right] \right) }^* \right] \right\} \;,                                                                                                                                                                      % chktex 9 
+  \end{align}
+\end{subequations}
+where all the $g_i$ coupling parameters are adimensional. The action $S_{\text{sb}}$ is not a topological invariant. Nevertheless, we emphasize that the theory defined by
+\begin{equation}
+  \label{eq:tg+sb}
+  S=S_{\text{TG}}+S_{\text{sb}}
+\end{equation}
+still is a topological field theory. Indeed, one physically indistinguishable from $S_{\text{TG}}$.
+\begin{table}[htpb]%
+  \label{tab:grading2}
+  \caption{Grading of $X$ and $Y$.}
+  \begin{tabular}{ccc}
+    \toprule
+    Field      & $X$  & $Y$ \\
+    \midrule
+    Form rank  & 2    & 2   \\
+    Ghost no.  & 0    & -1  \\
+    Statistics & even & odd \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\subsection{From topology to gravity}%
+\label{ssec:from_top_to_grav;sec:top_grav}
+
+Before finally proceeding to the connection between our topological model and gravitational field theories, it is convenient to acknowledge that, in the presence of a $ \mathrm{g} $ structure, a Clifford bundle $ \mathrm{Cl} Fr= Fr \times_{SO(4)}Cl_4 \left( \mathbb{R} \right)$ can be associated to $ Fr $. A typical moving frame, $\left\{ \mathds{1}_4, \gamma_a, \tensor{ \gamma }{ _{ \left[ a \right. } } \tensor{ \gamma }{ _{ \left. b \right] } }, \gamma_5, \gamma_5 \gamma_a \right\}$, consists of 16 matrices such that $ \left\{ \gamma_a, \gamma_b \right\} = 2 \delta_{ab}$, and $\gamma_5 \equiv \gamma_0 \gamma_1 \gamma_2 \gamma_3 $. In particular, $\tensor{ \gamma }{ _{ \left[ a \right. } } \tensor{ \gamma }{ _{ \left. b \right] } }$ is an $\mathfrak{so}\left( 4 \right)$ representation satisfying~\eqref{eq:so4algebra}. The convenience here is that differential forms valued in the adjoint and fundamental representation space of $SO(4)$ are treated in the same footing --- they are both $ \mathrm{Cl}Fr $-valued differential forms, also known as Clifforms~\cite{benn1987a,mielke2001a,mielke2017a}. % chktex 9 
+
+Gravity is described by a special kind of gauge theory in the sense that $ \mathrm{Cl}Fr $ is isomorphic to the Clifford bundle of spacetime. The isomorphism is given by $\gamma_a = \tensor{ e }{ _a^\mu } \gamma_\mu $, where $e^a \equiv \tensor{ e }{ ^a_\mu } dx^\mu $ is the $\mathrm{Cl}Fr$-valued soldering 1-form --- also known as the vierbein field ---, and $ e_a \equiv \tensor{ e }{ _a^\mu }\partial_{ \mu }$ is its dual vector. Finally, for latter use, we define $ \gamma \equiv \gamma_a e^a $. And, it is straightforward to show that $\star \gamma^2 = {\left( \gamma^2 \right)}^*= \gamma_5 \gamma^2$.
+
+Returning to the $SO(4)$ TYM theory, the term \textquote{topological symmetry-restored phase of gravity}, used in Section~\ref{ssec:so4tym;sec:top_grav}, was deliberately chosen to suggest that a traditional gravity theory, with propagating local degrees of freedom, can be obtained from~\eqref{eq:tg+sb} via a symmetry breaking mechanism. In particular, an explicit symmetry breaking (ESB) that achieves that is obtained by forcing $X$ and $Y$ to attain \textquote{physical} values:
+\begin{subequations}%
+  \label{eq:physicalxy}
+  \begin{align}
+    Y\big|_{\text{phys.}} & = 0 \;, \label{eq:physicalsource1}              \\
+    X\big|_{\text{phys.}} & = \mu^2 \gamma^2 \;, \label{eq:physicalsource2}
+  \end{align}
+\end{subequations}
+where $\mu$ is a mass scale. Indeed, when $X$ and $Y$ are identified accordingly in~\eqref{eq:tg+sb}, the result
+\begin{align}
+  \label{eq:llc_action}
+  S\big|_{\text{phys.}} & = \int \tr \left\{ g_1 R^2 + g_2 R R^* + \mu^2 \left[ \left( g_4 + g_5 \right) R \star \gamma^2 + \mu^2 \left( g_8 + g_9 \right) \gamma^2 \star \gamma^2  \right. + \right. \nonumber \\
+                        & \left. + \left. \left( g_3 + g_6 \right) R \gamma^2 \right] \right\}
+\end{align}
+can be immediately recognized as the Lovelock-Cartan theory of gravity on non-compact 4-manifolds~\cite{mardones1991a,hassaine2016a,corichi2016a}. The coupling $\tr \left( R \star \gamma^2 \right)$ is the Einstein-Palatini Lagrangian density, $\tr \left( \gamma^2 \star \gamma^2 \right)$ is the cosmological constant and $\tr \left( R \gamma^2 \right)$ is the Holst term~\cite{holst1996a} --- related to the torsional Nieh-Yan invariant polynomial~\cite{nieh1982a,chandia1997a,nieh2007a}.
+
+The field equations for the gravitational fields $\gamma$ and $\omega$ are, respectively,
+\begin{subequations}%
+  \label{eq:grav_field_eqs}
+  \begin{align}
+    \left[ \left( g_3 + g_6 \right) R + \left( g_4 + g_5 \right) \gamma_5 R + 2 \mu^2 \left( g_8 + g_9 \right) \gamma_5\gamma^2 , \gamma \right] & = 0 \;, \\
+    \left[ \left( g_3 + g_6 \right) T + \left( g_4 + g_5 \right) \gamma_5 T, \gamma \right]                                                      & = 0 \;,
+  \end{align}
+\end{subequations}
+where $ T = D \gamma $ is the $\mathrm{Cl}Fr$-valued torsion 2-form. And, their solutions are Riemann-Cartan spacetimes, in general.
+
+Via the Correspondence Principle,
+\begin{subequations}%
+  \label{eq:correspondence}
+  \begin{align}
+    \mu^2 \left( g_4+g_5 \right) & = \frac{{m_P}^2}{32\pi} \;,            \\
+    \mu^4 \left( g_8+g_9 \right) & = -\frac{{m_P}^2\Lambda^2}{384\pi} \;,
+  \end{align}
+\end{subequations}
+where ${m_P}^2$ is Planck mass and $\Lambda^2$ the cosmological constant. The LHS of~\eqref{eq:correspondence} contain coupling parameters coming from a well-defined perturbative quantum field theory. In principle, their renormalized values can be obtained, thus predicting the values of the Planck scale as well as the size of the observable universe. This is, however, beyond the scope of this paper.
+
+\subsection{Topological symmetry breaking}%
+\label{ssec:tsb}
+
+In Section~\ref{ssec:so4tym;sec:top_grav}, we commented on how the traditional YM BRST, given by~\eqref{eq:ym-brst}, is obtained from the TYM BRST, given by~\eqref{eq:tym-brst}, via the horizontal condition: $ s_{\text{YM}} = s|_{\psi = \phi = 0} $. Let $ s = s_{\text{YM}} + s_{\text{T}} $, where $ s_{\text{T}} $ is the \textquote{topological sector of $s$} given by
+\begin{subequations}%
+  \label{eq:s_T}
+  \begin{align}
+    s_{\text{T}} \omega & = \psi \;,                              \\
+    s_{\text{T}} c      & = \phi \;,                              \\
+    s_{\text{T}} \psi   & = - D \phi - \left[ c, \psi \right] \;, \\
+    s_{\text{T}} \phi   & = - \left[ c, \phi \right] \;,          \\
+    s_{\text{T}} R      & = - D \psi \;.
+  \end{align}
+\end{subequations}
+
+The \textquote{topological symmetry-restored phase of gravity}, defined via the action functional~\eqref{eq:top_grav_brst}, is an $s$-cycle. Meanwhile, the induced (Lovelock-Cartan) gravity, defined via~\eqref{eq:llc_action}, is an $ s_{\text{YM}} $-cycle. Clearly, the ESB above implements the horizontal condition at a dynamical level. It deforms $ s $ into $ s_{\text{YM}} $ by breaking $ s_{\text{T}} $. In particular, the $ s_{\text{YM}} $-cohomology differs from the $ s $-cohomology in a very important way: the latter allows for local observables (for instance, the YM Lagrangian density $ \tr \left( R \star R \right) $ which, in a gravitational context, is recognizable as the Kretschmann scalar). Ultimately, this ESB can be physically interpreted as responsible for freeing the local degrees of freedom of gravity --- originally frozen due to full invariance under $s$.
+
+\end{document} % chktex 17 
