@@ -2,17 +2,18 @@
 
 \begin{document}
 
-\section{Quantum properties}\label{sec:quantum}
+\section{Algebraic renormalizability}%
+\label{sec:quantum}
 
-\subsection{Algebraic renormalizability}\label{ssec:renorm;sec:quantum}
+To prove the renormalizability of the topological symmetry-restaured phase of gravity, we follow the algebraic renormalization program~\cite{piguet1995b}. The results obtained are valid to all orders in perturbation theory, and are independent of any regularization scheme.
 
-The renormalizability of the action~\eqref{eq:tg+sb} follows the usual program~\cite{brandhuber1994a,sadovski2017c}. First, we fix its gauge symmetry by adding the (A)SDL gauge fixing action,
+First, we fix its gauge symmetry by adding the (A)SDL gauge fixing action,
 \begin{subequations}%
   \label{eq:tg-gf-action}
   \begin{align}
-    S_{\text{GF}} & = s \int \tr \left[ \bar{c} d \star \omega + \bar{\phi} d \star \psi + \bar{\chi} \left( R \pm \star R \right) \right] \;,                                                                                                           \\
-                  & = \int \tr \left[ b d \star \omega - \bar{c} d \star Dc + \left( \bar{c} + \bar{\eta} + \left[ c,\bar{\phi} \right] \right) d \star \psi + \bar{\phi} d \star D \phi + d c \left[ \star \psi ,\bar{\phi} \right] + \right. \nonumber \\
-                  & + \left. \left( B + \left[ c,\bar{\chi} \right] \right) \left( R \pm \star R \right) + \bar{\chi} \left( D \pm \star D \right) \psi \right] \;.
+    S_{\text{GF}} & = s \int \tr \left[ \bar{c} d \star \omega + \bar{\phi} d \star \psi + \bar{\chi} \left( R \pm \star R \right) \right] \;,                                                                                                                  \\
+                  & = \int \tr \left[ b d \star \omega - \bar{c} d \star Dc + \left( \bar{c} + \bar{\eta} + \left[ c,\bar{\phi} \right] \right) d \star \psi + \bar{\phi} d \star D \phi + d c \left[ \star \psi ,\bar{\phi} \right] + \right. \nonumber        \\
+                  & + \left. \left( B + \left[ c,\bar{\chi} \right] \right) \left( R \pm \star R \right) + \bar{\chi} \left( D \pm \star D \right) \psi \vphantom{ \left( \bar{c} + \bar{\eta} + \left[ c,\bar{\phi} \right] \right) d \star \psi } \right] \;.
   \end{align}
 \end{subequations}
 
@@ -40,7 +41,11 @@ We define the non-linearity action functional as
                   & + \left. \left. \left[ c^2,\bar\chi \right] + \left[ \bar\chi,\phi \right] \right) \right\} \;.
   \end{align}
 \end{subequations}
-The grading of the newly introduced fields can be found at~\ref{tab:nl-sources}.
+The grading of the newly introduced fields can be found at~\ref{tab:nl-sources}. Thus, the full classical action to be consider is given by
+\begin{equation}
+  \label{eq:total-action}
+  \Sigma \equiv S + S_{\text{GF}} + S_{ \text{NL} }\; .
+\end{equation}
 
 \begin{table}[htpb]
   \caption{Grading of Zwanzinger sources for symmetry non-linearities.}%
@@ -56,132 +61,130 @@ The grading of the newly introduced fields can be found at~\ref{tab:nl-sources}.
   \end{tabular}
 \end{table}
 
-%\subsubsection{Ward identities}%
-%\label{ssub:ward_identities}
+\subsubsection{Ward identities}%
+\label{ssec:ward_identities}
 %
-%The symmetries of the action $\Sigma$ are
-%
-%The usual gauge fixing equation
-%\begin{equation}
-%  \label{eq:gfeq}
-%  \frac{\delta\Sigma}{\delta{b}}=d\star{A} \;.
-%\end{equation}
-%The topological gauge fixing equation
-%\begin{equation}
-%  \label{eq:topgfeq}
-%  \frac{\delta\Sigma}{\delta\bar{\eta}}=d\star{\psi} \;
-%\end{equation}
-%The Faddeev-Popov anti-ghost equation
-%\begin{equation}
-%  \label{eq:fpantighosteq}
-%  \mathcal{G}_{\bar{c}} \left(\Sigma\right)=d\star{\psi}\;,
-%\end{equation}
-%where
-%\begin{equation}
-%  \label{eq:fpantighostop}
-%  \mathcal{G}_{\bar{c}}\equiv \frac{\delta\phantom{c}}{\delta\bar{c}}+d\star{\frac{\delta\phantom{\Omega}}{\delta\Omega}}\;.
-%\end{equation}
-%The bosonic anti-ghost equation
-%\begin{equation}
-%  \label{eq:bosonicantighosteq}
-%  \mathcal{G}_{\bar{\phi}} \left(\Sigma\right)=0\;,
-%\end{equation}
-%where
-%\begin{equation}
-%  \label{eq:bosonicantighostop}
-%  \mathcal{G}_{\bar{\phi}}\equiv \frac{\delta}{\delta\bar{\phi}}-d\star{\frac{\delta}{\delta\tau}}\;.
-%\end{equation}
-%
-%The Slavnov-Taylor identity
-%\begin{equation}
-%  \label{eq:STidentity}
-%  \mathcal{S}\left(\Sigma\right)=0 \;,
-%\end{equation}
-%where
-%\begin{align}
-%  \label{eq:SToperator}
-%  \mathcal{S} & \equiv \varint\mathrm{Tr}\left[\left(\psi-\frac{\delta\phantom{\Omega}}{\delta\Omega}\right)\frac{\delta\phantom{A}}{\delta A}+\left(\phi-\frac{\delta\phantom{L}}{\delta L}\right)\frac{\delta\phantom{c}}{\delta c}-\frac{\delta\phantom{\tau}}{\delta\tau}\frac{\delta\phantom{\psi}}{\delta\psi}-\frac{\delta\phantom{E}}{\delta E}\frac{\delta\phantom{\phi}}{\delta\phi}+X\frac{\delta\phantom{Y}}{\delta Y}+b\frac{\delta\phantom{\bar{c}}}{\delta\bar{c}}+B\frac{\delta\phantom{\bar{\chi}}}{\delta\bar{\chi}}+\bar{\eta}\frac{\delta\phantom{\bar{\phi}}}{\delta\bar{\phi}}\; +\right. \nonumber \\
-%              & + \left. \Omega\frac{\delta\phantom{\tau}}{\delta\tau}+L\frac{\delta\phantom{E}}{\delta E}+K\frac{\delta\phantom{\lambda}}{\delta\lambda}+H\frac{\delta\phantom{Z}}{\delta Z}\right]\;
-%\end{align}
-%
-%The bosonic anti-ghost equation
-%\begin{equation}
-%  \mathcal{G}_\phi \left(\Sigma\right)=\Delta_\phi \;,
-%\end{equation}
-%where
-%\begin{equation}
-%  \mathcal{G}_\phi \equiv \varint \left(\frac{\delta\phantom{\phi}}{\delta\phi}-\left[\bar{\phi},\frac{\delta\phantom{b}}{\delta b}\right]\right)\;,
-%\end{equation}
-%and
-%\begin{equation}
-%  \label{eq:linearbreakphi}
-%  \Delta_\phi \equiv \varint \left(\left[A,\tau\right]+\left[c,E\right]+\left[\bar{\chi},\lambda\right]+\left[Y,Z\right]\right) \;
-%\end{equation}
-%is a breaking term. It, however, is linear in the quantum fields, namely $A$ and $c$.
-%
-%The first Faddeev-Popov ghost equation,
-%\begin{equation}
-%  \label{eq:1stfpghosteq}
-%  \mathcal{G}^{\left(1\right)}_c \left(\Sigma\right)=\Delta_c \;,
-%\end{equation}
-%where
-%\begin{equation}
-%  \label{eq:1stfpghostop}
-%  \mathcal{G}^{\left(1\right)}_c \equiv \varint \left(\frac{\delta\phantom{c}}{\delta c}-\left[Y,\frac{\delta\phantom{X}}{\delta X}\right]-\left[\bar{c},\frac{\delta\phantom{b}}{\delta b}\right]-\left[\bar{\phi},\frac{\delta\phantom{\bar{\eta}}}{\delta\bar{\eta}}\right]-\left[\bar{\chi},\frac{\delta\phantom{B}}{\delta B}\right]-\left[\lambda,\frac{\delta\phantom{K}}{\delta K}\right]-\left[Z,\frac{\delta\phantom{H}}{\delta H}\right]\right)\;,
-%\end{equation}
-%and
-%\begin{equation}
-%  \label{eq:linearbreakc}
-%  \Delta_c \equiv \varint \left(\left[A,\Omega\right]+\left[L,c\right]+\left[\tau,\psi\right]+\left[E,\phi\right]+\left[\bar{\chi},K\right]+\left[\lambda,B\right]+\left[Y,H\right]+\left[Z,X\right]\right)\;
-%\end{equation}
-%is again a breaking term. It is, then again, linear in the quantum fields, here $A$ and $c$ as well as $\psi$ and $\phi$.
-%
-%The second Faddeev-Popov ghost equation is
-%\begin{equation}
-%  \label{eq:2ndfpghosteq}
-%  \mathcal{G}^{\left(2\right)}_c \left(\Sigma\right)=\Delta_c \;,
-%\end{equation}
-%where
-%\begin{equation}
-%  \label{eq:2ndfpghostop}
-%  \mathcal{G}^{\left(2\right)}_c \equiv \varint \left(\frac{\delta\phantom{c}}{\delta c}+\left[A,\frac{\delta\phantom{\psi}}{\delta \psi}\right]+\left[c,\frac{\delta\phantom{\phi}}{\delta \phi}\right]-\left[\bar{\phi},\frac{\delta\phantom{\bar{c}}}{\delta\bar{c}}\right]+\left[\tau,\frac{\delta\phantom{\Omega}}{\delta \Omega}\right]+\left[E,\frac{\delta\phantom{L}}{\delta L}\right]\right)\;,
-%\end{equation}
-%
-%The Vectorial Supersymmetry equation is
-%\begin{equation}
-%  \label{eq:vecsusyeq}
-%  \mathcal{W}\left(\Sigma\right)=0 \;,
-%\end{equation}
-%where
-%\begin{align}
-%  \label{eq:vecsusyop}
-%  \mathcal{W} & \equiv \varint \mathrm{Tr} \left[\mathcal{L}_\xi A\frac{\delta\phantom{\psi}}{\delta\psi}+\mathcal{L}_\xi c\frac{\delta\phantom{\phi}}{\delta\phi}+\mathcal{L}_\xi Y \frac{\delta\phantom{X}}{\delta X}-\mathcal{L}_\xi\left(\bar{c}+\bar{\eta}\right)\frac{\delta\phantom{b}}{\delta b}+\mathcal{L}_\xi \bar{\chi}\frac{\delta\phantom{B}}{\delta B}+\mathcal{L}_\xi\bar{\phi}\left(\frac{\delta\phantom{\bar{c}}}{\delta\bar{c}}-\frac{\delta\phantom{\bar{\eta}}}{\delta\bar{\eta}}\right)+ \right. \nonumber \\
-%              & + \left. \mathcal{L}_\xi\tau\frac{\delta\phantom{\Omega}}{\delta\Omega}+\mathcal{L}_\xi E\frac{\delta\phantom{L}}{\delta L}+\mathcal{L}_\xi \lambda\frac{\delta\phantom{K}}{\delta K}\right]
-%\end{align}
-%
-%The non-linear bosonic symmetry is
-%\begin{equation}
-%  \label{eq:t-symmetry}
-%  \mathcal{T}\left(\Sigma\right)=0\;,
-%  \;
-%\end{equation}
-%where
-%\begin{equation}
-%  \label{eq:t-operator}
-%  \mathcal{T} \equiv \varint \mathrm{Tr} \left[\frac{\delta\phantom{\Omega}}{\delta \Omega}\frac{\delta\phantom{\psi}}{\delta \psi} + \frac{\delta\phantom{H}}{\delta H}\frac{\delta\phantom{X}}{\delta X}+\frac{\delta\phantom{L}}{\delta L}\frac{\delta\phantom{\phi}}{\delta \phi}+\frac{\delta\phantom{K}}{\delta K}\frac{\delta\phantom{B}}{\delta B}+\left(\bar{c}+\bar{\eta}\right)\left(\frac{\delta\phantom{\bar{c}}}{\delta\bar{c}}-\frac{\delta\phantom{\bar{\eta}}}{\delta\bar{\eta}}\right)\right] \;
-%\end{equation}
-%
-%The fermionic ghost symmetry is
-%\begin{equation}
-%  \label{eq:fermionicghostsymmetry}
-%  \mathcal{F}\left(\Sigma\right)=0 \;,
-%\end{equation}
-%where
-%\begin{equation}
-%  \label{eq:fermionicghostop}
-%  \mathcal{F} \equiv \varint \mathrm{Tr} \left[c\frac{\delta\phantom{\phi}}{\delta \phi}+\bar{\phi}\left(\frac{\delta\phantom{\bar{c}}}{\delta\bar{c}}-\frac{\delta\phantom{\bar{\eta}}}{\delta\bar{\eta}}\right)-\tau\frac{\delta\phantom{\Omega}}{\delta \Omega}-2E\frac{\delta\phantom{L}}{\delta L}-\lambda\frac{\delta\phantom{K}}{\delta K}\right] \;
-%\end{equation}
-%
+The local symmetries of $ \Sigma $, including linearly broken ones, are:
+\begin{itemize}
+  \item Traditional gauge fixing equation
+        \begin{equation}
+          \label{eq:gfeq}
+          \frac{ \delta \Sigma }{ \delta b } = d \star A \;;
+        \end{equation}
+  \item The topological gauge fixing equation
+        \begin{equation}
+          \label{eq:topgfeq}
+          \frac{\delta\Sigma}{\delta\bar{\eta}} = d\star{\psi} \;;
+        \end{equation}
+  \item The Faddeev-Popov anti-ghost equation
+        \begin{equation}
+          \label{eq:fpantighosteq}
+          \mathcal{G}_{\bar{c}} \left(\Sigma\right)=d\star{\psi} \;,
+        \end{equation}
+        where
+        \begin{equation}
+          \label{eq:fpantighostop}
+          \mathcal{G}_{\bar{c}}\equiv \frac{\delta\phantom{c}}{\delta\bar{c}}+d\star{\frac{\delta\phantom{\Omega}}{\delta\Omega}} \;;
+        \end{equation}
+  \item The bosonic anti-ghost equation
+        \begin{equation}
+          \label{eq:bosonicantighosteq}
+          \mathcal{G}_{\bar{\phi}} \left(\Sigma\right)=0\;,
+        \end{equation}
+        where
+        \begin{equation}
+          \label{eq:bosonicantighostop}
+          \mathcal{G}_{\bar{\phi}}\equiv \frac{\delta}{\delta\bar{\phi}}-d\star{\frac{\delta}{\delta\tau}}\;.
+        \end{equation}
+\end{itemize}
+The equations~\eqref{eq:topgfeq} and~\eqref{eq:fpantighosteq} can be combined into an exact symmetry of $ \Sigma $. Additionally, the global symmetries of $ \Sigma $, including linearly broken ones, are:
+\begin{itemize}
+  \item  The Slavnov-Taylor identity
+        \begin{equation}
+          \label{eq:st-identity}
+          \mathcal{S}\left(\Sigma\right)=0 \;,
+        \end{equation}
+        where
+        \begin{align}
+          \label{eq:SToperator}
+          \mathcal{S} & \equiv \int \tr\left[\left(\psi-\frac{\delta\phantom{\Omega}}{\delta\Omega}\right)\frac{\delta\phantom{A}}{\delta A}+\left(\phi-\frac{\delta\phantom{L}}{\delta L}\right)\frac{\delta\phantom{c}}{\delta c}-\frac{\delta\phantom{\tau}}{\delta\tau}\frac{\delta\phantom{\psi}}{\delta\psi}-\frac{\delta\phantom{E}}{\delta E}\frac{\delta\phantom{\phi}}{\delta\phi}+X\frac{\delta\phantom{Y}}{\delta Y} \right. + \nonumber \\
+                      & + \left. b\frac{\delta\phantom{\bar{c}}}{\delta\bar{c}}+B\frac{\delta\phantom{\bar{\chi}}}{\delta\bar{\chi}}+\bar{\eta}\frac{\delta\phantom{\bar{\phi}}}{\delta\bar{\phi}} + \Omega \frac{\delta\phantom{\tau}}{\delta\tau}+L\frac{\delta\phantom{E}}{\delta E}+K\frac{\delta\phantom{\lambda}}{\delta\lambda}+H\frac{\delta\phantom{Z}}{\delta Z}\right] \;;
+        \end{align}
+  \item The bosonic anti-ghost equation
+        \begin{equation}
+          \mathcal{G}_\phi \left(\Sigma\right) = \Delta_\phi \;,
+        \end{equation}
+        where
+        \begin{equation}
+          \mathcal{G}_\phi \equiv \int \left(\frac{\delta\phantom{\phi}}{\delta\phi}-\left[\bar{\phi},\frac{\delta\phantom{b}}{\delta b}\right]\right) \;,
+        \end{equation}
+        and
+        \begin{equation}
+          \label{eq:linearbreakphi}
+          \Delta_\phi \equiv \int \left(\left[A,\tau\right]+\left[c,E\right]+\left[\bar{\chi},\lambda\right]+\left[Y,Z\right]\right) \;;
+        \end{equation}
+  \item The 1st FP ghost equation
+        \begin{equation}
+          \label{eq:1stfpghosteq}
+          \mathcal{G}^{\left(1\right)}_c \left(\Sigma\right)=\Delta_c \;,
+        \end{equation}
+        where
+        \begin{align}
+          \label{eq:1stfpghostop}
+          \mathcal{G}^{\left(1\right)}_c & \equiv \int \left(\frac{\delta\phantom{c}}{\delta c}-\left[Y,\frac{\delta\phantom{X}}{\delta X}\right]-\left[\bar{c},\frac{\delta\phantom{b}}{\delta b}\right]-\left[\bar{\phi},\frac{\delta\phantom{\bar{\eta}}}{\delta\bar{\eta}}\right]-\left[\bar{\chi},\frac{\delta\phantom{B}}{\delta B}\right]-\left[\lambda,\frac{\delta\phantom{K}}{\delta K}\right] + \left. \nonumber \\
+                                         & \left. - \left[Z,\frac{\delta\phantom{H}}{\delta H}\right]\right) \;,
+        \end{align}
+        and
+        \begin{align}
+          \label{eq:linearbreakc}
+          \Delta_c & \equiv \int \left(\left[A,\Omega\right]+\left[L,c\right]+\left[\tau,\psi\right]+\left[E,\phi\right]+\left[\bar{\chi},K\right]+\left[\lambda,B\right] + \left[Y,H\right] \right. \nonumber \\
+                   & + \left. \left[Z,X\right] \right) \;;
+        \end{align}
+  \item The 2nd Faddeev-Popov ghost equation
+        \begin{equation}
+          \label{eq:2ndfpghosteq}
+          \mathcal{G}^{\left(2\right)}_c \left(\Sigma\right)=\Delta_c \;,
+        \end{equation}
+        where
+        \begin{equation}
+          \label{eq:2ndfpghostop}
+          \mathcal{G}^{\left(2\right)}_c \equiv \int \left(\frac{\delta\phantom{c}}{\delta c}+\left[A,\frac{\delta\phantom{\psi}}{\delta \psi}\right]+\left[c,\frac{\delta\phantom{\phi}}{\delta \phi}\right]-\left[\bar{\phi},\frac{\delta\phantom{\bar{c}}}{\delta\bar{c}}\right]+\left[\tau,\frac{\delta\phantom{\Omega}}{\delta \Omega}\right]+\left[E,\frac{\delta\phantom{L}}{\delta L}\right]\right)\;;
+        \end{equation}
+  \item  The vectorial supersymmetry
+        \begin{equation}
+          \label{eq:vecsusyeq}
+          \mathcal{W}\left(\Sigma\right)=0 \;,
+        \end{equation}
+        where
+        \begin{align}
+          \label{eq:vecsusyop}
+          \mathcal{W} & \equiv \int \tr \left[\mathcal{L}_\xi A\frac{\delta\phantom{\psi}}{\delta\psi}+\mathcal{L}_\xi c\frac{\delta\phantom{\phi}}{\delta\phi}+\mathcal{L}_\xi Y \frac{\delta\phantom{X}}{\delta X}-\mathcal{L}_\xi\left(\bar{c}+\bar{\eta}\right)\frac{\delta\phantom{b}}{\delta b}+\mathcal{L}_\xi \bar{\chi}\frac{\delta\phantom{B}}{\delta B}+ \right. \nonumber \\
+                      & + \left. \mathcal{L}_\xi\bar{\phi}\left(\frac{\delta\phantom{\bar{c}}}{\delta\bar{c}}-\frac{\delta\phantom{\bar{\eta}}}{\delta\bar{\eta}}\right) + \mathcal{L}_\xi\tau\frac{\delta\phantom{\Omega}}{\delta\Omega}+\mathcal{L}_\xi E\frac{\delta\phantom{L}}{\delta L}+\mathcal{L}_\xi \lambda\frac{\delta\phantom{K}}{\delta K}\right]
+        \end{align}
+  \item  The non-linear bosonic symmetry is
+        \begin{equation}
+          \label{eq:t-symmetry}
+          \mathcal{T}\left(\Sigma\right)=0\;,
+          \;
+        \end{equation}
+        where
+        \begin{equation}
+          \label{eq:t-operator}
+          \mathcal{T} \equiv \int \tr \left[\frac{\delta\phantom{\Omega}}{\delta \Omega}\frac{\delta\phantom{\psi}}{\delta \psi} + \frac{\delta\phantom{H}}{\delta H}\frac{\delta\phantom{X}}{\delta X}+\frac{\delta\phantom{L}}{\delta L}\frac{\delta\phantom{\phi}}{\delta \phi}+\frac{\delta\phantom{K}}{\delta K}\frac{\delta\phantom{B}}{\delta B}+\left(\bar{c}+\bar{\eta}\right)\left(\frac{\delta\phantom{\bar{c}}}{\delta\bar{c}}-\frac{\delta\phantom{\bar{\eta}}}{\delta\bar{\eta}}\right)\right] \;;
+        \end{equation}
+  \item And, finally, the fermionic ghost symmetry is
+        \begin{equation}
+          \label{eq:fermionicghostsymmetry}
+          \mathcal{F}\left(\Sigma\right)=0 \;,
+        \end{equation}
+        where
+        \begin{equation}
+          \label{eq:fermionicghostop}
+          \mathcal{F} \equiv \varint \mathrm{Tr} \left[c\frac{\delta\phantom{\phi}}{\delta \phi}+\bar{\phi}\left(\frac{\delta\phantom{\bar{c}}}{\delta\bar{c}}-\frac{\delta\phantom{\bar{\eta}}}{\delta\bar{\eta}}\right)-\tau\frac{\delta\phantom{\Omega}}{\delta \Omega}-2E\frac{\delta\phantom{L}}{\delta L}-\lambda\frac{\delta\phantom{K}}{\delta K}\right] \;
+        \end{equation}
+
+\end{itemize}
+
 %\subsubsection{The most general counterterm}%
 %\label{ssub:the_most_general_counterterm}
 %\begin{equation}
