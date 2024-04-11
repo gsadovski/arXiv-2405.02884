@@ -64,7 +64,7 @@ The local symmetries of $ \Sigma $, including linearly broken ones, are:
   \item Traditional gauge fixing equation
         \begin{equation}
           \label{eq:gfeq}
-          \frac{ \delta \Sigma }{ \delta b } = d \star A \;;
+          \frac{ \delta \Sigma }{ \delta b } = d \star \omega  \;;
         \end{equation}
   \item The topological gauge fixing equation
         \begin{equation}
@@ -102,7 +102,7 @@ The equations~\eqref{eq:topgfeq} and~\eqref{eq:fpantighosteq} can be combined in
         where
         \begin{align}
           \label{eq:SToperator}
-          \mathcal{S} & \equiv \int \tr\left[\left(\psi-\frac{\delta\phantom{\Omega}}{\delta\Omega}\right)\frac{\delta\phantom{A}}{\delta A}+\left(\phi-\frac{\delta\phantom{L}}{\delta L}\right)\frac{\delta\phantom{c}}{\delta c}-\frac{\delta\phantom{\tau}}{\delta\tau}\frac{\delta\phantom{\psi}}{\delta\psi}-\frac{\delta\phantom{E}}{\delta E}\frac{\delta\phantom{\phi}}{\delta\phi}+X\frac{\delta\phantom{Y}}{\delta Y} \right. + \nonumber \\
+          \mathcal{S} & \equiv \int \tr\left[\left(\psi-\frac{\delta\phantom{\Omega}}{\delta\Omega}\right)\frac{\delta\phantom{\omega }}{\delta \omega }+\left(\phi-\frac{\delta\phantom{L}}{\delta L}\right)\frac{\delta\phantom{c}}{\delta c}-\frac{\delta\phantom{\tau}}{\delta\tau}\frac{\delta\phantom{\psi}}{\delta\psi}-\frac{\delta\phantom{E}}{\delta E}\frac{\delta\phantom{\phi}}{\delta\phi}+X\frac{\delta\phantom{Y}}{\delta Y} \right. + \nonumber \\
                       & + \left. b\frac{\delta\phantom{\bar{c}}}{\delta\bar{c}}+B\frac{\delta\phantom{\bar{\chi}}}{\delta\bar{\chi}}+\bar{\eta}\frac{\delta\phantom{\bar{\phi}}}{\delta\bar{\phi}} + \Omega \frac{\delta\phantom{\tau}}{\delta\tau}+L\frac{\delta\phantom{E}}{\delta E}+K\frac{\delta\phantom{\lambda}}{\delta\lambda}+H\frac{\delta\phantom{Z}}{\delta Z}\right] \;;
         \end{align}
   \item The bosonic anti-ghost equation
@@ -116,7 +116,7 @@ The equations~\eqref{eq:topgfeq} and~\eqref{eq:fpantighosteq} can be combined in
         and
         \begin{equation}
           \label{eq:linearbreakphi}
-          \Delta_\phi \equiv \int \left(\left[A,\tau\right]+\left[c,E\right]+\left[\bar{\chi},\lambda\right]+\left[Y,Z\right]\right) \;;
+          \Delta_\phi \equiv \int \left(\left[\omega ,\tau\right]+\left[c,E\right]+\left[\bar{\chi},\lambda\right]+\left[Y,Z\right]\right) \;;
         \end{equation}
   \item The 1st FP ghost equation
         \begin{equation}
@@ -132,7 +132,7 @@ The equations~\eqref{eq:topgfeq} and~\eqref{eq:fpantighosteq} can be combined in
         and
         \begin{align}
           \label{eq:linearbreakc}
-          \Delta_c & \equiv \int \left(\left[A,\Omega\right]+\left[L,c\right]+\left[\tau,\psi\right]+\left[E,\phi\right]+\left[\bar{\chi},K\right]+\left[\lambda,B\right] + \left[Y,H\right] \right. \nonumber \\
+          \Delta_c & \equiv \int \left(\left[\omega ,\Omega\right]+\left[L,c\right]+\left[\tau,\psi\right]+\left[E,\phi\right]+\left[\bar{\chi},K\right]+\left[\lambda,B\right] + \left[Y,H\right] \right. \nonumber \\
                    & + \left. \left[Z,X\right] \right) \;;
         \end{align}
   \item The 2nd Faddeev-Popov ghost equation
@@ -143,7 +143,7 @@ The equations~\eqref{eq:topgfeq} and~\eqref{eq:fpantighosteq} can be combined in
         where
         \begin{equation}
           \label{eq:2ndfpghostop}
-          \mathcal{G}^{\left(2\right)}_c \equiv \int \left(\frac{\delta\phantom{c}}{\delta c}+\left[A,\frac{\delta\phantom{\psi}}{\delta \psi}\right]+\left[c,\frac{\delta\phantom{\phi}}{\delta \phi}\right]-\left[\bar{\phi},\frac{\delta\phantom{\bar{c}}}{\delta\bar{c}}\right]+\left[\tau,\frac{\delta\phantom{\Omega}}{\delta \Omega}\right]+\left[E,\frac{\delta\phantom{L}}{\delta L}\right]\right)\;;
+          \mathcal{G}^{\left(2\right)}_c \equiv \int \left(\frac{\delta\phantom{c}}{\delta c}+\left[\omega ,\frac{\delta\phantom{\psi}}{\delta \psi}\right]+\left[c,\frac{\delta\phantom{\phi}}{\delta \phi}\right]-\left[\bar{\phi},\frac{\delta\phantom{\bar{c}}}{\delta\bar{c}}\right]+\left[\tau,\frac{\delta\phantom{\Omega}}{\delta \Omega}\right]+\left[E,\frac{\delta\phantom{L}}{\delta L}\right]\right)\;;
         \end{equation}
   \item  The vectorial supersymmetry
         \begin{equation}
@@ -153,7 +153,7 @@ The equations~\eqref{eq:topgfeq} and~\eqref{eq:fpantighosteq} can be combined in
         where
         \begin{align}
           \label{eq:vecsusyop}
-          \mathcal{W} & \equiv \int \tr \left[\mathcal{L}_\xi A\frac{\delta\phantom{\psi}}{\delta\psi}+\mathcal{L}_\xi c\frac{\delta\phantom{\phi}}{\delta\phi}+\mathcal{L}_\xi Y \frac{\delta\phantom{X}}{\delta X}-\mathcal{L}_\xi\left(\bar{c}+\bar{\eta}\right)\frac{\delta\phantom{b}}{\delta b}+\mathcal{L}_\xi \bar{\chi}\frac{\delta\phantom{B}}{\delta B}+ \right. \nonumber \\
+          \mathcal{W} & \equiv \int \tr \left[\mathcal{L}_\xi \omega \frac{\delta\phantom{\psi}}{\delta\psi}+\mathcal{L}_\xi c\frac{\delta\phantom{\phi}}{\delta\phi}+\mathcal{L}_\xi Y \frac{\delta\phantom{X}}{\delta X}-\mathcal{L}_\xi\left(\bar{c}+\bar{\eta}\right)\frac{\delta\phantom{b}}{\delta b}+\mathcal{L}_\xi \bar{\chi}\frac{\delta\phantom{B}}{\delta B}+ \right. \nonumber \\
                       & + \left. \mathcal{L}_\xi\bar{\phi}\left(\frac{\delta\phantom{\bar{c}}}{\delta\bar{c}}-\frac{\delta\phantom{\bar{\eta}}}{\delta\bar{\eta}}\right) + \mathcal{L}_\xi\tau\frac{\delta\phantom{\Omega}}{\delta\Omega}+\mathcal{L}_\xi E\frac{\delta\phantom{L}}{\delta L}+\mathcal{L}_\xi \lambda\frac{\delta\phantom{K}}{\delta K}\right] \;,
         \end{align}
         and $ \mathcal{L}_{\xi} $ is the Lie derivative along the vector field $ \xi $. It is assumed that $\xi$ is a Killing vector, and that it generates a flow of diffeomorphism on spacetime\footnote{Consequentially, $\int \mathcal{L}_{\xi} \left( \varphi \star \mathds{1} \right) = 0 \;, \forall \; \varphi \in C^{ \infty }\left( \mathbb{R}^4 \right)$, and $ \star \mathcal{L}_\xi = \mathcal{L}_\xi \star $.}.
@@ -179,13 +179,12 @@ The equations~\eqref{eq:topgfeq} and~\eqref{eq:fpantighosteq} can be combined in
           \mathcal{F} \equiv \int \tr \left[c\frac{\delta\phantom{\phi}}{\delta \phi}+\bar{\phi}\left(\frac{\delta\phantom{\bar{c}}}{\delta\bar{c}}-\frac{\delta\phantom{\bar{\eta}}}{\delta\bar{\eta}}\right)-\tau\frac{\delta\phantom{\Omega}}{\delta \Omega}-2E\frac{\delta\phantom{L}}{\delta L}-\lambda\frac{\delta\phantom{K}}{\delta K}\right] \;.
         \end{equation}
 \end{itemize}
+Equations~\eqref{eq:1stfpghosteq} and~\eqref{eq:2ndfpghosteq} can also be joined to form an exact global symmetry for $ \Sigma  $. The vectorial supersymmetry~\eqref{eq:vecsusyeq} is present in several topological field theories. It is responsible for the 1-loop exactness of $ n=3 $ Chern-Simons theory, and the tree-level exactness of TYM theory~\cite{birmingham1991a,werneck1993a,brandhuber1994a,piguet1995a,sadovski2017c,sadovski2018a}. The non-linear bosonic~\eqref{eq:nl-bosonic-eq}, and the fermionic ghost symmetry~\eqref{eq:fermionicghostsymmetry}, are known to reduce the number of independent renormalizations~\cite{sadovski2017c}.
 
-Equations~\eqref{eq:1stfpghosteq} and~\eqref{eq:2ndfpghosteq} can also be joined to form an exact global symmetry for $ \Sigma  $. The vectorial supersymmetry~\eqref{eq:vecsusyeq} is present in topological field theories in general. It is directly responsible for the 1-loop exactness of $ n=3 $ Chern-Simons theory, and the tree level exactness of TYM theory~\cite{birmingham1991a,werneck1993a,brandhuber1994a,piguet1995a,sadovski2017c,sadovski2018a}. The non-linear bosonic~\eqref{eq:nl-bosonic-eq}, and the fermionic ghost symmetry~\eqref{eq:fermionicghostsymmetry}, were first discovered by the authors in pure TYM~\cite{sadovski2017c}. They are also present here, and are known to reduce the number of independent renormalizations.
-
-\subsection{The most general counterterm}%
+\subsection{Counterterms}%
 \label{ssec:counterterm}
 
-The Quantum Action Principle establishes the formal relationship between the set of Ward identities for $ \Sigma $, and the set of Ward identitites for its associated quantum effective action, $ \Gamma $. In particular, the set listed above translates to the following set of symmetries for the quantum \textquote{symmetry-restaured phase of gravity}:
+The Quantum Action Principle establishes the formal relationship between the set of Ward identities for $ \Sigma $, and the set of Ward identitites for its associated quantum effective action, $ \Gamma $. The list above translates to the following set of symmetries for the quantum symmetry-restaured phase of gravity:
 \begin{subequations}%
   \label{eq:ward-identities}
   \begin{align}
@@ -203,19 +202,47 @@ The Quantum Action Principle establishes the formal relationship between the set
     \mathcal{F} \left( \Gamma^{ (n)} \right)                           & = 0 \;,
   \end{align}
 \end{subequations}
-where $\Gamma^{(n)}= \Sigma + \epsilon \Sigma^{\text{ct}} + \cdots + \Sigma^{ (n) }$ is $ \Gamma  $ at $ n $-th loop order, $ \epsilon $ is a small perturbative parameter, and the 1-loop correction $ \Sigma^{ ct } $ is also known as the counter-term action functional. The linear breaks are gone, and the non-linear operators $ \mathcal{S} $ and $ \mathcal{T} $ were replaced by their linearized version
+where $\Gamma^{(n)} \equiv \Sigma + \epsilon \Sigma^{(1)} + \cdots + \Sigma^{ (n) }$ is $ \Gamma  $ at $ n $-th loop order, $ \epsilon $ is a small perturbative parameter, and $ \Sigma^{ (1)} $, also known as the counterterm action functional, is the 1-loop radiative correction to $ \Sigma  $. The linear breaks are gone, and the non-linear operators $ \mathcal{S} $ and $ \mathcal{T} $ are replaced by their linearized versions
 \begin{align}
+  \label{eq:linear-st-operator}
   \mathcal{S}_{\Sigma^{ (n-1) }} & \equiv \int \tr \left[\left(\psi-\frac{\delta\Sigma^{ (n-1) }}{\delta\Omega}\right)\frac{\delta\phantom{A}}{\delta A}+\frac{\delta\Sigma^{ (n-1) }}{\delta A}\frac{\delta\phantom{\Omega}}{\delta \Omega}+\left(\phi-\frac{\delta\Sigma^{ (n-1) }}{\delta L}\right)\frac{\delta\phantom{c}}{\delta c} \right. + \nonumber                                                                                                              \\
                                  & + \left. \frac{\delta\Sigma^{ (n-1) }}{\delta c}\frac{\delta\phantom{L}}{\delta L}-\frac{\delta\Sigma^{ (n-1) }}{\delta\tau}\frac{\delta\phantom{\psi}}{\delta\psi}+\frac{\delta\Sigma^{ (n-1) }}{\delta \psi}\frac{\delta\phantom{\tau}}{\delta \tau}-\frac{\delta\Sigma^{ (n-1) }}{\delta E}\frac{\delta\phantom{\phi}}{\delta\phi}+\frac{\delta\Sigma^{ (n-1) }}{\delta \phi}\frac{\delta\phantom{E}}{\delta E} \right. + \nonumber \\
                                  & + \left. X\frac{\delta\phantom{Y}}{\delta Y}+b\frac{\delta\phantom{\bar{c}}}{\delta\bar{c}}+B\frac{\delta\phantom{\bar{\chi}}}{\delta\bar{\chi}}+\bar{\eta}\frac{\delta\phantom{\bar{\phi}}}{\delta\bar{\phi}}+\Omega\frac{\delta\phantom{\tau}}{\delta\tau}+L\frac{\delta\phantom{E}}{\delta E}+K\frac{\delta\phantom{\lambda}}{\delta\lambda}+H\frac{\delta\phantom{Z}}{\delta Z}\right]\;,
 \end{align}
 and
 \begin{align}
+  \label{eq:linear-t-operator}
   \mathcal{T}_{\Sigma^{ (n-1) }} & \equiv \int \tr \left[\frac{\delta\Sigma^{ (n-1) }}{\delta \Omega}\frac{\delta\phantom{\psi}}{\delta \psi}-\frac{\delta\Sigma^{ (n-1) }}{\delta\psi}\frac{\delta\phantom{\Omega}}{\delta \Omega} + \frac{\delta\Sigma^{ (n-1) }}{\delta H}\frac{\delta\phantom{X}}{\delta X}-\frac{\delta\Sigma^{ (n-1) }}{\delta X}\frac{\delta\phantom{H}}{\delta H} \right. + \nonumber \\
                                  & +\left.\frac{\delta\Sigma^{ (n-1) }}{\delta L}\frac{\delta\phantom{\phi}}{\delta \phi}-\frac{\delta\Sigma^{ (n-1) }}{\delta \phi}\frac{\delta\phantom{L}}{\delta L}+\frac{\delta\Sigma^{ (n-1) }}{\delta K}\frac{\delta\phantom{B}}{\delta B}-\frac{\delta\Sigma^{ (n-1) }}{\delta B}\frac{\delta\phantom{K}}{\delta K} \right. + \nonumber                                \\
                                  & +\left.\left(\bar{c}+\bar{\eta}\right)\left(\frac{\delta\phantom{\bar{c}}}{\delta\bar{c}}-\frac{\delta\phantom{\bar{\eta}}}{\delta\bar{\eta}}\right)\right] \;.
 \end{align}
-%
+Due to the recursive method of the algebraic renormalization technique, results valid for $ \Gamma^{ (1) } $ are equally valid for $ \Gamma^{ (n) } $, and \textit{vice-versa}. Additionally, the linearized Slavnov-Taylor operator~\eqref{eq:linear-st-operator} is nilpotent, and defines a cohomology which is isomorphic to the $ s $-cohomology.
+
+The most general $ \Sigma^{ (1) } $ is obtained as the most general solution of~\eqref{eq:ward-identities} for $n=1$. Explicitly,
+\begin{subequations}%
+  \label{eq:ct-action}
+  \begin{align}
+    \Sigma^{ (1) } & = \mathcal{S}_{\Sigma} \int \tr \left[ a_1 \left( \Omega \omega + \omega \star d \bar{ c } + \tau \psi + \psi \star d \bar{ \phi } \right) + a_2 \left( \tau dc + \bar{ \phi } d \star d c \right) + a_3 \bar{ \chi } d \omega \right. + \nonumber \\
+                   & + \left. a_4 \bar{ \chi } \omega^2 \right]                                                                                                                                                                                                         \\
+                   & = \int \tr \left[  \right]
+  \end{align}
+\end{subequations}
+
 \subsection{Quantum stability}\label{sec:stability;sec:quantum}
 
+To conclude the proof of renormalizability, one has to show that
+\begin{equation}
+  \label{eq:multiplicative-renorm}
+  \Sigma \left[ \Phi_0, G_0, J_0 \right] = \Sigma \left[ \Phi, G, J \right] + \epsilon\Sigma^{ (1) } \left[ \Phi, G, J \right] \;,
+\end{equation}
+where
+\begin{subequations}%
+  \label{eq:field-redef}
+  \begin{align}
+    \Phi_0 \equiv z_{ \Phi } \Phi \;, \\
+    G_0 \equiv z_{ G } G \;,          \\
+    J_0 \equiv z_{ J } J \;,
+  \end{align}
+\end{subequations}
+are multiplicative redefinition of the quantum fields $ \Phi \in \left\{ \omega, c, \psi, \phi, \bar{ c }, b, \bar{ \chi }, B, \bar{ \phi }, \bar{ \eta } \right\} $, coupling parameters $ G \in \left\{ g_1, \cdots, g_{10} \right\} $, and external sources $ J \in \left\{ Y, X, \tau, \Omega, E, L, \lambda, K, Z, H \right\} $. The existence of the $ z $-factors guarantees that $ \Sigma $ is stable under radiative corrections to all orders in perturbation theory.
 \end{document}
