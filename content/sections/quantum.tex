@@ -17,7 +17,7 @@ First, we fix its gauge symmetry by adding the (A)SDL gauge fixing action,
   \end{align}
 \end{subequations}
 
-Second, the non-linearity of the BRST, and of the \textquote{non-linear bosonic ghost symmetry}~\eqref{eq:nl-bosonic-eq}, will inevitably appear as insertions in the correlation function of the quantum theory. To account for these infinities, we need to explicitly include them as $ s $-boundaries. Consider the $ s $-doublets,
+Second, the non-linearity of the BRST, and of the non-linear bosonic ghost symmetry,~\eqref{eq:nl-bosonic-eq}, will inevitably appear as insertions in the correlation function of the quantum theory. To account for these infinities, we need to explicitly include them as $ s $-boundaries. Consider the $ s $-doublets,
 \begin{subequations}%
   \label{eq:nl-s-doublets}
   \begin{align}
@@ -27,16 +27,16 @@ Second, the non-linearity of the BRST, and of the \textquote{non-linear bosonic 
     sZ       & = H \;, \;\; sH        = 0 \;.
   \end{align}
 \end{subequations}
-We define the non-linearity action functional as
+The non-linearity action functional
 \begin{subequations}%
   \label{eq:nl-action}
   \begin{align}
     S_{\text{NL}} & = s \int \tr \left( \tau Dc + E c^2 + \lambda \left[ c,\bar\chi \right] + Z \left[ c,Y \right] \right) \;, \label{eq:nl-action-1}                                                                                           \\
                   & = \int \tr \left\{ \Omega Dc + Lc^2 + \tau \left( D\phi + \left[ c,\psi \right] \right) + E \left[ c,\phi \right] + K \left[ c,\bar\chi \right] + \lambda \left(\vphantom{^2}\left[ c,B \right] + \right. \right. \nonumber \\
-                  & + \left. \left. \left[ c^2,\bar\chi \right] + \left[ \bar\chi,\phi \right] \right) \right\} \;.
+                  & + \left. \left. \left[ c^2,\bar\chi \right] + \left[ \bar\chi,\phi \right] \right) \right\} \;,
   \end{align}
 \end{subequations}
-The grading of the newly introduced fields can be found at~\ref{tab:nl-sources}. Thus, the full classical action to be consider is given by
+is the most general local, power-counting renormalizable, invariant polynomial that explicitly couples all independent non-linearities to external sources, while remaining a $ s $-boundary. The grading of the newly introduced fields can be found at~\ref{tab:nl-sources}. The full classical action to be considered from now on is
 \begin{equation}
   \label{eq:total-action}
   \Sigma \equiv S + S_{\text{GF}} + S_{ \text{NL} }\; .
@@ -179,26 +179,26 @@ The equations~\eqref{eq:topgfeq} and~\eqref{eq:fpantighosteq} can be combined in
           \mathcal{F} \equiv \int \tr \left[c\frac{\delta\phantom{\phi}}{\delta \phi}+\bar{\phi}\left(\frac{\delta\phantom{\bar{c}}}{\delta\bar{c}}-\frac{\delta\phantom{\bar{\eta}}}{\delta\bar{\eta}}\right)-\tau\frac{\delta\phantom{\Omega}}{\delta \Omega}-2E\frac{\delta\phantom{L}}{\delta L}-\lambda\frac{\delta\phantom{K}}{\delta K}\right] \;.
         \end{equation}
 \end{itemize}
-Equations~\eqref{eq:1stfpghosteq} and~\eqref{eq:2ndfpghosteq} can also be joined to form an exact global symmetry for $ \Sigma  $. The vectorial supersymmetry~\eqref{eq:vecsusyeq} is present in several topological field theories. It is responsible for the 1-loop exactness of $ n=3 $ Chern-Simons theory, and the tree-level exactness of TYM theory~\cite{birmingham1991a,werneck1993a,brandhuber1994a,piguet1995a,sadovski2017c,sadovski2018a}. The non-linear bosonic~\eqref{eq:nl-bosonic-eq}, and the fermionic ghost symmetry~\eqref{eq:fermionicghostsymmetry}, are known to reduce the number of independent renormalizations~\cite{sadovski2017c}.
+Equations~\eqref{eq:1stfpghosteq} and~\eqref{eq:2ndfpghosteq} can also be joined to form an exact symmetry of $ \Sigma  $. The vectorial supersymmetry~\eqref{eq:vecsusyeq} is present in several topological field theories. It is a very strong symmetry, responsible for the 1-loop exactness of $ n=3 $ Chern-Simons theory~\cite{blasi1991a,maggiore1992a,piguet1995a}, and the tree-level exactness of TYM theory~\cite{brandhuber1994a,sadovski2017c,sadovski2018a}, for instance. The non-linear bosonic~\eqref{eq:nl-bosonic-eq}, and the fermionic ghost symmetry~\eqref{eq:fermionicghostsymmetry}, first reported by the authors (and collaborators) in QTYM~\cite{sadovski2017c}, are also present here, and are known to drastically reduce the number of independent renormalizations.
 
 \subsection{Counterterms}%
 \label{ssec:counterterm}
 
-The Quantum Action Principle establishes the formal relationship between the set of Ward identities for $ \Sigma $, and the set of Ward identitites for its associated quantum effective action, $ \Gamma $. The list above translates to the following set of symmetries for the quantum symmetry-restaured phase of gravity:
+The Quantum Action Principle establishes the formal relationship between the set of Ward identities for $ \Sigma $, and the set of Ward identities for its associated quantum effective action, $ \Gamma $. The list above translates to the following set of symmetries for the quantum symmetry-restaured phase of gravity:
 \begin{subequations}%
   \label{eq:ward-identities}
   \begin{align}
-    \frac{ \delta \Gamma^{ \left( n \right) } }{ \delta b }            & = 0 \;, \\
-    \frac{ \delta \Gamma^{ \left( n \right) } }{ \delta \bar{ \eta } } & = 0 \;, \\
-    \mathcal{G}_{ \bar{ c } } \left( \Gamma ^{ (n) } \right)           & = 0 \;, \\
-    \mathcal{G}_{ \bar{ \phi  } } \left( \Gamma ^{ (n) } \right)       & = 0 \;, \\
-    \frac{ \delta \Gamma^{ \left( n \right) } }{ \delta \bar{ \eta } } & = 0 \;, \\
-    \mathcal{S}_{\Sigma^{(n-1)}} \left( \Gamma^{ (n)} \right)          & = 0 \;, \\
-    \mathcal{G}_{ \phi } \left( \Gamma ^{ (n) } \right)                & = 0 \;, \\
-    \mathcal{G}^{(1)}_{ c } \left( \Gamma ^{ (n) } \right)             & = 0 \;, \\
-    \mathcal{G}^{(2)}_{ c } \left( \Gamma ^{ (n) } \right)             & = 0 \;, \\
-    \mathcal{W} \left( \Gamma^{ (n)} \right)                           & = 0 \;, \\
-    \mathcal{T}_{\Sigma^{(n-1)}} \left( \Gamma^{ (n)} \right)          & = 0 \;, \\
+    \frac{ \delta \Gamma^{ \left( n \right) } }{ \delta b }            & = 0 \;,                                \\
+    \frac{ \delta \Gamma^{ \left( n \right) } }{ \delta \bar{ \eta } } & = 0 \;,                                \\
+    \mathcal{G}_{ \bar{ c } } \left( \Gamma ^{ (n) } \right)           & = 0 \;,                                \\
+    \mathcal{G}_{ \bar{ \phi  } } \left( \Gamma ^{ (n) } \right)       & = 0 \;,                                \\
+    \frac{ \delta \Gamma^{ \left( n \right) } }{ \delta \bar{ \eta } } & = 0 \;,                                \\
+    \mathcal{S}_{\Sigma^{(n-1)}} \left( \Gamma^{ (n)} \right)          & = 0 \;, \label{eq:quantum-st-identity} \\
+    \mathcal{G}_{ \phi } \left( \Gamma ^{ (n) } \right)                & = 0 \;,                                \\
+    \mathcal{G}^{(1)}_{ c } \left( \Gamma ^{ (n) } \right)             & = 0 \;,                                \\
+    \mathcal{G}^{(2)}_{ c } \left( \Gamma ^{ (n) } \right)             & = 0 \;,                                \\
+    \mathcal{W} \left( \Gamma^{ (n)} \right)                           & = 0 \;,                                \\
+    \mathcal{T}_{\Sigma^{(n-1)}} \left( \Gamma^{ (n)} \right)          & = 0 \;,                                \\
     \mathcal{F} \left( \Gamma^{ (n)} \right)                           & = 0 \;,
   \end{align}
 \end{subequations}
@@ -218,19 +218,30 @@ and
 \end{align}
 Due to the recursive method of the algebraic renormalization technique, results valid for $ \Gamma^{ (1) } $ are equally valid for $ \Gamma^{ (n) } $, and \textit{vice-versa}. Additionally, the linearized Slavnov-Taylor operator~\eqref{eq:linear-st-operator} is nilpotent, and defines a cohomology which is isomorphic to the $ s $-cohomology.
 
-The most general $ \Sigma^{ (1) } $ is obtained as the most general solution of~\eqref{eq:ward-identities} for $n=1$. Explicitly,
-\begin{subequations}%
+The most general solution of~\eqref{eq:ward-identities}, for $n=1$, represents the most general counterterm that radiative corrections can generate --- to all orders in perturbation theory. A good way to start is via~\eqref{eq:quantum-st-identity}. Due to $ {\mathcal{S}_{\Sigma}}^{ 2 } = 0 $, its most general solution gives
+\begin{equation}
+  \label{eq:solution-to-quantum-st}
+  \Sigma^{ (1) } = \Delta^0 + \mathcal{S}_{ \Sigma } \Delta^{ -1 }\;.
+\end{equation}
+$ \Delta^0 $ and $ \Delta^{ -1 } $ are the most general integrated polynomial invariant of the quantum fields and external sources, which are local, power-counting renormalizable, and a 4-form. In particular, $ \Delta^0 $ has ghost number 0, and $ \Delta^{ -1 } $ has ghost number -1. The former belong to the $ \mathcal{S}_{ \Sigma } $-cohomology, and is given by
+\begin{equation}
+  \label{eq:delta0}
+  \Delta^0 \equiv \int \tr \left( a_1 RR + a_2 RR^* \right) \;,
+\end{equation}
+where $ a_1 $ and $ a_2 $ are arbitrary renormalization parameters. The latter, consistent with all the other Ward identities in~\eqref{eq:ward-identities}, is given by
+\begin{equation}
+  \label{eq:delta-1}
+  \Delta^{-1} \equiv \int \tr \left( a_3 \bar{ \chi } \star R \right) \;.
+\end{equation}
+where $ a_3 $ is also an arbitrary renormalization parameter. Finally, the most general counterterm action functional, and solution to~\eqref{eq:ward-identities}, is
+\begin{equation}
   \label{eq:ct-action}
-  \begin{align}
-    \Sigma^{ (1) } & = \mathcal{S}_{\Sigma} \int \tr \left[ a_1 \left( \Omega \omega + \omega \star d \bar{ c } + \tau \psi + \psi \star d \bar{ \phi } \right) + a_2 \left( \tau dc + \bar{ \phi } d \star d c \right) + a_3 \bar{ \chi } d \omega \right. + \nonumber \\
-                   & + \left. a_4 \bar{ \chi } \omega^2 \right]                                                                                                                                                                                                         \\
-                   & = \int \tr \left[  \right]
-  \end{align}
-\end{subequations}
+  \Sigma^{ (1) } = \int \tr \left[ a_1 RR + a_2 RR^* + a_3 \left( B \star F + 2 \bar{ \chi } \star D \psi + \bar{ \chi } \star \left[ c, R \right] \right) \right] \;.
+\end{equation}
 
 \subsection{Quantum stability}\label{sec:stability;sec:quantum}
 
-To conclude the proof of renormalizability, one has to show that
+To conclude the proof of renormalizability, one has to show the existence of finite parameters $ z_{ \Phi } $, $ z_{ G } $, $ z_{ J } $, such that
 \begin{equation}
   \label{eq:multiplicative-renorm}
   \Sigma \left[ \Phi_0, G_0, J_0 \right] = \Sigma \left[ \Phi, G, J \right] + \epsilon\Sigma^{ (1) } \left[ \Phi, G, J \right] \;,
@@ -239,10 +250,25 @@ where
 \begin{subequations}%
   \label{eq:field-redef}
   \begin{align}
-    \Phi_0 \equiv z_{ \Phi } \Phi \;, \\
-    G_0 \equiv z_{ G } G \;,          \\
-    J_0 \equiv z_{ J } J \;,
+    \Phi_0 & \equiv z_{ \Phi } \Phi \;\; ; \;\; \Phi \in \left\{ \omega, c, \psi, \phi, \bar{ c }, b, \bar{ \chi }, B, \bar{ \phi }, \bar{ \eta } \right\} \\
+    G_0    & \equiv z_{ G } G \;\; ; \;\; G \in \left\{ g_1, \ldots, g_{10}, a_1, \ldots, a_3 \right\}                                                     \\
+    J_0    & \equiv z_{ J } J \;\; ; \;\; J \in \left\{ \tau, \Omega, E, L, \lambda, K, Z, H, Y, X \right\}
   \end{align}
 \end{subequations}
-are multiplicative redefinition of the quantum fields $ \Phi \in \left\{ \omega, c, \psi, \phi, \bar{ c }, b, \bar{ \chi }, B, \bar{ \phi }, \bar{ \eta } \right\} $, coupling parameters $ G \in \left\{ g_1, \cdots, g_{10} \right\} $, and external sources $ J \in \left\{ Y, X, \tau, \Omega, E, L, \lambda, K, Z, H \right\} $. The existence of the $ z $-factors guarantees that $ \Sigma $ is stable under radiative corrections to all orders in perturbation theory.
+are the multiplicative redefinition of all the quantum fields, coupling parameters, and external sources. This guarantees that $ \Sigma $ is stable under radiative corrections to all orders in perturbation theory.
+
+For our topological symmetry-restaured phase of gravity, the non-trivial $z$-factors are given by
+\begin{subequations}%
+  \label{eq:z-factors}
+  \begin{align}
+    z_B z_{ \omega } & = z_c z_{\bar{\chi}} = 1 + \epsilon a_3 \;,                \\
+    z_E              & = {z_{g_1}}^{-2} {z_c}^{-3} \;,                            \\
+    z_{ \omega }     & = z_b = {z_{g_1}}^{-1} \;,                                 \\
+    z_K              & = {z_{ g_1 }}^{-1} {z_c}^{-1} {z_{\bar{\chi}}}^{-1} \;,    \\
+    z_\Lambda        & = {z_{ g_1 }}^{-2} {z_c}^{-2} {z_{\bar{\chi}}}^{-1} \;,    \\
+    z_{\bar{c}}      & = z_\Omega = z_\psi = z_{\bar\eta} = {z_c}^{-1} \;,        \\
+    z_\phi           & = z_{\bar{\phi}} = z_L = z_\tau = {z_g}^{-1} {z_c}^{-2}\;.
+  \end{align}
+\end{subequations}
+
 \end{document}
