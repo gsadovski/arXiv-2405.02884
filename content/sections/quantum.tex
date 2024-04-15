@@ -33,7 +33,7 @@ The non-linearity action functional
   \begin{align}
     S_{\text{NL}} & = s \int \tr \left( \tau Dc + E c^2 + \lambda \left[ c,\bar\chi \right] + Z \left[ c,Y \right] \right) \;, \label{eq:nl-action-1}                                                                                           \\
                   & = \int \tr \left\{ \Omega Dc + Lc^2 + \tau \left( D\phi + \left[ c,\psi \right] \right) + E \left[ c,\phi \right] + K \left[ c,\bar\chi \right] + \lambda \left(\vphantom{^2}\left[ c,B \right] + \right. \right. \nonumber \\
-                  & + \left. \left. \left[ c^2,\bar\chi \right] + \left[ \bar\chi,\phi \right] \right) \right\} \;,
+                  & + \left. \left. \left[ c^2,\bar\chi \right] + \left[ \bar\chi,\phi \right] \right) + H \left[ c, Y \right] + Z \left( \left[ Y, \phi \right] + \left[ c^2, Y \right] + \left[ c, X \right] \right) \right\} \;,
   \end{align}
 \end{subequations}
 is the most general local, power-counting renormalizable, invariant polynomial that explicitly couples all independent non-linearities to external sources, while remaining a $ s $-boundary. The grading of the newly introduced fields can be found at~\ref{tab:nl-sources}. The full classical action to be considered from now on is
@@ -205,15 +205,15 @@ The Quantum Action Principle establishes the formal relationship between the set
 where $\Gamma^{(n)} \equiv \Sigma + \epsilon \Sigma^{(1)} + \cdots + \Sigma^{ (n) }$ is $ \Gamma  $ at $ n $-th loop order, $ \epsilon $ is a small perturbative parameter, and $ \Sigma^{ (1)} $, also known as the counterterm action functional, is the 1-loop radiative correction to $ \Sigma  $. The linear breaks are gone, and the non-linear operators $ \mathcal{S} $ and $ \mathcal{T} $ are replaced by their linearized versions
 \begin{align}
   \label{eq:linear-st-operator}
-  \mathcal{S}_{\Sigma^{ (n-1) }} & \equiv \int \tr \left[\left(\psi-\frac{\delta\Sigma^{ (n-1) }}{\delta\Omega}\right)\frac{\delta\phantom{A}}{\delta A}+\frac{\delta\Sigma^{ (n-1) }}{\delta A}\frac{\delta\phantom{\Omega}}{\delta \Omega}+\left(\phi-\frac{\delta\Sigma^{ (n-1) }}{\delta L}\right)\frac{\delta\phantom{c}}{\delta c} \right. + \nonumber                                                                                                              \\
-                                 & + \left. \frac{\delta\Sigma^{ (n-1) }}{\delta c}\frac{\delta\phantom{L}}{\delta L}-\frac{\delta\Sigma^{ (n-1) }}{\delta\tau}\frac{\delta\phantom{\psi}}{\delta\psi}+\frac{\delta\Sigma^{ (n-1) }}{\delta \psi}\frac{\delta\phantom{\tau}}{\delta \tau}-\frac{\delta\Sigma^{ (n-1) }}{\delta E}\frac{\delta\phantom{\phi}}{\delta\phi}+\frac{\delta\Sigma^{ (n-1) }}{\delta \phi}\frac{\delta\phantom{E}}{\delta E} \right. + \nonumber \\
+  \mathcal{S}_{\Sigma^{ (n-1) }} & \equiv \int \tr \left[\left(\psi-\frac{\delta\Sigma^{ (n-1) }}{\delta\Omega}\right)\frac{\delta\phantom{\omega}}{\delta \omega}-\frac{\delta\Sigma^{ (n-1) }}{\delta \omega}\frac{\delta\phantom{\Omega}}{\delta \Omega}+\left(\phi-\frac{\delta\Sigma^{ (n-1) }}{\delta L}\right)\frac{\delta\phantom{c}}{\delta c} \right. + \nonumber                                                                                                 \\
+                                 & - \left. \frac{\delta\Sigma^{ (n-1) }}{\delta c}\frac{\delta\phantom{L}}{\delta L}-\frac{\delta\Sigma^{ (n-1) }}{\delta\tau}\frac{\delta\phantom{\psi}}{\delta\psi}+\frac{\delta\Sigma^{ (n-1) }}{\delta \psi}\frac{\delta\phantom{\tau}}{\delta \tau}-\frac{\delta\Sigma^{ (n-1) }}{\delta E}\frac{\delta\phantom{\phi}}{\delta\phi} - \frac{\delta\Sigma^{ (n-1) }}{\delta \phi}\frac{\delta\phantom{E}}{\delta E} \right. + \nonumber \\
                                  & + \left. X\frac{\delta\phantom{Y}}{\delta Y}+b\frac{\delta\phantom{\bar{c}}}{\delta\bar{c}}+B\frac{\delta\phantom{\bar{\chi}}}{\delta\bar{\chi}}+\bar{\eta}\frac{\delta\phantom{\bar{\phi}}}{\delta\bar{\phi}}+\Omega\frac{\delta\phantom{\tau}}{\delta\tau}+L\frac{\delta\phantom{E}}{\delta E}+K\frac{\delta\phantom{\lambda}}{\delta\lambda}+H\frac{\delta\phantom{Z}}{\delta Z}\right]\;,
 \end{align}
 and
 \begin{align}
   \label{eq:linear-t-operator}
-  \mathcal{T}_{\Sigma^{ (n-1) }} & \equiv \int \tr \left[\frac{\delta\Sigma^{ (n-1) }}{\delta \Omega}\frac{\delta\phantom{\psi}}{\delta \psi}-\frac{\delta\Sigma^{ (n-1) }}{\delta\psi}\frac{\delta\phantom{\Omega}}{\delta \Omega} + \frac{\delta\Sigma^{ (n-1) }}{\delta H}\frac{\delta\phantom{X}}{\delta X}-\frac{\delta\Sigma^{ (n-1) }}{\delta X}\frac{\delta\phantom{H}}{\delta H} \right. + \nonumber \\
-                                 & +\left.\frac{\delta\Sigma^{ (n-1) }}{\delta L}\frac{\delta\phantom{\phi}}{\delta \phi}-\frac{\delta\Sigma^{ (n-1) }}{\delta \phi}\frac{\delta\phantom{L}}{\delta L}+\frac{\delta\Sigma^{ (n-1) }}{\delta K}\frac{\delta\phantom{B}}{\delta B}-\frac{\delta\Sigma^{ (n-1) }}{\delta B}\frac{\delta\phantom{K}}{\delta K} \right. + \nonumber                                \\
+  \mathcal{T}_{\Sigma^{ (n-1) }} & \equiv \int \tr \left[\frac{\delta\Sigma^{ (n-1) }}{\delta \Omega}\frac{\delta\phantom{\psi}}{\delta \psi} + \frac{\delta\Sigma^{ (n-1) }}{\delta\psi}\frac{\delta\phantom{\Omega}}{\delta \Omega} + \frac{\delta\Sigma^{ (n-1) }}{\delta H}\frac{\delta\phantom{X}}{\delta X} + \frac{\delta\Sigma^{ (n-1) }}{\delta X}\frac{\delta\phantom{H}}{\delta H} \right. + \nonumber \\
+                                 & + \left.\frac{\delta\Sigma^{ (n-1) }}{\delta L}\frac{\delta\phantom{\phi}}{\delta \phi} + \frac{\delta\Sigma^{ (n-1) }}{\delta \phi}\frac{\delta\phantom{L}}{\delta L} + \frac{\delta\Sigma^{ (n-1) }}{\delta K}\frac{\delta\phantom{B}}{\delta B} + \frac{\delta\Sigma^{ (n-1) }}{\delta B}\frac{\delta\phantom{K}}{\delta K} \right. + \nonumber                             \\
                                  & +\left.\left(\bar{c}+\bar{\eta}\right)\left(\frac{\delta\phantom{\bar{c}}}{\delta\bar{c}}-\frac{\delta\phantom{\bar{\eta}}}{\delta\bar{\eta}}\right)\right] \;.
 \end{align}
 Due to the recursive method of the algebraic renormalization technique, results valid for $ \Gamma^{ (1) } $ are equally valid for $ \Gamma^{ (n) } $, and \textit{vice-versa}. Additionally, the linearized Slavnov-Taylor operator~\eqref{eq:linear-st-operator} is nilpotent, and defines a cohomology which is isomorphic to the $ s $-cohomology.
@@ -231,13 +231,14 @@ $ \Delta^0 $ and $ \Delta^{ -1 } $ are the most general integrated polynomial in
 where $ a_1 $ and $ a_2 $ are arbitrary renormalization parameters. The latter, consistent with all the other Ward identities in~\eqref{eq:ward-identities}, is given by
 \begin{equation}
   \label{eq:delta-1}
-  \Delta^{-1} \equiv \int \tr \left( a_3 \bar{ \chi } \star R \right) \;.
+  \Delta^{-1} \equiv \int \tr \left( a_3 \bar{ \chi } R + a_4 YR \right) \;,
 \end{equation}
 where $ a_3 $ is also an arbitrary renormalization parameter. Finally, the most general counterterm action functional, and solution to~\eqref{eq:ward-identities}, is
-\begin{equation}
+\begin{align}
   \label{eq:ct-action}
-  \Sigma^{ (1) } = \int \tr \left[ a_1 RR + a_2 RR^* + a_3 \left( B \star F + 2 \bar{ \chi } \star D \psi + \bar{ \chi } \star \left[ c, R \right] \right) \right] \;.
-\end{equation}
+  \Sigma^{ (1) } & = \int \tr \left\{ a_1 R R + a_2 R R^* + a_3 \left[ B R + \bar{ \chi } \left( D \psi + \left[ c, R \right] \right) \right] + a_4 \left[ XR + Y \left( D \psi \right. + \right. \right. \nonumber \\
+                 & \left. \left. + \left. \left[ c, R \right] \right) \right] \right\} \;.
+\end{align}
 
 \subsection{Quantum stability}\label{sec:stability;sec:quantum}
 
