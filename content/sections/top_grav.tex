@@ -38,17 +38,17 @@ Continuing the construction,
     sc      & = - c^2 + \phi \;,                    \\
     s\psi   & = -D\phi - \left[ c, \psi \right] \;, \\
     s\phi   & = - \left[ c, \phi \right]\;,         \\
-    sR      & = -D\psi - \left[ c, R \right] \;.
+    sR      & = -D\psi - \left[ c, R \right] \;,
   \end{align}
 \end{subequations}
-This is exactly the same TYM BRST of Section~\ref{sec:tym}. In particular, the observables are the same, except for~\eqref{eq:euler-class}.
+is exactly the same TYM BRST of Section~\ref{sec:tym}. In particular, the observables are the same, except for the adition of~\eqref{eq:euler-class}.
 
 We define our topological symmetry-restored phase of gravity via the action functional
 \begin{equation}
   \label{eq:top_grav_action}
   S_{\text{TG}}\left[ \omega \right] \equiv \int \tr \left( g_1 R^2 + g_2 RR^* \right)\;,
 \end{equation}
-where $g_1$ and $g_2$ are adimensional coupling parameters. The reason to call~\eqref{eq:top_grav_action} a \textquote{topological symmetry-restored phase of gravity} will become clear in Section~\ref{ssec:from_top_to_grav;sec:top_grav}. For now, we restrict ourselves to comment that $S_{\text{TG}}$ is the most general action functional that is:
+where $g_1$ and $g_2$ are adimensional coupling parameters. The reason to call~\eqref{eq:top_grav_action} \textquote{topological symmetry-restored phase of gravity} will become clear in Section~\ref{ssec:from_top_to_grav;sec:top_grav}. For now, we restrict ourselves to comment that $S_{\text{TG}}$ is the most general action functional that is:
 \begin{enumerate}[label=\roman*)] % chktex 9 chktex 10 
   \item an invariant polynomial of $\omega$ and its derivatives;
   \item local;
@@ -65,14 +65,14 @@ If we add an $s$-boundary to~\eqref{eq:top_grav_action}, we strictly define a ne
   \label{eq:s-doublet}
   sY = X \;, \;\; sX = 0 \;.
 \end{equation}
-Their grading are displayed in table~\ref{tab:grading2}. And, the most general action functional that is:
+Their grading are displayed in Table~\ref{tab:grading2}. And, the most general action functional that is:
 \begin{enumerate}[label=\roman*)] % chktex 10 % chktex 9 
   \item an invariant polynomial of $\omega$, $X$, $Y$ and their derivatives;
   \item local;
   \item power-counting renormalizable;
-  \item  and, an $s$-boundary.
+  \item  and, an $s$-boundary;
 \end{enumerate}
-This is given by
+is given by
 \begin{subequations}%
   \label{eq:s-boundary_action}
   \begin{align}
@@ -83,15 +83,17 @@ This is given by
                   & \left. + \left. { \left. \left[ c , R \right] \right) }^* \right] \right\} \;,                                                                                                                                                                      % chktex 9 
   \end{align}
 \end{subequations}
-where all the $g_i$ coupling parameters are adimensional. The action $S_{\text{sb}}$ is not a topological invariant. Nevertheless, we emphasize that the theory defined by
+where all the $g_i$ coupling parameters are adimensional.
+
+The action $S_{\text{sb}}$ is not a topological invariant. Nevertheless, we emphasize that the theory defined by
 \begin{equation}
   \label{eq:tg+sb}
   S=S_{\text{TG}}+S_{\text{sb}}
 \end{equation}
 still is a topological field theory. Indeed, one physically indistinguishable from $S_{\text{TG}}$.
-\begin{table}[htpb]%
+\begin{table}[htpb]
+  \caption{Grading of $X$ and $Y$.}%
   \label{tab:grading2}
-  \caption{Grading of $X$ and $Y$.}
   \begin{tabular}{ccc}
     \toprule
     Field      & $X$  & $Y$ \\
@@ -110,7 +112,7 @@ Before finally proceeding to the connection between our topological model and gr
 
 Gravity is described by a special kind of gauge theory in the sense that $ \mathrm{Cl}Fr $ is isomorphic to the Clifford bundle of spacetime. The isomorphism is given by $\gamma_a = \tensor{ e }{ _a^\mu } \gamma_\mu $, where $e^a \equiv \tensor{ e }{ ^a_\mu } dx^\mu $ is the $\mathrm{Cl}Fr$-valued soldering 1-form --- also known as the vierbein field ---, and $ e_a \equiv \tensor{ e }{ _a^\mu }\partial_{ \mu }$ is its dual vector. Finally, for latter use, we define $ \gamma \equiv \gamma_a e^a $. And, it is straightforward to show that $\star \gamma^2 = {\left( \gamma^2 \right)}^*= \gamma_5 \gamma^2$.
 
-Returning to the $SO(4)$ TYM theory, the term \textquote{topological symmetry-restored phase of gravity}, used in Section~\ref{ssec:so4tym;sec:top_grav}, was deliberately chosen to suggest that a traditional gravity theory, with propagating local degrees of freedom, can be obtained from~\eqref{eq:tg+sb} via a symmetry breaking mechanism. In particular, an explicit symmetry breaking (ESB) that achieves that is obtained by forcing $X$ and $Y$ to attain \textquote{physical} values:
+Returning to the $SO(4)$ TYM theory, the term \textquote{topological symmetry-restored phase of gravity}, used in Section~\ref{ssec:so4tym;sec:top_grav}, was deliberately chosen to suggest that a traditional gravity theory, with propagating local degrees of freedom, can be obtained from~\eqref{eq:tg+sb} via a symmetry breaking mechanism. In particular, an explicit symmetry breaking (ESB) that achieves that is obtained by forcing $X$ and $Y$ to attain physical values:
 \begin{subequations}%
   \label{eq:physicalxy}
   \begin{align}
@@ -122,7 +124,7 @@ where $\mu$ is a mass scale. Indeed, when $X$ and $Y$ are identified accordingly
 \begin{align}
   \label{eq:llc_action}
   S\big|_{\text{phys.}} & = \int \tr \left\{ g_1 R^2 + g_2 R R^* + \mu^2 \left[ \left( g_4 + g_5 \right) R \star \gamma^2 + \mu^2 \left( g_8 + g_9 \right) \gamma^2 \star \gamma^2  \right. + \right. \nonumber \\
-                        & \left. + \left. \left( g_3 + g_6 \right) R \gamma^2 \right] \right\}
+                        & \left. + \left. \left( g_3 + g_6 \right) R \gamma^2 \right] \right\} \;,
 \end{align}
 can be immediately recognized as the Lovelock-Cartan theory of gravity on non-compact 4-manifolds~\cite{mardones1991a,hassaine2016a,corichi2016a}. The coupling $\tr \left( R \star \gamma^2 \right)$ is the Einstein-Palatini Lagrangian density, $\tr \left( \gamma^2 \star \gamma^2 \right)$ is the cosmological constant and $\tr \left( R \gamma^2 \right)$ is the Holst term~\cite{holst1996a} --- related to the torsional Nieh-Yan invariant polynomial~\cite{nieh1982a,chandia1997a,nieh2007a}.
 
@@ -134,7 +136,9 @@ The field equations for the gravitational fields $\gamma$ and $\omega$ are, resp
     \left[ \left( g_3 + g_6 \right) T + \left( g_4 + g_5 \right) \gamma_5 T, \gamma \right]                                                      & = 0 \;,
   \end{align}
 \end{subequations}
-where $ T = D \gamma $ is the $\mathrm{Cl}Fr$-valued torsion 2-form. And, their solutions are Riemann-Cartan spacetimes, in general.
+where $ T = D \gamma $ is the $\mathrm{Cl}Fr$-valued torsion 2-form. Their solutions are Riemann-Cartan spacetimes, in general.
+
+The presence of curvature and torsion is due to our adoption of the most general construction in~\eqref{eq:s-boundary_action}. If one wishes to generate only Einstein gravity, the values of the $ g_i $ can be tweaked by hand to do so. However, this goes against the quantum field theory philosophy. We determine symmetries, the symmetries determine the allowed couplings, and their values via $ \beta $-functions.
 
 Via the Correspondence Principle,
 \begin{subequations}%
@@ -144,7 +148,7 @@ Via the Correspondence Principle,
     \mu^4 \left( g_8+g_9 \right) & = -\frac{{m_P}^2\Lambda^2}{384\pi} \;,
   \end{align}
 \end{subequations}
-where ${m_P}^2$ is Planck mass and $\Lambda^2$ the cosmological constant. The LHS of~\eqref{eq:correspondence} contain coupling parameters coming from a well-defined perturbative quantum field theory. In principle, their renormalized values can be obtained, thus predicting the values of the Planck scale as well as the size of the observable universe. This is, however, beyond the scope of this paper.
+where ${m_P}^2$ is Planck mass and $\Lambda^2$ the cosmological constant. The LHS of~\eqref{eq:correspondence} contain coupling parameters coming from a well-defined perturbative quantum field theory. In principle, their renormalized values can be obtained, thus predicting the values of the Planck scale, and the size of the observable universe. This will be in a future work.
 
 In Section~\ref{ssec:so4tym;sec:top_grav}, we commented on how the traditional YM BRST, given by~\eqref{eq:ym-brst}, is obtained from the TYM BRST, given by~\eqref{eq:tym-brst}, via the horizontal condition: $ s_{\text{YM}} = s|_{\psi = \phi = 0} $. Let $ s = s_{\text{YM}} + s_{\text{T}} $, where $ s_{\text{T}} $ is the \textquote{topological sector of $s$} given by
 \begin{subequations}%
@@ -157,7 +161,8 @@ In Section~\ref{ssec:so4tym;sec:top_grav}, we commented on how the traditional Y
     s_{\text{T}} R      & = - D \psi \;.
   \end{align}
 \end{subequations}
+The topological symmetry-restored phase of gravity, defined via the action functional~\eqref{eq:top_grav_action}, is an $s$-cycle. Meanwhile, the induced (Lovelock-Cartan) gravity, defined via~\eqref{eq:llc_action}, is an $ s_{\text{YM}} $-cycle. Clearly, the ESB above implements the horizontal condition at a dynamical level. It deforms $ s $ into $ s_{\text{YM}} $ by breaking $ s_{\text{T}} $.
 
-The topological symmetry-restored phase of gravity, defined via the action functional~\eqref{eq:top_grav_action}, is an $s$-cycle. Meanwhile, the induced (Lovelock-Cartan) gravity, defined via~\eqref{eq:llc_action}, is an $ s_{\text{YM}} $-cycle. Clearly, the ESB above implements the horizontal condition at a dynamical level. It deforms $ s $ into $ s_{\text{YM}} $ by breaking $ s_{\text{T}} $. The $ s_{\text{YM}} $-cohomology differs from the $ s $-cohomology in a very important way: the latter allows for local observables (for instance, the YM Lagrangian density $ \tr \left( R \star R \right) $ which, in a gravitational context, is recognizable as the Kretschmann scalar). Ultimately, this ESB can be physically interpreted as responsible for freeing the local degrees of freedom of gravity --- originally frozen due to full invariance under $s$.
+The $ s_{\text{YM}} $-cohomology differs from the $ s $-cohomology in a very important way: it allows for local observables. For instance, the YM Lagrangian density $ \tr \left( R \star R \right) $ which, in a gravitational context, is recognizable as the Kretschmann scalar. Ultimately, the ESB~\eqref{eq:physicalxy} can be physically interpreted as responsible for freeing the local degrees of freedom of gravity --- originally frozen due to full invariance under $s$.
 
 \end{document} % chktex 17 

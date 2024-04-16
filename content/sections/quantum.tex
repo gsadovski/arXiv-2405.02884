@@ -7,7 +7,7 @@
 
 To prove the renormalizability of the proposed topological symmetry-restaured phase of gravity, we follow the algebraic renormalization program~\cite{piguet1995b}. The results obtained are valid to all orders in perturbation theory, and are independent of any regularization scheme.
 
-First, we fix its gauge symmetry by adding the (A)SDL gauge fixing action,
+First, we fix the gauge symmetry of~\eqref{eq:tg+sb} by adding to it the (A)SDL gauge fixing action,
 \begin{subequations}%
   \label{eq:tg-gf-action}
   \begin{align}
@@ -17,7 +17,7 @@ First, we fix its gauge symmetry by adding the (A)SDL gauge fixing action,
   \end{align}
 \end{subequations}
 
-Second, the non-linearity of the BRST, and of the non-linear bosonic ghost symmetry,~\eqref{eq:nl-bosonic-eq}, will inevitably appear as insertions in the correlation function of the quantum theory. To account for these infinities, we need to explicitly include them as $ s $-boundaries. Consider the $ s $-doublets,
+Second, the non-linearity of the BRST, and of the non-linear bosonic ghost symmetry,~\eqref{eq:nl-bosonic-eq}, will inevitably appear as insertions in the correlation function of the quantized theory. To account for these infinities, we need to explicitly include them in the total action. Consider the $ s $-doublets,
 \begin{subequations}%
   \label{eq:nl-s-doublets}
   \begin{align}
@@ -36,7 +36,9 @@ The non-linearity action functional
                   & + \left. \left. \left[ c^2,\bar\chi \right] + \left[ \bar\chi,\phi \right] \right) + H \left[ c, Y \right] + Z \left( \left[ Y, \phi \right] + \left[ c^2, Y \right] + \left[ c, X \right] \right) \right\} \;,
   \end{align}
 \end{subequations}
-is the most general local, power-counting renormalizable, invariant polynomial that explicitly couples all independent non-linearities to external sources, while remaining a $ s $-boundary. The grading of the newly introduced fields can be found at~\ref{tab:nl-sources}. The full classical action to be considered from now on is
+is the most general local, power-counting renormalizable, invariant polynomial that explicitly couples all independent non-linearities to external sources, while remaining a $ s $-boundary. The grading of the newly introduced fields can be found at~\ref{tab:nl-sources}.
+
+The full classical action to be considered is
 \begin{equation}
   \label{eq:total-action}
   \Sigma \equiv S + S_{\text{GF}} + S_{ \text{NL} }\; .
@@ -251,12 +253,12 @@ where
 \begin{subequations}%
   \label{eq:field-redef}
   \begin{align}
-    \Phi_0 & \equiv z_{ \Phi } \Phi \;\; ; \;\; \Phi \in \left\{ \omega, c, \psi, \phi, \bar{ c }, b, \bar{ \chi }, B, \bar{ \phi }, \bar{ \eta } \right\} \\
-    G_0    & \equiv z_{ G } G \;\; ; \;\; G \in \left\{ g_1, \ldots, g_{10}, a_1, \ldots, a_3 \right\}                                                     \\
-    J_0    & \equiv z_{ J } J \;\; ; \;\; J \in \left\{ \tau, \Omega, E, L, \lambda, K, Z, H, Y, X \right\}
+    \Phi_0 & \equiv z_{ \Phi } \Phi \;\; ; \;\; \Phi \in \left\{ \omega, c, \psi, \phi, \bar{ c }, b, \bar{ \chi }, B, \bar{ \phi }, \bar{ \eta } \right\} \;, \\
+    G_0    & \equiv z_{ G } G \;\; ; \;\; G \in \left\{ g_1, \ldots, g_{10}, a_1, \ldots, a_3 \right\} \;,                                                     \\
+    J_0    & \equiv z_{ J } J \;\; ; \;\; J \in \left\{ \tau, \Omega, E, L, \lambda, K, Z, H, Y, X \right\} \;,
   \end{align}
 \end{subequations}
-are the multiplicative redefinition of all the quantum fields, coupling parameters, and external sources. This guarantees that $ \Sigma $ is stable under radiative corrections to all orders in perturbation theory.
+are multiplicative redefinitions of all the quantum fields, coupling parameters, and external sources. This requirement guarantees that no infinities are left untamed --- to all orders in perturbation theory.
 
 For our topological symmetry-restaured phase of gravity, the non-trivial $z$-factors are given by
 \begin{subequations}%
