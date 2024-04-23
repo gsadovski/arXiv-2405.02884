@@ -11,9 +11,9 @@ First, we fix the gauge symmetry of~\eqref{eq:tg+sb} by adding to it the (A)SDL 
 \begin{subequations}%
   \label{eq:tg-gf-action}
   \begin{align}
-    S_{\text{GF}} & = s \int \tr \left[ \bar{c} d \star \omega + \bar{\phi} d \star \psi + \bar{\chi} \left( R \pm \star R \right) \right] \;,                                                                                                                  \\
-                  & = \int \tr \left[ b d \star \omega - \bar{c} d \star Dc + \left( \bar{c} + \bar{\eta} + \left[ c,\bar{\phi} \right] \right) d \star \psi + \bar{\phi} d \star D \phi + d c \left[ \star \psi ,\bar{\phi} \right] + \right. \nonumber        \\
-                  & + \left. \left( B + \left[ c,\bar{\chi} \right] \right) \left( R \pm \star R \right) + \bar{\chi} \left( D \pm \star D \right) \psi \vphantom{ \left( \bar{c} + \bar{\eta} + \left[ c,\bar{\phi} \right] \right) d \star \psi } \right] \;.
+    S_{\text{GF}} & = s \int \tr \left[ \bar{c} d \star \omega + \bar{\phi} d \star \psi + \bar{\chi} R^{\pm} \right] \;,                                                                                                                                \\
+                  & = \int \tr \left[ b d \star \omega - \bar{c} d \star Dc + \left( \bar{c} + \bar{\eta} + \left[ c,\bar{\phi} \right] \right) d \star \psi + \bar{\phi} d \star D \phi + d c \left[ \star \psi ,\bar{\phi} \right] + \right. \nonumber \\
+                  & + \left. \left( B + \left[ c,\bar{\chi} \right] \right) R^{\pm} + \bar{\chi} \left( D \psi \right)^{\pm} \right] \;.
   \end{align}
 \end{subequations}
 
@@ -49,7 +49,7 @@ The full classical action to be considered is
   \label{tab:nl-sources}
   \begin{tabular}{ccccccccc}
     \toprule
-    Field      & $\tau$ & $\Omega$ & $E$ & $L$  & $\Lambda$ & $K$  & $Z$ & $H$  \\
+    Field      & $\tau$ & $\Omega$ & $E$ & $L$  & $\lambda$ & $K$  & $Z$ & $H$  \\
     \midrule
     Form rank  & 3      & 3        & 4   & 4    & 2         & 2    & 2   & 2    \\
     Ghost no.  & -2     & -1       & -3  & -2   & -1        & 0    & -1  & 0    \\
@@ -155,7 +155,7 @@ The equations~\eqref{eq:topgfeq} and~\eqref{eq:fpantighosteq} can be combined in
         where
         \begin{align}
           \label{eq:vecsusyop}
-          \mathcal{W} & \equiv \int \tr \left[\mathcal{L}_\xi \omega \frac{\delta\phantom{\psi}}{\delta\psi}+\mathcal{L}_\xi c\frac{\delta\phantom{\phi}}{\delta\phi}+\mathcal{L}_\xi Y \frac{\delta\phantom{X}}{\delta X}-\mathcal{L}_\xi\left(\bar{c}+\bar{\eta}\right)\frac{\delta\phantom{b}}{\delta b}+\mathcal{L}_\xi \bar{\chi}\frac{\delta\phantom{B}}{\delta B}+ \right. \nonumber \\
+          \mathcal{W} & \equiv \int \tr \left[\mathcal{L}_\xi \omega \frac{\delta\phantom{\psi}}{\delta\psi}+\mathcal{L}_\xi c\frac{\delta\phantom{\phi}}{\delta\phi} - \mathcal{L}_\xi Y \frac{\delta\phantom{X}}{\delta X}-\mathcal{L}_\xi\left(\bar{c}+\bar{\eta}\right)\frac{\delta\phantom{b}}{\delta b} - \mathcal{L}_\xi \bar{\chi}\frac{\delta\phantom{B}}{\delta B}+ \right. \nonumber \\
                       & + \left. \mathcal{L}_\xi\bar{\phi}\left(\frac{\delta\phantom{\bar{c}}}{\delta\bar{c}}-\frac{\delta\phantom{\bar{\eta}}}{\delta\bar{\eta}}\right) + \mathcal{L}_\xi\tau\frac{\delta\phantom{\Omega}}{\delta\Omega}+\mathcal{L}_\xi E\frac{\delta\phantom{L}}{\delta L}+\mathcal{L}_\xi \lambda\frac{\delta\phantom{K}}{\delta K}\right] \;,
         \end{align}
         and $ \mathcal{L}_{\xi} $ is the Lie derivative along the vector field $ \xi $. It is assumed that $\xi$ is a Killing vector, and that it generates a flow of diffeomorphism on spacetime\footnote{Consequentially, $\int \mathcal{L}_{\xi} \left( \varphi \star \mathds{1} \right) = 0 \;, \forall \; \varphi \in C^{ \infty }\left( \mathbb{R}^4 \right)$, and $ \star \mathcal{L}_\xi = \mathcal{L}_\xi \star $.}.
@@ -190,37 +190,37 @@ The Quantum Action Principle establishes the formal relationship between the set
 \begin{subequations}%
   \label{eq:ward-identities}
   \begin{align}
-    \frac{ \delta \Gamma^{ \left( n \right) } }{ \delta b }            & = 0 \;,                                \\
-    \frac{ \delta \Gamma^{ \left( n \right) } }{ \delta \bar{ \eta } } & = 0 \;,                                \\
-    \mathcal{G}_{ \bar{ c } } \left( \Gamma ^{ (n) } \right)           & = 0 \;,                                \\
-    \mathcal{G}_{ \bar{ \phi  } } \left( \Gamma ^{ (n) } \right)       & = 0 \;,                                \\
-    \frac{ \delta \Gamma^{ \left( n \right) } }{ \delta \bar{ \eta } } & = 0 \;,                                \\
-    \mathcal{S}_{\Sigma^{(n-1)}} \left( \Gamma^{ (n)} \right)          & = 0 \;, \label{eq:quantum-st-identity} \\
-    \mathcal{G}_{ \phi } \left( \Gamma ^{ (n) } \right)                & = 0 \;,                                \\
-    \mathcal{G}^{(1)}_{ c } \left( \Gamma ^{ (n) } \right)             & = 0 \;,                                \\
-    \mathcal{G}^{(2)}_{ c } \left( \Gamma ^{ (n) } \right)             & = 0 \;,                                \\
-    \mathcal{W} \left( \Gamma^{ (n)} \right)                           & = 0 \;,                                \\
-    \mathcal{T}_{\Sigma^{(n-1)}} \left( \Gamma^{ (n)} \right)          & = 0 \;,                                \\
-    \mathcal{F} \left( \Gamma^{ (n)} \right)                           & = 0 \;,
+    \frac{ \delta \Sigma^{ \left( n \right) } }{ \delta b }            & = 0 \;,                                \\
+    \frac{ \delta \Sigma^{ \left( n \right) } }{ \delta \bar{ \eta } } & = 0 \;,                                \\
+    \mathcal{G}_{ \bar{ c } } \left( \Sigma ^{ (n) } \right)           & = 0 \;,                                \\
+    \mathcal{G}_{ \bar{ \phi  } } \left( \Sigma ^{ (n) } \right)       & = 0 \;,                                \\
+    \frac{ \delta \Sigma^{ \left( n \right) } }{ \delta \bar{ \eta } } & = 0 \;,                                \\
+    \mathcal{S}_{\Gamma^{(n-1)}} \left( \Sigma^{ (n)} \right)          & = 0 \;, \label{eq:quantum-st-identity} \\
+    \mathcal{G}_{ \phi } \left( \Sigma ^{ (n) } \right)                & = 0 \;,                                \\
+    \mathcal{G}^{(1)}_{ c } \left( \Sigma ^{ (n) } \right)             & = 0 \;,                                \\
+    \mathcal{G}^{(2)}_{ c } \left( \Sigma ^{ (n) } \right)             & = 0 \;,                                \\
+    \mathcal{W} \left( \Sigma^{ (n)} \right)                           & = 0 \;,                                \\
+    \mathcal{T}_{\Gamma^{(n-1)}} \left( \Sigma^{ (n)} \right)          & = 0 \;,                                \\
+    \mathcal{F} \left( \Sigma^{ (n)} \right)                           & = 0 \;,
   \end{align}
 \end{subequations}
-where $\Gamma^{(n)} \equiv \Sigma + \epsilon \Sigma^{(1)} + \cdots + \Sigma^{ (n) }$ is $ \Gamma  $ at $ n $-th loop order, $ \epsilon $ is a small perturbative parameter, and $ \Sigma^{ (1)} $, also known as the counterterm action functional, is the 1-loop radiative correction to $ \Sigma  $. The linear breaks are gone, and the non-linear operators $ \mathcal{S} $ and $ \mathcal{T} $ are replaced by their linearized versions
+where $\Gamma^{(n)} \equiv \Sigma + \epsilon \Sigma^{(1)} + \cdots + \Sigma^{ (n) }$ is $ \Gamma  $ truncated at $ n $-th loop order, $ \epsilon $ is a small perturbative parameter, and $ \Sigma^{ (n)} $ is the $n$-loop radiative correction to $ \Sigma  $. The linear breaks are gone, and the non-linear operators $ \mathcal{S} $ and $ \mathcal{T} $ are replaced by their linearized versions
 \begin{align}
   \label{eq:linear-st-operator}
-  \mathcal{S}_{\Sigma^{ (n-1) }} & \equiv \int \tr \left[\left(\psi-\frac{\delta\Sigma^{ (n-1) }}{\delta\Omega}\right)\frac{\delta\phantom{\omega}}{\delta \omega}-\frac{\delta\Sigma^{ (n-1) }}{\delta \omega}\frac{\delta\phantom{\Omega}}{\delta \Omega}+\left(\phi-\frac{\delta\Sigma^{ (n-1) }}{\delta L}\right)\frac{\delta\phantom{c}}{\delta c} \right. + \nonumber                                                                                                 \\
-                                 & - \left. \frac{\delta\Sigma^{ (n-1) }}{\delta c}\frac{\delta\phantom{L}}{\delta L}-\frac{\delta\Sigma^{ (n-1) }}{\delta\tau}\frac{\delta\phantom{\psi}}{\delta\psi}+\frac{\delta\Sigma^{ (n-1) }}{\delta \psi}\frac{\delta\phantom{\tau}}{\delta \tau}-\frac{\delta\Sigma^{ (n-1) }}{\delta E}\frac{\delta\phantom{\phi}}{\delta\phi} - \frac{\delta\Sigma^{ (n-1) }}{\delta \phi}\frac{\delta\phantom{E}}{\delta E} \right. + \nonumber \\
+  \mathcal{S}_{\Gamma^{ (n-1) }} & \equiv \int \tr \left[\left(\psi-\frac{\delta\Gamma^{ (n-1) }}{\delta\Omega}\right)\frac{\delta\phantom{\omega}}{\delta \omega}-\frac{\delta\Gamma^{ (n-1) }}{\delta \omega}\frac{\delta\phantom{\Omega}}{\delta \Omega}+\left(\phi-\frac{\delta\Gamma^{ (n-1) }}{\delta L}\right)\frac{\delta\phantom{c}}{\delta c} \right. + \nonumber                                                                                                 \\
+                                 & - \left. \frac{\delta\Gamma^{ (n-1) }}{\delta c}\frac{\delta\phantom{L}}{\delta L}-\frac{\delta\Gamma^{ (n-1) }}{\delta\tau}\frac{\delta\phantom{\psi}}{\delta\psi}+\frac{\delta\Gamma^{ (n-1) }}{\delta \psi}\frac{\delta\phantom{\tau}}{\delta \tau}-\frac{\delta\Gamma^{ (n-1) }}{\delta E}\frac{\delta\phantom{\phi}}{\delta\phi} - \frac{\delta\Gamma^{ (n-1) }}{\delta \phi}\frac{\delta\phantom{E}}{\delta E} \right. + \nonumber \\
                                  & + \left. X\frac{\delta\phantom{Y}}{\delta Y}+b\frac{\delta\phantom{\bar{c}}}{\delta\bar{c}}+B\frac{\delta\phantom{\bar{\chi}}}{\delta\bar{\chi}}+\bar{\eta}\frac{\delta\phantom{\bar{\phi}}}{\delta\bar{\phi}}+\Omega\frac{\delta\phantom{\tau}}{\delta\tau}+L\frac{\delta\phantom{E}}{\delta E}+K\frac{\delta\phantom{\lambda}}{\delta\lambda}+H\frac{\delta\phantom{Z}}{\delta Z}\right]\;,
 \end{align}
 and
 \begin{align}
   \label{eq:linear-t-operator}
-  \mathcal{T}_{\Sigma^{ (n-1) }} & \equiv \int \tr \left[\frac{\delta\Sigma^{ (n-1) }}{\delta \Omega}\frac{\delta\phantom{\psi}}{\delta \psi} + \frac{\delta\Sigma^{ (n-1) }}{\delta\psi}\frac{\delta\phantom{\Omega}}{\delta \Omega} + \frac{\delta\Sigma^{ (n-1) }}{\delta H}\frac{\delta\phantom{X}}{\delta X} + \frac{\delta\Sigma^{ (n-1) }}{\delta X}\frac{\delta\phantom{H}}{\delta H} \right. + \nonumber \\
-                                 & + \left.\frac{\delta\Sigma^{ (n-1) }}{\delta L}\frac{\delta\phantom{\phi}}{\delta \phi} + \frac{\delta\Sigma^{ (n-1) }}{\delta \phi}\frac{\delta\phantom{L}}{\delta L} + \frac{\delta\Sigma^{ (n-1) }}{\delta K}\frac{\delta\phantom{B}}{\delta B} + \frac{\delta\Sigma^{ (n-1) }}{\delta B}\frac{\delta\phantom{K}}{\delta K} \right. + \nonumber                             \\
+  \mathcal{T}_{\Gamma^{ (n-1) }} & \equiv \int \tr \left[\frac{\delta\Gamma^{ (n-1) }}{\delta \Omega}\frac{\delta\phantom{\psi}}{\delta \psi} + \frac{\delta\Gamma^{ (n-1) }}{\delta\psi}\frac{\delta\phantom{\Omega}}{\delta \Omega} + \frac{\delta\Gamma^{ (n-1) }}{\delta H}\frac{\delta\phantom{X}}{\delta X} + \frac{\delta\Gamma^{ (n-1) }}{\delta X}\frac{\delta\phantom{H}}{\delta H} \right. + \nonumber \\
+                                 & + \left.\frac{\delta\Gamma^{ (n-1) }}{\delta L}\frac{\delta\phantom{\phi}}{\delta \phi} + \frac{\delta\Gamma^{ (n-1) }}{\delta \phi}\frac{\delta\phantom{L}}{\delta L} + \frac{\delta\Gamma^{ (n-1) }}{\delta K}\frac{\delta\phantom{B}}{\delta B} + \frac{\delta\Gamma^{ (n-1) }}{\delta B}\frac{\delta\phantom{K}}{\delta K} \right. + \nonumber                             \\
                                  & +\left.\left(\bar{c}+\bar{\eta}\right)\left(\frac{\delta\phantom{\bar{c}}}{\delta\bar{c}}-\frac{\delta\phantom{\bar{\eta}}}{\delta\bar{\eta}}\right)\right] \;.
 \end{align}
 Due to the recursive method of the algebraic renormalization technique, results valid for $ \Gamma^{ (1) } $ are equally valid for $ \Gamma^{ (n) } $, and \textit{vice-versa}. Additionally, the linearized Slavnov-Taylor operator~\eqref{eq:linear-st-operator} is nilpotent, and defines a cohomology which is isomorphic to the $ s $-cohomology.
 
-The most general solution of~\eqref{eq:ward-identities}, for $n=1$, represents the most general counterterm that radiative corrections can generate --- to all orders in perturbation theory. A good way to start is via~\eqref{eq:quantum-st-identity}. Due to $ {\mathcal{S}_{\Sigma}}^{ 2 } = 0 $, its most general solution gives
+The most general solution of~\eqref{eq:ward-identities} for $n=1$, represents the most general counterterm that $n$-th loop radiative corrections can generate. A good way to start is via~\eqref{eq:quantum-st-identity}. Due to $ {\mathcal{S}_{\Sigma}}^{ 2 } = 0 $, its most general solution gives
 \begin{equation}
   \label{eq:solution-to-quantum-st}
   \Sigma^{ (1) } = \Delta^0 + \mathcal{S}_{ \Sigma } \Delta^{ -1 }\;.
@@ -233,13 +233,14 @@ $ \Delta^0 $ and $ \Delta^{ -1 } $ are the most general integrated polynomial in
 where $ a_1 $ and $ a_2 $ are arbitrary renormalization parameters. The latter, consistent with all the other Ward identities in~\eqref{eq:ward-identities}, is given by
 \begin{equation}
   \label{eq:delta-1}
-  \Delta^{-1} \equiv \int \tr \left( a_3 \bar{ \chi } R + a_4 YR \right) \;,
+  \Delta^{-1} \equiv \int \tr \left( \alpha_3 Y R + \alpha_4 Y \star R + \alpha_5 Y R^* + \alpha_6 Y \star R^* + \beta \bar{ \chi } R^{\pm} \right) \;,
 \end{equation}
-where $ a_3 $ is also an arbitrary renormalization parameter. Finally, the most general counterterm action functional, and solution to~\eqref{eq:ward-identities}, is
+where $ \alpha_3 $, $ \alpha_4 $, $ \alpha_5 $, $ \alpha_6 $, and $ \beta $ are also arbitrary renormalization parameters. Finally, the most general counterterm action functional, and solution to~\eqref{eq:ward-identities}, is
 \begin{align}
   \label{eq:ct-action}
-  \Sigma^{ (1) } & = \int \tr \left\{ a_1 R R + a_2 R R^* + a_3 \left[ B R + \bar{ \chi } \left( D \psi + \left[ c, R \right] \right) \right] + a_4 \left[ XR + Y \left( D \psi \right. + \right. \right. \nonumber \\
-                 & \left. \left. + \left. \left[ c, R \right] \right) \right] \right\} \;.
+  \Sigma^{ (1) } & = \int \tr \left\{ \vphantom{^{\pm}} a_1 R R + a_2 R R^* + \alpha_3 \left[ X R + Y \left( D \psi + \left[ c, R \right] \right) \right] + \alpha_4 \left[ X \star R \right. + \right. \nonumber                            \\
+                 & \left. + \left. Y \star \left( D \psi + \left[ c, R \right] \right) \right] + \alpha_5 \left[ X R^* + Y {\left( D \psi + \left[ c, R \right] \right)}^* \right] + \alpha_6 \left[ X \star R^* \right. + \right. \nonumber \\
+                 & \left. + \left. Y \star {\left( D \psi + \left[ x, R \right] \right)}^* \right] + \beta \left[ BR^{ \pm } + \bar{ \chi } {\left( D \psi + \left[ c, R \right] \right)}^{ \pm }  \right]\right\} \;.
 \end{align}
 
 \subsection{Quantum stability}\label{sec:stability;sec:quantum}
@@ -254,24 +255,30 @@ where
   \label{eq:field-redef}
   \begin{align}
     \Phi_0 & \equiv z_{ \Phi } \Phi \;\; ; \;\; \Phi \in \left\{ \omega, c, \psi, \phi, \bar{ c }, b, \bar{ \chi }, B, \bar{ \phi }, \bar{ \eta } \right\} \;, \\
-    G_0    & \equiv z_{ G } G \;\; ; \;\; G \in \left\{ g_1, \ldots, g_{10}, a_1, \ldots, a_3 \right\} \;,                                                     \\
+    G_0    & \equiv z_{ G } G \;\; ; \;\; G \in \left\{ g_1, \ldots, g_{10} \right\} \;,                                                                       \\
     J_0    & \equiv z_{ J } J \;\; ; \;\; J \in \left\{ \tau, \Omega, E, L, \lambda, K, Z, H, Y, X \right\} \;,
   \end{align}
 \end{subequations}
-are multiplicative redefinitions of all the quantum fields, coupling parameters, and external sources. This requirement guarantees that no infinities are left untamed --- to all orders in perturbation theory.
+is the multiplicative redefinition of all quantum fields, coupling parameters, and external sources. This requirement guarantees that no infinities are left untamed to all orders in perturbation theory.
 
-For our topological symmetry-restaured phase of gravity, the non-trivial $z$-factors are given by
+For our topological symmetry-restaured phase of gravity, the $z$-factors are
 \begin{subequations}%
   \label{eq:z-factors}
   \begin{align}
-    z_B z_{ \omega } & = z_c z_{\bar{\chi}} = 1 + \epsilon a_3 \;,                \\
-    z_E              & = {z_{g_1}}^{-2} {z_c}^{-3} \;,                            \\
-    z_{ \omega }     & = z_b = {z_{g_1}}^{-1} \;,                                 \\
-    z_K              & = {z_{ g_1 }}^{-1} {z_c}^{-1} {z_{\bar{\chi}}}^{-1} \;,    \\
-    z_\Lambda        & = {z_{ g_1 }}^{-2} {z_c}^{-2} {z_{\bar{\chi}}}^{-1} \;,    \\
-    z_{\bar{c}}      & = z_\Omega = z_\psi = z_{\bar\eta} = {z_c}^{-1} \;,        \\
-    z_\phi           & = z_{\bar{\phi}} = z_L = z_\tau = {z_g}^{-1} {z_c}^{-2}\;.
+    z_{ X }               & = { z_{ H } }^{ -1 } \;,                                                                                                                          \\
+    z_{ \omega }          & = z_{ b } = 1 \;,                                                                                                                                 \\
+    z_{ g_{ 1 } }         & = 1 + \epsilon { g_{ 1 } }^{ -1 } a_{ 1 } \;,                                                                                                     \\
+    z_{ g_{ 2 } }         & = 1 + \epsilon { g_{ 2 } }^{ -1 } a_{ 2 } \;,                                                                                                     \\
+    z_{ g_{ 3 } } z_{ X } & = 1 + \epsilon { g_{ 3 } }^{ -1 } \alpha_{ 3 } \;,                                                                                                \\
+    z_{ g_{ 4 } } z_{ X } & = 1 + \epsilon { g_{ 4 } }^{ -1 } \alpha_{ 4 } \;,                                                                                                \\
+    z_{ g_{ 5 } } z_{ X } & = 1 + \epsilon { g_{ 5 } }^{ -1 } \alpha_{ 5 } \;,                                                                                                \\
+    z_{ g_{ 6 } } z_{ X } & = 1 + \epsilon { g_{ 6 } }^{ -1 } \alpha_{ 6 } \;,                                                                                                \\
+    z_{ B }               & = 1 + \epsilon \beta = { z_{ K } }^{ -1 } \;,                                                                                                     \\
+    z_{ g_{ 7 } }         & = z_{ g_{ 8 } } =  z_{ g_{ 9 } } = z_{ g_{ 10 } }  = { z_{ H } }^{ 2 } \;,                                                                        \\
+    z_{ \bar{ \phi } }    & = z_{ \tau } = z_{ L } = {z_{ \bar{ c } }}^{ 2 } = z_{ \lambda } z_{ \bar{ \chi } } = z_{ Y } z_{ Z } = {z_{ \phi } }^{ -1 } \;,                  \\
+    z_{ \bar{ c } }       & = z_{ \Omega } = z_{ \bar{ \eta } } = z_{ B } z_{ \lambda } = z_{ Y } z_{ H } = z_{ E } z_{ \phi } = {z_{ \psi } }^{ -1 } = {z_{ c } }^{ -1 } \;.
   \end{align}
 \end{subequations}
+Clearly, the gauge field $ \omega $ does not renormalize. This is a feature of TYM due to the lack of local field equations. The physical coupling, $ g_1 $ and $ g_2 $, renormalize with the non-trivial sector of the $ s $-cohomology, while the non-physical ones, $ g_3 $, \ldots, $ g_{10} $, renormalize with the trivial sector. Thus, these results are quite consistent.
 
 \end{document}

@@ -94,11 +94,13 @@ The field equations are trivial ($0=0$), which signals a lack of local dynamics.
 A partition function for TYM, formally defined in the weakly coupled regime, requires~\eqref{eq:tym-action} to be gauge fixed. Quantum TYM (QTYM) has been studies in several different gauge choices~\cite{baulieu1988a,myers1990c,brandhuber1994a,piguet1995a,sadovski2017c,sadovski2018a,sadovski2018b}. Here, we adopt the (anti-)self-dual Landau ((A)SDL) conditions
 \begin{subequations}\label{eq:asdlg}
   \begin{align}
-    d \star A     & = 0 \;, \\
-    d \star \psi  & = 0 \;, \\
-    F \pm \star F & = 0 \,.
+    d \star A    & = 0 \;, \\
+    d \star \psi & = 0 \;, \\
+    F^{\pm}      & = 0 \,,
   \end{align}
 \end{subequations}
+where $ F^{\pm} \equiv F \pm \star F $.
+
 The $ s $-cohomology guarantees that QTYM is free of gauge anomalies~\cite{baulieu1988a}. The (A)SDL gauge choice is convenient because it results in a very strong set of Ward identities. In this gauge, QTYM is shown to be renormalizable to all orders in perturbation theory. It has only one independent, and non-physical, renormalization~\cite{sadovski2017c}. The physical coupling parameter $g$ does not renormalize at all, indicating the vanishing of its $\beta$-function. All connected $n$-point Green functions also vanish: the theory is tree-level exact~\cite{sadovski2018a}. Clearly, this gauge makes evident that QTYM also has no local degrees of freedom. And, due to the lack of loop corrections, the classical observables in~\eqref{eq:tym-observables} maintain their topological nature: the QTYM observables are still Donaldson polynomials.
 
 Gauge conditions are, generally, $ \mathrm{g} $ metric-contaminated. This is evident in~\eqref{eq:asdlg}, due to the presence of the $\star$ operator. Consequentially, care is needed to implement them without spoiling the topological nature of the partition function. The standard procedure, in the BRST quantization scheme, is to introduce Zwanzinger sources --- a pair for each gauge condition --- satisfying the $s$-doublet condition,
@@ -114,9 +116,9 @@ We refer to Table~\ref{tab:tym-grading} for the grading of these fields.
 The doublet theorem guarantees that no observable can be made out of these sources --- terms containing $\bar{c}$, $b$, $\bar{\chi}$, $B$, $\bar{\phi}$, and/or $\bar{\eta}$ are, at most, $s$-boundaries. Following this spirit, we define the gauge fixing action as
 \begin{subequations}\label{eq:tym-gf-action}
   \begin{align}
-    S_{\text{GF}} & = s \int \tr \left[ \bar{c} d \star A + \bar{\phi} d \star \psi + \bar{\chi} \left( F \pm \star F \right) \right] \;,                                                                                                            \\
+    S_{\text{GF}} & = s \int \tr \left[ \bar{c} d \star A + \bar{\phi} d \star \psi + \bar{\chi} F^{\pm} \right] \;,                                                                                                                                 \\
                   & =  \int \tr \left[ b d \star A - \bar{c} d \star Dc + \left( \bar{c} + \bar{\eta} + \left[ c,\bar{\phi} \right] \right) d \star \psi + \bar{\phi} d \star D \phi + d c \left[ \star \psi ,\bar{\phi} \right] + \right. \nonumber \\
-                  & + \left. \left( B + \left[ c,\bar{\chi} \right] \right) \left( F \pm \star F \right) + \bar{\chi} \left( D \pm \star D \right) \psi \right] \;.
+                  & + \left. \left( B + \left[ c,\bar{\chi} \right] \right) F^{\pm} + \bar{\chi} {\left( D \psi \right)}^{ \pm } \right] \;.
   \end{align}
 \end{subequations}
 
