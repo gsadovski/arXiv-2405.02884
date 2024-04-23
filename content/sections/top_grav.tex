@@ -20,7 +20,9 @@ Let $\sigma_{ab}=-\sigma_{ba}$ be the 6 linearly independent generators\footnote
     \tr (\sigma_{ab}\sigma_{cd})            & = 4 \tensor{\delta}{_{ a \left[ c \right. }} \tensor{\delta}{_{ \left. d \right] b }} \;.                                                               % chktex 9
   \end{align}
 \end{subequations}
-It is commonplace in the literature to denote by $\omega=\tensor{\omega}{^{ab}_\mu} \sigma_{ab}dx^\mu$ the $\mathrm{ad} Fr $-valued connection 1-form, and by $R=d \omega + \omega^2$ its curvature 2-form. We stress that $ \omega $ and $ R $ are, respectively, the same mathematical objects as $A$ and $F$, defined in Section~\ref{sec:tym}. Nevertheless, a particular consequence of having $G=SO(4)$ is that the Pfaffian of $R$ is, now, well-defined and non-vanishing,
+It is commonplace in the literature to denote by $\omega=\tensor{\omega}{^{ab}_\mu} \sigma_{ab}dx^\mu$ the $\mathrm{ad} Fr $-valued connection 1-form, and by $R=d \omega + \omega^2$ its curvature 2-form. We stress that $ \omega $ and $ R $ are, respectively, the same mathematical objects as $A$ and $F$, defined in Section~\ref{sec:tym}.
+
+There are two particular consequence of having $G=SO(4)$, which is relevant to us. First, the Pfaffian of $R$ is, now, a well-defined and non-vanishing quantity,
 \begin{subequations}%
   \label{eq:euler-class}
   \begin{align}
@@ -28,9 +30,23 @@ It is commonplace in the literature to denote by $\omega=\tensor{\omega}{^{ab}_\
                          & =\frac{ 1 }{ 16 } \tr \left( RR^* \right) \;,
   \end{align}
 \end{subequations}
-where $*$ is the Hodge dual\footnote{ $ R^* = \frac{ 1 }{ 2 } R^{ab}\tensor{ \epsilon }{_{ab}^{cd}} \sigma_{cd} $. } on $SO(4)$. This is equivalent to define the Euler class of $ Fr $.
+where $*$ is the Hodge dual\footnote{ $ R^* = \frac{ 1 }{ 2 } R^{ab}\tensor{ \epsilon }{_{ab}^{cd}} \sigma_{cd} $. } on $SO(4)$. This is equivalent to define the Euler class of $ Fr $. Second, the existence of $*$ also allows us to extend the notion of (anti-)self duality to
+\begin{equation}
+  \label{eq:extended-self-duality}
+  R^{ \pm } = 0  \;,
+\end{equation}
+where $ R^{ \pm } \equiv R \pm \star \left( R + R^{ * } + \star R^{ * } \right) $. And, consequentially, extend the (A)SDL gauge conditions to
+\begin{subequations}%
+  \label{eq:extended-asdlg}
+  \begin{align}
+    d \star \omega & = 0 \;, \\
+    d \star \psi   & = 0 \;, \\
+    R^{ \pm }      & =0 \;.
+  \end{align}
+\end{subequations}
+We choose to do so, as this extended (A)SDL gauge improves the renormalizability behavior of the model we are about to construct --- see Section~\ref{sec:quantum}. One can see that these consequences are direct results of the Levi-Civita permutation symbol $ \epsilon_{a_1 \ldots a_N} $ being an invariant tensor of $ SO(N) $. A statement which is not true for any $G$.
 
-Continuing the construction,
+The BRST transformations remain the same, of course,
 \begin{subequations}%
   \label{eq:top_grav_brst}
   \begin{align}
@@ -38,20 +54,20 @@ Continuing the construction,
     sc      & = - c^2 + \phi \;,                    \\
     s\psi   & = -D\phi - \left[ c, \psi \right] \;, \\
     s\phi   & = - \left[ c, \phi \right]\;,         \\
-    sR      & = -D\psi - \left[ c, R \right] \;,
+    sR      & = -D\psi - \left[ c, R \right] \;.
   \end{align}
 \end{subequations}
-is exactly the same TYM BRST of Section~\ref{sec:tym}. In particular, the observables are the same, except for the adition of~\eqref{eq:euler-class}.
+In particular, the observables are the same, except for the presence of~\eqref{eq:euler-class}.
 
 We define our topological symmetry-restored phase of gravity via the action functional
 \begin{equation}
   \label{eq:top_grav_action}
   S_{\text{TG}}\left[ \omega \right] \equiv \int \tr \left( g_1 R^2 + g_2 RR^* \right)\;,
 \end{equation}
-where $g_1$ and $g_2$ are adimensional coupling parameters. The reason to call~\eqref{eq:top_grav_action} \textquote{topological symmetry-restored phase of gravity} will become clear in Section~\ref{ssec:from_top_to_grav;sec:top_grav}. For now, we restrict ourselves to comment that $S_{\text{TG}}$ is the most general action functional that is:
+where $g_1$ and $g_2$ are adimensional coupling parameters. Of course, couplings involving $ \star $ are forbidden by the topological BRST~\eqref{eq:top_grav_brst}. The reason to call~\eqref{eq:top_grav_action} \textquote{topological symmetry-restored phase of gravity} will become clear in Section~\ref{ssec:from_top_to_grav;sec:top_grav}. For now, we restrict ourselves to comment that $S_{\text{TG}}$ is the most general action functional that is:
 \begin{enumerate}[label=\roman*)] % chktex 9 chktex 10 
   \item an invariant polynomial of $\omega$ and its derivatives;
-  \item local;
+  \item local\footnote{The integrand is a function of a single spacetime point. };
   \item power-counting renormalizable;
   \item fully topological --- it is the sum of the (compactly supported) Hirzebrunch signature and the (compactly supported) Euler characteristic of spacetime;
   \item  and, by definition, an $s$-cycle which is not an $s$-boundary.
@@ -138,7 +154,7 @@ The field equations for the gravitational fields $\gamma$ and $\omega$ are, resp
 \end{subequations}
 where $ T = D \gamma $ is the $\mathrm{Cl}Fr$-valued torsion 2-form. Their solutions are Riemann-Cartan spacetimes, in general.
 
-The presence of curvature and torsion is due to our adoption of the most general construction in~\eqref{eq:s-boundary_action}. If one wishes to generate only Einstein gravity, the values of the $ g_i $ can be tweaked by hand to do so. However, this goes against the quantum field theory philosophy. We determine symmetries, the symmetries determine the allowed couplings, and their values via $ \beta $-functions.
+The presence of curvature and torsion is due to our adoption of the most general construction in~\eqref{eq:s-boundary_action}. If one wishes to generate only Einstein gravity, the values of the $ g_i $ can be tweaked by hand to do so. However, we chose not to do so as it goes against the quantum field theory philosophy. That is, we just determine the symmetries. It is role of the symmetries to determine the allowed couplings, and their values, via their $ \beta $-functions.
 
 Via the Correspondence Principle,
 \begin{subequations}%
@@ -148,7 +164,7 @@ Via the Correspondence Principle,
     \mu^4 \left( g_8+g_9 \right) & = -\frac{{m_P}^2\Lambda^2}{384\pi} \;,
   \end{align}
 \end{subequations}
-where ${m_P}^2$ is Planck mass and $\Lambda^2$ the cosmological constant. The LHS of~\eqref{eq:correspondence} contain coupling parameters coming from a well-defined perturbative quantum field theory. In principle, their renormalized values can be obtained, thus predicting the values of the Planck scale, and the size of the observable universe. This will be in a future work.
+where ${m_P}^2$ is Planck mass and $\Lambda^2$ the cosmological constant. The LHS of~\eqref{eq:correspondence} contain coupling parameters coming from a well-defined perturbative quantum field theory. In principle, their renormalized values can be obtained, thus predicting the values of the Planck scale, and the size of the observable universe. This will be the topic of a future work.
 
 In Section~\ref{ssec:so4tym;sec:top_grav}, we commented on how the traditional YM BRST, given by~\eqref{eq:ym-brst}, is obtained from the TYM BRST, given by~\eqref{eq:tym-brst}, via the horizontal condition: $ s_{\text{YM}} = s|_{\psi = \phi = 0} $. Let $ s = s_{\text{YM}} + s_{\text{T}} $, where $ s_{\text{T}} $ is the \textquote{topological sector of $s$} given by
 \begin{subequations}%
