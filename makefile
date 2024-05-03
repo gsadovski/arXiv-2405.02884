@@ -2,13 +2,25 @@
 ## MANUSCRIPT MAKEFILE                  ##
 ## Author: Guilherme Sadovski           ##
 ## Contact: guilhermesadovski@gmail.com ##
-## Date: 2023/10/27                     ##
+## Date: 2024/05/03                     ##
 ##########################################
 
+############################
 # DEFINITIONS OF VARIABLES #
+############################
 TMPNAME=main
-JOBNAME = sadovski2023
-DESTINY = $(CLOUD)/work/research/sadovski2024
+JOBNAME = sadovski2024
+DESTINY = $(CLOUD)/work/research/$(JOBNAME)
+
+###############
+# CONVERSIONS #
+###############
+
+bib:
+	biber \
+		--output-format=bibtex \
+		--output-file=library.bib \
+		*.bcf
 
 #####################
 # PHONY CONVERSIONS #
