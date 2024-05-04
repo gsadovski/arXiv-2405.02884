@@ -22,7 +22,7 @@ Let $\sigma_{ab}=-\sigma_{ba}$ be the 6 linearly independent generators\footnote
 \end{subequations}
 It is commonplace in the literature to denote by $\omega=\tensor{\omega}{^{ab}_\mu} \sigma_{ab}dx^\mu$ the $\mathrm{ad} Fr $-valued connection 1-form, and by $R=d \omega + \omega^2$ its curvature 2-form. We stress that $ \omega $ and $ R $ are, respectively, the same mathematical objects as $A$ and $F$, defined in Section~\ref{sec:tym}.
 
-There are two particular consequence of having $G=SO(4)$, which is relevant to us. And, these are direct results of the Levi-Civita permutation symbol, $ \epsilon_{a_1 \ldots a_N} $, being an $ SO(N) $ invariant tensor --- a statement which is not true for any $G$. First, the Pfaffian of $R$ is, now, a well-defined and non-vanishing quantity,
+There are two particular consequences of having $G=SO(4)$, which is relevant to us. And, these are direct results of the Levi-Civita permutation symbol, $ \epsilon_{a_1 \ldots a_N} $, being an $ SO(N) $ invariant tensor --- a statement which is not true for any $G$. First, the Pfaffian of $R$ is, now, a well-defined and non-vanishing quantity,
 \begin{subequations}%
   \label{eq:euler-class}
   \begin{align}
@@ -64,7 +64,7 @@ We define our topological symmetry-restored phase of gravity via the action func
   \label{eq:top_grav_action}
   S_{\text{TG}}\left[ \omega \right] \equiv \int \tr \left( g_1 R^2 + g_2 RR^* \right)\;,
 \end{equation}
-where $g_1$ and $g_2$ are adimensional coupling parameters. Of course, couplings involving $ \star $ are forbidden by the topological BRST~\eqref{eq:top_grav_brst}. Its connection to gravity will become clear in Section~\ref{ssec:from_top_to_grav;sec:top_grav}. For now, we restrict ourselves to comment that $S_{\text{TG}}$ is the most general action functional that is:
+where $g_1$ and $g_2$ are dimensionless coupling parameters. Of course, couplings involving $ \star $ are forbidden by the topological BRST symmetry~\eqref{eq:top_grav_brst}. Its connection to gravity will become clear in Section~\ref{ssec:from_top_to_grav;sec:top_grav}. For now, we restrict ourselves to comment that $S_{\text{TG}}$ is the most general action functional that is:
 \begin{enumerate}[label=\roman*)] % chktex 9 chktex 10 
   \item an invariant polynomial of $\omega$ and its derivatives;
   \item local\footnote{The integrand is a function of a single spacetime point. };
@@ -76,7 +76,7 @@ where $g_1$ and $g_2$ are adimensional coupling parameters. Of course, couplings
 \subsection{Adding a BRST boundary}%
 \label{ssec:brst_boundary;sec:top_grav}
 
-If we add an $s$-boundary to~\eqref{eq:top_grav_action}, we strictly define a new dynamics. However, since $s$-boundaries lie outside the $s$-cohomology groups, the set of observables remains unchanged. In other words, we are still describing the same physical system. This is exactly what we did in Section~\ref{ssec:quantum-properties;sec:tym} to gauge fix TYM.\@ However, our objective here is not to gauge fix any symmetries. Consider the pair of new fields, $X$ and $Y$, satisfying the $s$-doublet condition
+If we add an $s$-boundary to~\eqref{eq:top_grav_action}, we strictly define a new dynamics. However, since $s$-boundaries lie outside the $s$-cohomology groups, the set of observables remains unchanged. In other words, we are still describing the same physical system. This is exactly what we did in Section~\ref{ssec:quantum-properties;sec:tym} to gauge fix TYM theory.\@ However, at this point, our objective here is not to gauge fix any symmetries. Consider the pair of new fields, $X$ and $Y$, satisfying the $s$-doublet condition
 \begin{equation}
   \label{eq:s-doublet}
   sY = X \;, \;\; sX = 0 \;.
@@ -106,7 +106,7 @@ The action $S_{\text{sb}}$ is not a topological invariant. Nevertheless, we emph
   \label{eq:tg+sb}
   S=S_{\text{TG}}+S_{\text{sb}}
 \end{equation}
-still is a topological field theory. Indeed, one physically indistinguishable from $S_{\text{TG}}$.
+still is a topological field theory. And, its is physically indistinguishable from $S_{\text{TG}}$.
 \begin{table}[htpb]
   \caption{Grading of $X$ and $Y$.}%
   \label{tab:grading2}
@@ -142,7 +142,7 @@ where $\mu$ is a mass scale. Indeed, when $X$ and $Y$ are identified accordingly
   S\big|_{\text{phys.}} & = \int \tr \left\{ g_1 R^2 + g_2 R R^* + \mu^2 \left[ \left( g_4 + g_5 \right) R \star \gamma^2 + \mu^2 \left( g_8 + g_9 \right) \gamma^2 \star \gamma^2  \right. + \right. \nonumber \\
                         & \left. + \left. \left( g_3 + g_6 \right) R \gamma^2 \right] \right\} \;,
 \end{align}
-can be immediately recognized as the Lovelock-Cartan theory of gravity on non-compact 4-manifolds~\cite{mardones1991a,hassaine2016a,corichi2016a}. The coupling $\tr \left( R \star \gamma^2 \right)$ is the Einstein-Palatini Lagrangian density, $\tr \left( \gamma^2 \star \gamma^2 \right)$ is the cosmological constant and $\tr \left( R \gamma^2 \right)$ is the Holst term~\cite{holst1996a} --- related to the torsional Nieh-Yan invariant polynomial~\cite{nieh1982a,chandia1997a,nieh2007a}.
+can be immediately recognized as the Lovelock-Cartan theory of gravity on non-compact 4-manifolds~\cite{mardones1991a,hassaine2016a,corichi2016a}. The coupling $\tr \left( R \star \gamma^2 \right)$ is the Einstein-Palatini Lagrangian density, $\tr \left( \gamma^2 \star \gamma^2 \right)$ is the cosmological constant term, and $\tr \left( R \gamma^2 \right)$ is the Holst term~\cite{holst1996a} --- related to the torsional Nieh-Yan invariant polynomial~\cite{nieh1982a,chandia1997a,nieh2007a}.
 
 The field equations for the gravitational fields $\gamma$ and $\omega$ are, respectively,
 \begin{subequations}%
@@ -166,7 +166,7 @@ Via the Correspondence Principle,
 \end{subequations}
 where ${m_P}^2$ is Planck mass and $\Lambda^2$ the cosmological constant. The LHS of~\eqref{eq:correspondence} contain coupling parameters coming from a well-defined perturbative quantum field theory. In principle, their renormalized values can be obtained, thus predicting the values of the Planck scale, and the size of the observable universe. This will be the topic of a future work.
 
-In Section~\ref{ssec:so4tym;sec:top_grav}, we commented on how the traditional YM BRST, given by~\eqref{eq:ym-brst}, is obtained from the TYM BRST, given by~\eqref{eq:tym-brst}, via the horizontal condition: $ s_{\text{YM}} = s|_{\psi = \phi = 0} $. Let $ s = s_{\text{YM}} + s_{\text{T}} $, where $ s_{\text{T}} $ is the \textquote{topological sector of $s$} given by
+In Section~\ref{ssec:so4tym;sec:top_grav}, we commented on how the traditional YM BRST symmetry, given by~\eqref{eq:ym-brst}, is obtained from the TYM BRST, given by~\eqref{eq:tym-brst}, via the horizontal condition: $ s_{\text{YM}} = s|_{\psi = \phi = 0} $. Let $ s = s_{\text{YM}} + s_{\text{T}} $, where $ s_{\text{T}} $ is the \textquote{topological sector of $s$} given by
 \begin{subequations}%
   \label{eq:s_T}
   \begin{align}
