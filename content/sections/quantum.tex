@@ -17,7 +17,7 @@ First, we fix the gauge symmetry of~\eqref{eq:tg+sb} by adding to it the extende
   \end{align}
 \end{subequations}
 
-Second, the non-linearity of the BRST, and of the non-linear bosonic ghost symmetry,~\eqref{eq:nl-bosonic-eq}, will inevitably appear as insertions in the correlation function of the quantized theory. To account for these infinities, we need to explicitly include them in the total action. Consider the $ s $-doublets,
+Second, the non-linearity of the BRST transformations, and of the non-linear bosonic ghost symmetry,~\eqref{eq:nl-bosonic-eq}, will inevitably appear as insertions in the correlation function of the quantized theory. To account for these infinities, we need to explicitly include them in the total action. Consider the $ s $-doublets,
 \begin{subequations}%
   \label{eq:nl-s-doublets}
   \begin{align}
@@ -107,19 +107,6 @@ The equations~\eqref{eq:topgfeq} and~\eqref{eq:fpantighosteq} can be combined in
           \mathcal{S} & \equiv \int \tr\left[\left(\psi-\frac{\delta\phantom{\Omega}}{\delta\Omega}\right)\frac{\delta\phantom{\omega }}{\delta \omega }+\left(\phi-\frac{\delta\phantom{L}}{\delta L}\right)\frac{\delta\phantom{c}}{\delta c}-\frac{\delta\phantom{\tau}}{\delta\tau}\frac{\delta\phantom{\psi}}{\delta\psi}-\frac{\delta\phantom{E}}{\delta E}\frac{\delta\phantom{\phi}}{\delta\phi}+X\frac{\delta\phantom{Y}}{\delta Y} \right. + \nonumber \\
                       & + \left. b\frac{\delta\phantom{\bar{c}}}{\delta\bar{c}}+B\frac{\delta\phantom{\bar{\chi}}}{\delta\bar{\chi}}+\bar{\eta}\frac{\delta\phantom{\bar{\phi}}}{\delta\bar{\phi}} + \Omega \frac{\delta\phantom{\tau}}{\delta\tau}+L\frac{\delta\phantom{E}}{\delta E}+K\frac{\delta\phantom{\lambda}}{\delta\lambda}+H\frac{\delta\phantom{Z}}{\delta Z}\right] \;;
         \end{align}
-  \item The bosonic anti-ghost equation
-        \begin{equation}
-          \mathcal{G}_\phi \left(\Sigma\right) = \Delta_\phi \;,
-        \end{equation}
-        where
-        \begin{equation}
-          \mathcal{G}_\phi \equiv \int \left(\frac{\delta\phantom{\phi}}{\delta\phi}-\left[\bar{\phi},\frac{\delta\phantom{b}}{\delta b}\right]\right) \;,
-        \end{equation}
-        and
-        \begin{equation}
-          \label{eq:linearbreakphi}
-          \Delta_\phi \equiv \int \left(\left[\omega ,\tau\right]+\left[c,E\right]+\left[\bar{\chi},\lambda\right]+\left[Y,Z\right]\right) \;;
-        \end{equation}
   \item The 1st FP ghost equation
         \begin{equation}
           \label{eq:1stfpghosteq}
@@ -146,6 +133,19 @@ The equations~\eqref{eq:topgfeq} and~\eqref{eq:fpantighosteq} can be combined in
         \begin{equation}
           \label{eq:2ndfpghostop}
           \mathcal{G}^{\left(2\right)}_c \equiv \int \left(\frac{\delta\phantom{c}}{\delta c}+\left[\omega ,\frac{\delta\phantom{\psi}}{\delta \psi}\right]+\left[c,\frac{\delta\phantom{\phi}}{\delta \phi}\right]-\left[\bar{\phi},\frac{\delta\phantom{\bar{c}}}{\delta\bar{c}}\right]+\left[\tau,\frac{\delta\phantom{\Omega}}{\delta \Omega}\right]+\left[E,\frac{\delta\phantom{L}}{\delta L}\right]\right)\;;
+        \end{equation}
+  \item The bosonic ghost equation
+        \begin{equation}
+          \mathcal{G}_\phi \left(\Sigma\right) = \Delta_\phi \;,
+        \end{equation}
+        where
+        \begin{equation}
+          \mathcal{G}_\phi \equiv \int \left(\frac{\delta\phantom{\phi}}{\delta\phi}-\left[\bar{\phi},\frac{\delta\phantom{b}}{\delta b}\right]\right) \;,
+        \end{equation}
+        and
+        \begin{equation}
+          \label{eq:linearbreakphi}
+          \Delta_\phi \equiv \int \left(\left[\omega ,\tau\right]+\left[c,E\right]+\left[\bar{\chi},\lambda\right]+\left[Y,Z\right]\right) \;;
         \end{equation}
   \item  The vectorial supersymmetry
         \begin{equation}
@@ -220,12 +220,12 @@ and
 \end{align}
 Due to the recursive method of the algebraic renormalization technique, results valid for $ \Gamma^{ (1) } $ are equally valid for $ \Gamma^{ (n) } $, and \textit{vice-versa}. Additionally, the linearized Slavnov-Taylor operator~\eqref{eq:linear-st-operator} is nilpotent, and defines a cohomology which is isomorphic to the $ s $-cohomology.
 
-The most general solution of~\eqref{eq:ward-identities} for $n=1$, represents the most general counterterm that $n$-loop radiative corrections can generate. A good way to start is via~\eqref{eq:quantum-st-identity}. Due to $ {\mathcal{S}_{\Sigma}}^{ 2 } = 0 $, its most general solution gives
+The most general solution of~\eqref{eq:ward-identities} for $n=1$, represents the most general counterterm that $n$-loop radiative corrections can generate. A good way to start is via~\eqref{eq:quantum-st-identity}, due to the nilpotency of the linearized Slavnov-Taylor operators, $ {\mathcal{S}_{\Sigma}}^{ 2 } = 0 $. Its most general solution reads
 \begin{equation}
   \label{eq:solution-to-quantum-st}
   \Sigma^{ (1) } = \Delta^0 + \mathcal{S}_{ \Sigma } \Delta^{ -1 }\;.
 \end{equation}
-$ \Delta^0 $ and $ \Delta^{ -1 } $ are the most general integrated polynomial invariant of the quantum fields and external sources, which are local, power-counting renormalizable, and a 4-form. In particular, $ \Delta^0 $ has ghost number 0, and $ \Delta^{ -1 } $ has ghost number -1. The former belong to the $ \mathcal{S}_{ \Sigma } $-cohomology, and is given by
+$ \Delta^0 $ and $ \Delta^{ -1 } $ are the most general integrated polynomial invariant of the quantum fields and external sources, which are local, power-counting renormalizable, and a 4-form. In particular, $ \Delta^0 $ has ghost number 0, and $ \Delta^{ -1 } $ has ghost number -1. The former belongs to the $ \mathcal{S}_{ \Sigma } $-cohomology, and is given by
 \begin{equation}
   \label{eq:delta0}
   \Delta^0 \equiv \int \tr \left( a_1 RR + a_2 RR^* \right) \;,
@@ -277,6 +277,6 @@ is the multiplicative redefinition of all quantum fields, coupling parameters, a
     z_{ \bar{ c } }       & = z_{ \Omega } = z_{ \bar{ \eta } } = z_{ B } z_{ \lambda } = z_{ Y } z_{ H } = z_{ E } z_{ \phi } = {z_{ \psi } }^{ -1 } = {z_{ c } }^{ -1 } \;.
   \end{align}
 \end{subequations}
-Clearly, the gauge field $ \omega $ does not renormalize. This is a feature of TYM due to the lack of local field equations. The physical coupling, $ g_1 $ and $ g_2 $, renormalize with the non-trivial sector of the $ s $-cohomology, while the non-physical ones, $ g_3, \ldots, g_{10} $, renormalize with the trivial sector. This is exactly what is to be expected.
+Clearly, the gauge field $ \omega $ does not renormalize. This is a feature of TYM due to the lack of local field equations. The physical coupling, $ g_1 $ and $ g_2 $, renormalize with the $ s $-cohomology, while the non-physical ones, $ g_3, \ldots, g_{10} $, renormalize with $ s $-boundaries. This is exactly what is to be expected.
 
 \end{document}
