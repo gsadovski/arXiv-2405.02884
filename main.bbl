@@ -1,0 +1,2575 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{birmingham1991a}{article}{}
+      \name{author}{4}{}{%
+        {{hash=67068660a48ef4a3feafa914f961fdb7}{%
+           family={Birminghan},
+           familyi={B\bibinitperiod},
+           given={Danny},
+           giveni={D\bibinitperiod}}}%
+        {{hash=aed040c8e559cecefe76ca615dde7928}{%
+           family={Blau},
+           familyi={B\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1032cfbaa29b020b8a06c7c9fb737232}{%
+           family={Rakowski},
+           familyi={R\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{hash=13fe87dded387c98d1c17583f1dcf24e}{%
+           family={Thompson},
+           familyi={T\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{ae7b4ef380b34318be51a4268486d810}
+      \strng{fullhash}{25b8e42ca0eee0c6b37ebb02189c7e27}
+      \strng{bibnamehash}{ae7b4ef380b34318be51a4268486d810}
+      \strng{authorbibnamehash}{ae7b4ef380b34318be51a4268486d810}
+      \strng{authornamehash}{ae7b4ef380b34318be51a4268486d810}
+      \strng{authorfullhash}{25b8e42ca0eee0c6b37ebb02189c7e27}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physics Reports}
+      \field{month}{12}
+      \field{number}{4--5}
+      \field{title}{Topological field theory}
+      \field{volume}{209}
+      \field{year}{1991}
+      \field{pages}{129\bibrangedash 340}
+      \range{pages}{212}
+      \verb{doi}
+      \verb 10.1016/0370-1573(91)90117-5
+      \endverb
+      \verb{file}
+      \verb birmingham1991a
+      \endverb
+    \endentry
+    \entry{blau1993a}{article}{}
+      \name{author}{1}{}{%
+        {{hash=aed040c8e559cecefe76ca615dde7928}{%
+           family={Blau},
+           familyi={B\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{aed040c8e559cecefe76ca615dde7928}
+      \strng{fullhash}{aed040c8e559cecefe76ca615dde7928}
+      \strng{bibnamehash}{aed040c8e559cecefe76ca615dde7928}
+      \strng{authorbibnamehash}{aed040c8e559cecefe76ca615dde7928}
+      \strng{authornamehash}{aed040c8e559cecefe76ca615dde7928}
+      \strng{authorfullhash}{aed040c8e559cecefe76ca615dde7928}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{These lecture notes give an introductory account of an approach to cohomological field theory due to Atiyah and Jeffrey which is based on the construction of Gaussian shaped Thom forms by Mathai and Quillen. Topics covered are: an explanation of the Mathai-Quillen formalism for finite dimensional vector bundles; the definition of regularized Euler numbers of infinite dimensional vector bundles; interpretation of supersymmetric quantum mechanics as the regularized Euler number of loop space; the Atiyah-Jeffrey interpretation of Donaldson theory; the construction of topological gauge theories from infinite dimensional vector bundles over spaces of connections.}
+      \field{eprintclass}{hep-th}
+      \field{eprinttype}{arXiv}
+      \field{issn}{03930440}
+      \field{journaltitle}{Journal of Geometry and Physics}
+      \field{month}{6}
+      \field{number}{1-4}
+      \field{title}{The Mathai-Quillen formalism and topological field theory}
+      \field{volume}{11}
+      \field{year}{1993}
+      \field{pages}{95\bibrangedash 127}
+      \range{pages}{33}
+      \verb{doi}
+      \verb 10.1016/0393-0440(93)90049-K
+      \endverb
+      \verb{eprint}
+      \verb hep-th/9203026v1
+      \endverb
+      \verb{file}
+      \verb blau1993a
+      \endverb
+    \endentry
+    \entry{cordes1995a}{article}{}
+      \name{author}{3}{}{%
+        {{hash=dd2a7a7104ea510937a07bbec92d45d6}{%
+           family={Stefan\bibnamedelima Cordes},
+           familyi={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=71231a1b73ae1303f99e52ea315eeedd}{%
+           family={Gregory\bibnamedelima W.\bibnamedelimi Moore},
+           familyi={G\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=b71f4b194c206a96e6853c9e65397ee2}{%
+           family={Ramgoolam},
+           familyi={R\bibinitperiod},
+           given={Sanjaye\bibnamedelima },
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{c158edb48f2582f3cd5a4ba22c9a614a}
+      \strng{fullhash}{c158edb48f2582f3cd5a4ba22c9a614a}
+      \strng{bibnamehash}{c158edb48f2582f3cd5a4ba22c9a614a}
+      \strng{authorbibnamehash}{c158edb48f2582f3cd5a4ba22c9a614a}
+      \strng{authornamehash}{c158edb48f2582f3cd5a4ba22c9a614a}
+      \strng{authorfullhash}{c158edb48f2582f3cd5a4ba22c9a614a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{These are expository lectures reviewing (1) recent developments in two-dimensional Yang-Mills theory, and (2) the construction of topological field theory Lagrangians. Topological field theory is discussed from the point of view of infinite-dimensional differential geometry. We emphasize the unifying role of equivariant cohomology both as the underlying principle in the formulation of BRST transformation laws and as a central concept in the geometrical interpretation of topological field theory path integrals.}
+      \field{eprintclass}{hep-th}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Nuclear Physics B --- Proceedings Supplements}
+      \field{month}{4}
+      \field{number}{1--3}
+      \field{title}{Lectures on 2D Yang-Mills theory, equivariant cohomology and topological field theories}
+      \field{volume}{41}
+      \field{year}{1995}
+      \field{pages}{184\bibrangedash 244}
+      \range{pages}{61}
+      \verb{doi}
+      \verb 10.1016/0920-5632(95)00434-B
+      \endverb
+      \verb{eprint}
+      \verb hep-th/9411210
+      \endverb
+      \verb{file}
+      \verb cordes1995a
+      \endverb
+    \endentry
+    \entry{witten1988c}{article}{}
+      \name{author}{1}{}{%
+        {{hash=499139cc4d3fda9ba3955fa766a07270}{%
+           family={Witten},
+           familyi={W\bibinitperiod},
+           given={Edward},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{499139cc4d3fda9ba3955fa766a07270}
+      \strng{fullhash}{499139cc4d3fda9ba3955fa766a07270}
+      \strng{bibnamehash}{499139cc4d3fda9ba3955fa766a07270}
+      \strng{authorbibnamehash}{499139cc4d3fda9ba3955fa766a07270}
+      \strng{authornamehash}{499139cc4d3fda9ba3955fa766a07270}
+      \strng{authorfullhash}{499139cc4d3fda9ba3955fa766a07270}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A variant of the usual supersymmetric nonlinear sigma model is described, governing maps from a Riemann surface {$\Sigma$}; to an arbitrary almost complex manifold {$M$}. It possesses a fermionic BRST-like symmetry, conserved for arbitrary {$\Sigma$ }, and obeying {$Q^2=0$}. In a suitable version, the quantum ground states are the {$(1+1)$} dimensional Floer groups. The correlation functions of the BRST-invariant operators are invariants (depending only on the homotopy type of the almost complex structure of {$M$}) similar to those that have entered in recent work of Gromov on symplectic geometry. The model can be coupled to dynamical gravitational or gauge fields while preserving the fermionic symmetry; some observations by Atiyah suggest that the latter coupling may be related to the Jones polynomial of knot theory. From the point of view of string theory, the main novelty of this type of sigma model is that the graviton vertex operator is a BRST commutator. Thus, models of this type may correspond to a realization at the level of string theory of an unbroken phase of quantum gravity.}
+      \field{issn}{00103616}
+      \field{journaltitle}{Communications in Mathematical Physics}
+      \field{month}{9}
+      \field{number}{3}
+      \field{title}{Topological sigma models}
+      \field{volume}{118}
+      \field{year}{1988}
+      \field{pages}{411\bibrangedash 449}
+      \range{pages}{39}
+      \verb{doi}
+      \verb 10.1007/BF01466725
+      \endverb
+      \verb{file}
+      \verb witten1988c
+      \endverb
+    \endentry
+    \entry{witten1989a}{article}{}
+      \name{author}{1}{}{%
+        {{hash=499139cc4d3fda9ba3955fa766a07270}{%
+           family={Witten},
+           familyi={W\bibinitperiod},
+           given={Edward},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{499139cc4d3fda9ba3955fa766a07270}
+      \strng{fullhash}{499139cc4d3fda9ba3955fa766a07270}
+      \strng{bibnamehash}{499139cc4d3fda9ba3955fa766a07270}
+      \strng{authorbibnamehash}{499139cc4d3fda9ba3955fa766a07270}
+      \strng{authornamehash}{499139cc4d3fda9ba3955fa766a07270}
+      \strng{authorfullhash}{499139cc4d3fda9ba3955fa766a07270}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{It is shown that 2+1 dimensional quantum Yang-Mills theory, with an action consisting purely of the Chern-Simons term, is exactly soluble and gives a natural framework for understanding the Jones polynomial of knot theory in three dimensional terms. In this version, the Jones polynomial can be generalized from {$ S^3 $} to arbitrary three manifolds, giving invariants of three manifolds that are computable from a surgery presentation. These results shed a surprising new light on conformal field theory in 1+1 dimensions.}
+      \field{issn}{0010-3616}
+      \field{journaltitle}{Communications in Mathematical Physics}
+      \field{month}{9}
+      \field{number}{3}
+      \field{title}{Quantum field theory and the Jones Polynomial}
+      \field{volume}{121}
+      \field{year}{1989}
+      \field{pages}{351\bibrangedash 399}
+      \range{pages}{49}
+      \verb{doi}
+      \verb 10.1007/BF01217730
+      \endverb
+    \endentry
+    \entry{witten1988d}{article}{}
+      \name{author}{1}{}{%
+        {{hash=499139cc4d3fda9ba3955fa766a07270}{%
+           family={Witten},
+           familyi={W\bibinitperiod},
+           given={Edward},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{499139cc4d3fda9ba3955fa766a07270}
+      \strng{fullhash}{499139cc4d3fda9ba3955fa766a07270}
+      \strng{bibnamehash}{499139cc4d3fda9ba3955fa766a07270}
+      \strng{authorbibnamehash}{499139cc4d3fda9ba3955fa766a07270}
+      \strng{authornamehash}{499139cc4d3fda9ba3955fa766a07270}
+      \strng{authorfullhash}{499139cc4d3fda9ba3955fa766a07270}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A twisted version of four dimensional supersymmetric gauge theory is formulated. The model, which refines a nonrelativistic treatment by Atiyah, appears to underlie many recent developments in topology of low dimensional manifolds; the Donaldson polynomial invariants of four manifolds and the Floer groups of three manifolds appear naturally. The model may also be interesting from a physical viewpoint; it is in a sense a generally covariant quantum field theory, albeit one in which general covariance is unbroken, there are no gravitons, and the only excitations are topological.}
+      \field{issn}{0010-3616}
+      \field{journaltitle}{Communications in Mathematical Physics}
+      \field{month}{9}
+      \field{number}{3}
+      \field{title}{Topological quantum field theory}
+      \field{volume}{117}
+      \field{year}{1988}
+      \field{pages}{353\bibrangedash 386}
+      \range{pages}{34}
+      \verb{doi}
+      \verb 10.1007/BF01223371
+      \endverb
+      \verb{file}
+      \verb witten1988d
+      \endverb
+    \endentry
+    \entry{brandhuber1994a}{article}{}
+      \name{author}{5}{}{%
+        {{hash=badd5d6a284a8c48509a40230e18c33a}{%
+           family={A.\bibnamedelimi Brandhuber},
+           familyi={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=addc3a82857a8c199596f18e163dcdbd}{%
+           family={O.\bibnamedelimi Moritsch},
+           familyi={O\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=5ee707e95fd5ea582bcfb8e18f2debcd}{%
+           family={Oliveira},
+           familyi={O\bibinitperiod},
+           given={M.\bibnamedelimi W.\bibnamedelimi },
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=6f6310c5f52f9450686b2927f9cc1408}{%
+           family={O.\bibnamedelimi Piguet},
+           familyi={O\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=2839f45a87cc8e059df3fd4b83e06f21}{%
+           family={M.\bibnamedelimi Schweda},
+           familyi={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee46d8094f3bfa56c124690132bf8941}
+      \strng{fullhash}{3f5c3761d1499cd2937de5338f4edfc7}
+      \strng{bibnamehash}{ee46d8094f3bfa56c124690132bf8941}
+      \strng{authorbibnamehash}{ee46d8094f3bfa56c124690132bf8941}
+      \strng{authornamehash}{ee46d8094f3bfa56c124690132bf8941}
+      \strng{authorfullhash}{3f5c3761d1499cd2937de5338f4edfc7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We reconsider the algebraic BRS renormalization of Witten{'}s topological Yang-Mills field theory by making use of a vector supersymmetry Ward identity which improves the finiteness properties of the model. The vector supersymmetric structure is a common feature of several topological theories. The most general local counterterm is determined and is shown to be a trivial BRS-coboundary.}
+      \field{eprintclass}{hep-th}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Nuclear Physics B}
+      \field{month}{12}
+      \field{number}{1--2}
+      \field{title}{A renormalized supersymmetry in the topological Yang-Mills field theory}
+      \field{volume}{431}
+      \field{year}{1994}
+      \field{pages}{173\bibrangedash 190}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1016/0550-3213(94)90102-3
+      \endverb
+      \verb{eprint}
+      \verb hep-th/9407105
+      \endverb
+      \verb{file}
+      \verb brandhuber1994a
+      \endverb
+    \endentry
+    \entry{werneck1993a}{article}{}
+      \name{author}{1}{}{%
+        {{hash=0b5d82c20b6d6deb26d63e7910a0cdde}{%
+           family={Oliveira},
+           familyi={O\bibinitperiod},
+           given={M.\bibnamedelimi Werneck},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{0b5d82c20b6d6deb26d63e7910a0cdde}
+      \strng{fullhash}{0b5d82c20b6d6deb26d63e7910a0cdde}
+      \strng{bibnamehash}{0b5d82c20b6d6deb26d63e7910a0cdde}
+      \strng{authorbibnamehash}{0b5d82c20b6d6deb26d63e7910a0cdde}
+      \strng{authornamehash}{0b5d82c20b6d6deb26d63e7910a0cdde}
+      \strng{authorfullhash}{0b5d82c20b6d6deb26d63e7910a0cdde}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We obtain the most general local counterterm of Witten{'}s topological Yang-Mills field theory in a Landau type gauge. Our results, being based on the algebraic BRS-renormalization technique, are regularization independent and extend to all orders of perturbation theory. As a direct consequence of the present derivation, it is shown that the cohomological nature of the model is totally intensitive to quantum effects. It is also proven that the Slavnov identity is anomaly free, in accord with a previous observation of Baulieu and Singer.}
+      \field{journaltitle}{Physical Letters B}
+      \field{month}{6}
+      \field{number}{3--4}
+      \field{title}{Algebraic renormalization of the topological Yang-Mills theory}
+      \field{volume}{307}
+      \field{year}{1993}
+      \field{pages}{347\bibrangedash 352}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1016/0370-2693(93)90231-6
+      \endverb
+      \verb{file}
+      \verb werneck1993a
+      \endverb
+    \endentry
+    \entry{sadovski2018b}{article}{}
+      \name{author}{5}{}{%
+        {{hash=6451fb668ef942147f2afc27041473ff}{%
+           family={O.\bibnamedelimi C.\bibnamedelimi Junqueira},
+           familyi={O\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=e427e91bff97e0dd68bb9b03cce7f6b1}{%
+           family={A.\bibnamedelimi D.\bibnamedelimi Pereira},
+           familyi={A\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=3e8c7b8d2cfbd9eed194fa75f320648d}{%
+           family={Sadovski},
+           familyi={S\bibinitperiod},
+           given={G.\bibnamedelimi },
+           giveni={G\bibinitperiod}}}%
+        {{hash=33310e9befeaa82757fd08906de88422}{%
+           family={Sobreiro},
+           familyi={S\bibinitperiod},
+           given={R.\bibnamedelimi F.\bibnamedelimi },
+           giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=ba5b20b948ea432f85ecf9f885598e08}{%
+           family={A.\bibnamedelimi A.\bibnamedelimi Tomaz},
+           familyi={A\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{05ed5e3cfa94c61b2859a4ed234b5b8c}
+      \strng{fullhash}{3cbc1b003025bb2a592c6de45f1d52ba}
+      \strng{bibnamehash}{05ed5e3cfa94c61b2859a4ed234b5b8c}
+      \strng{authorbibnamehash}{05ed5e3cfa94c61b2859a4ed234b5b8c}
+      \strng{authornamehash}{05ed5e3cfa94c61b2859a4ed234b5b8c}
+      \strng{authorfullhash}{3cbc1b003025bb2a592c6de45f1d52ba}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Quantum properties of topological Yang-Mills theory in (anti-)self-dual Landau gauge were recently investigated by the authors. We extend the analysis of renormalizability for two generalized classes of gauges; each of them depending on one gauge parameter. The (anti-)self-dual Landau gauge is recovered at the vanishing of each gauge parameter. The theory shows itself to be renormalizable in these classes of gauges. Moreover, we discuss the ambiguity on the choice of the renormalization factors (which is not present in usual Yang-Mills theories) and argue a possible origin of such ambiguity.}
+      \field{eprintclass}{hep-th}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Physical Review D}
+      \field{month}{11}
+      \field{number}{10--15}
+      \field{title}{{More about the renormalization properties of topological Yang-Mills theories}}
+      \field{volume}{98}
+      \field{year}{2018}
+      \field{pages}{105017}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.98.105017
+      \endverb
+      \verb{eprint}
+      \verb 1807.01517
+      \endverb
+      \verb{file}
+      \verb sadovski2018b
+      \endverb
+    \endentry
+    \entry{sadovski2020a}{article}{}
+      \name{author}{8}{}{%
+        {{hash=4a2d31f067aabf42ee69b0b5049cb18e}{%
+           family={D.\bibnamedelimi Dudal},
+           familyi={D\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=d40c98b4ae4cc747d6fdf5ef37929984}{%
+           family={C.\bibnamedelimi P.\bibnamedelimi Felix},
+           familyi={C\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=6451fb668ef942147f2afc27041473ff}{%
+           family={O.\bibnamedelimi C.\bibnamedelimi Junqueira},
+           familyi={O\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=bc5ec608b9861c6851ef57b44944cb16}{%
+           family={D.\bibnamedelimi S.\bibnamedelimi Montes},
+           familyi={D\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=97cdb1a4c0fe9fb443b3349f28dd2e82}{%
+           family={\bibnamedelima D.\bibnamedelimi Pereira},
+           familyi={\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3e8c7b8d2cfbd9eed194fa75f320648d}{%
+           family={Sadovski},
+           familyi={S\bibinitperiod},
+           given={G.\bibnamedelimi },
+           giveni={G\bibinitperiod}}}%
+        {{hash=71cd21e8e72234578c569947706f3551}{%
+           family={R.\bibnamedelimi F.\bibnamedelimi Sobreiro},
+           familyi={R\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=ba5b20b948ea432f85ecf9f885598e08}{%
+           family={A.\bibnamedelimi A.\bibnamedelimi Tomaz},
+           familyi={A\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{e2f33e74f51be3b8298a24b5f55ca23f}
+      \strng{fullhash}{e62d560404059f833b5c311bfb5054ae}
+      \strng{bibnamehash}{e2f33e74f51be3b8298a24b5f55ca23f}
+      \strng{authorbibnamehash}{e2f33e74f51be3b8298a24b5f55ca23f}
+      \strng{authornamehash}{e2f33e74f51be3b8298a24b5f55ca23f}
+      \strng{authorfullhash}{e62d560404059f833b5c311bfb5054ae}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We study the Gribov problem in four-dimensional topological Yang-Mills theories following the Baulieu-Singer approach in the (anti-)self-dual Landau gauges. As suggested by the tree-level exactness of the model in this gauge choice, the Gribov copies are shown to be inoffensive at the quantum level. To be more precise, following Gribov, we discuss the path integral restriction to the Gribov horizon. The associated gap equation, which fixes the so-called Gribov parameter, is however shown to only possess a trivial solution, making the restriction obsolete. We relate this to the absence of radiative corrections in both gauge and ghost sectors. We give further evidence by employing the renormalization group which shows that, for this kind of topological model, the gap equation indeed forbids the introduction of a massive Gribov parameter.}
+      \field{eprintclass}{hep-th}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Physical Letters B}
+      \field{month}{8}
+      \field{title}{Infinitesimal Gribov copies in gauge-fixed topological Yang-Mills theories}
+      \field{volume}{807}
+      \field{year}{2020}
+      \field{pages}{135531}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.106/j.physletb.2020.135531
+      \endverb
+      \verb{eprint}
+      \verb 1907.05460
+      \endverb
+      \verb{file}
+      \verb sadovski2020a
+      \endverb
+    \endentry
+    \entry{junqueira2021a}{article}{}
+      \name{author}{2}{}{%
+        {{hash=cb25af8fd28fb3a2a40c6579f0bef0b8}{%
+           family={Octavio\bibnamedelima C.\bibnamedelimi Junqueira},
+           familyi={O\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=8e4fcb11a08ea76587e41c14df2684a6}{%
+           family={Rodrigo\bibnamedelima F.\bibnamedelimi Sobreiro},
+           familyi={R\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{280443096157d21a7d87e7ecfb6bbdda}
+      \strng{fullhash}{280443096157d21a7d87e7ecfb6bbdda}
+      \strng{bibnamehash}{280443096157d21a7d87e7ecfb6bbdda}
+      \strng{authorbibnamehash}{280443096157d21a7d87e7ecfb6bbdda}
+      \strng{authornamehash}{280443096157d21a7d87e7ecfb6bbdda}
+      \strng{authorfullhash}{280443096157d21a7d87e7ecfb6bbdda}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We characterize the correspondence between the twisted {$ N=2 $} super-Yang-Mills theory and the Baulieu-Singer topological theory quantized in the self-dual Landau gauges. While the first is based on an on-shell supersymmetry , the second is based on an off-shell Becchi-Rouet-Stora-Tyutin symmetry. Because of the equivariant cohomology, the twisted {$ N=2 $} in the ultraviolet regime and Baulieu-Singer theories share the same observables, the Donaldson invariants for 4-manifolds. The triviality of the Gribov copies in the Baulieu-Singer theory in these gauges shows that working in the instanton moduli space on the twisted {$ N=2 $} side is equivalent to working in the self-dual gauges on the Baulieu-Singer one. After proving the vanishing of the {$ \beta $} function in the Baulieu-Singer theory, we conclude that the twisted {$ N=2 $} in the ultraviolet regime, in any Riemannian manifold, is correspondent to the Baulieu-Singer theory in the self-dual Landau gauges—a conformal gauge theory defined in Euclidean flat space.}
+      \field{eprintclass}{hep-th}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Physical Review D}
+      \field{month}{4}
+      \field{number}{8}
+      \field{title}{Correspondence between the twisted {$ N=2 $} super-Yang-Mills and conformal Baulieu-Singer theories}
+      \field{volume}{103}
+      \field{year}{2021}
+      \field{pages}{085008}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.103.085008
+      \endverb
+      \verb{eprint}
+      \verb 2101.10517
+      \endverb
+      \verb{file}
+      \verb junqueira2021a
+      \endverb
+    \endentry
+    \entry{blasi1991a}{article}{}
+      \name{author}{3}{}{%
+        {{hash=e7787cfc27ed22a5e5c197ce092cc53a}{%
+           family={Blasi},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2ccd8519362ae3eeee603cc9c785f258}{%
+           family={Piguet},
+           familyi={P\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=e303d0d4f5d07279fb02abae65439f7b}{%
+           family={Sorella},
+           familyi={S\bibinitperiod},
+           given={S.\bibnamedelimi P.},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{ba7cb39e9a7f25d2f57faa078f2aacab}
+      \strng{fullhash}{ba7cb39e9a7f25d2f57faa078f2aacab}
+      \strng{bibnamehash}{ba7cb39e9a7f25d2f57faa078f2aacab}
+      \strng{authorbibnamehash}{ba7cb39e9a7f25d2f57faa078f2aacab}
+      \strng{authornamehash}{ba7cb39e9a7f25d2f57faa078f2aacab}
+      \strng{authorfullhash}{ba7cb39e9a7f25d2f57faa078f2aacab}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{General properties of the Landau gauge are discussed by means of a functional differential equation which holds to all orders of perturbation theory and which allows, in particular, to establish the nonrenormalization of the ghost field {$ c $} as well as of the composite field {$ \tr c^3 $}. The same equation also yields the finiteness of the three-dimensional Chern-Simons model.}
+      \field{journaltitle}{Nuclear Physics B}
+      \field{month}{6}
+      \field{number}{1}
+      \field{title}{Landau gauge and finiteness}
+      \field{volume}{356}
+      \field{year}{1991}
+      \field{pages}{154\bibrangedash 162}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/0550-3213(91)90144-M
+      \endverb
+      \verb{file}
+      \verb blasi1991a
+      \endverb
+    \endentry
+    \entry{maggiore1992a}{article}{}
+      \name{author}{2}{}{%
+        {{hash=1a42cfd2523dfd9cfebb144d5969d51c}{%
+           family={Maggiore},
+           familyi={M\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=c7ec974298b3e334c5842e4b6d79f0a1}{%
+           family={Sorella},
+           familyi={S\bibinitperiod},
+           given={Silvio\bibnamedelima Paolo},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{15f3914f5cd6905e61dc0cefce966ffa}
+      \strng{fullhash}{15f3914f5cd6905e61dc0cefce966ffa}
+      \strng{bibnamehash}{15f3914f5cd6905e61dc0cefce966ffa}
+      \strng{authorbibnamehash}{15f3914f5cd6905e61dc0cefce966ffa}
+      \strng{authornamehash}{15f3914f5cd6905e61dc0cefce966ffa}
+      \strng{authorfullhash}{15f3914f5cd6905e61dc0cefce966ffa}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A general procedure for showing the perturbative finiteness of topological field theories is presented. As an explicit example the three-dimensional {$BF$} system with a nonvanishing cosmological term is discussed is detail.}
+      \field{journaltitle}{Nuclear Physics B}
+      \field{month}{6}
+      \field{number}{1--2}
+      \field{title}{Finiteness of the topological models in the Landau gauge}
+      \field{volume}{377}
+      \field{year}{1992}
+      \field{pages}{236\bibrangedash 251}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1016/0550-3213(92)90023-5
+      \endverb
+      \verb{file}
+      \verb maggiore1992a
+      \endverb
+    \endentry
+    \entry{piguet1995a}{online}{}
+      \name{author}{1}{}{%
+        {{hash=6aafc5184ac3009ebbf480f40559dc12}{%
+           family={Piguet},
+           familyi={P\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{6aafc5184ac3009ebbf480f40559dc12}
+      \strng{fullhash}{6aafc5184ac3009ebbf480f40559dc12}
+      \strng{bibnamehash}{6aafc5184ac3009ebbf480f40559dc12}
+      \strng{authorbibnamehash}{6aafc5184ac3009ebbf480f40559dc12}
+      \strng{authornamehash}{6aafc5184ac3009ebbf480f40559dc12}
+      \strng{authorfullhash}{6aafc5184ac3009ebbf480f40559dc12}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Vector supersymmetry is typical of topological field theory. Its role in the construction of gauge invariant quantities is explained, as well as its role in the cancellation of the ultraviolet divergences. The example of the Chern-Simons theory in three dimensions is treated in details.}
+      \field{eprintclass}{hep-th}
+      \field{eprinttype}{arXiv}
+      \field{month}{10}
+      \field{title}{On the role of the vector supersymmetry in topological field theory}
+      \field{year}{1995}
+      \verb{eprint}
+      \verb hep-th/9502033
+      \endverb
+      \verb{file}
+      \verb piguet1995a
+      \endverb
+    \endentry
+    \entry{sadovski2017c}{article}{}
+      \name{author}{5}{}{%
+        {{hash=6451fb668ef942147f2afc27041473ff}{%
+           family={O.\bibnamedelimi C.\bibnamedelimi Junqueira},
+           familyi={O\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=e427e91bff97e0dd68bb9b03cce7f6b1}{%
+           family={A.\bibnamedelimi D.\bibnamedelimi Pereira},
+           familyi={A\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=3e8c7b8d2cfbd9eed194fa75f320648d}{%
+           family={Sadovski},
+           familyi={S\bibinitperiod},
+           given={G.\bibnamedelimi },
+           giveni={G\bibinitperiod}}}%
+        {{hash=33310e9befeaa82757fd08906de88422}{%
+           family={Sobreiro},
+           familyi={S\bibinitperiod},
+           given={R.\bibnamedelimi F.\bibnamedelimi },
+           giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=ba5b20b948ea432f85ecf9f885598e08}{%
+           family={A.\bibnamedelimi A.\bibnamedelimi Tomaz},
+           familyi={A\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{05ed5e3cfa94c61b2859a4ed234b5b8c}
+      \strng{fullhash}{3cbc1b003025bb2a592c6de45f1d52ba}
+      \strng{bibnamehash}{05ed5e3cfa94c61b2859a4ed234b5b8c}
+      \strng{authorbibnamehash}{05ed5e3cfa94c61b2859a4ed234b5b8c}
+      \strng{authornamehash}{05ed5e3cfa94c61b2859a4ed234b5b8c}
+      \strng{authorfullhash}{3cbc1b003025bb2a592c6de45f1d52ba}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We reconsider the renormalizability of topological Yang-Mills field theories in (anti-)self-dual Landau gauges. By employing algebraic renormalization techniques we show that there is only one independent renormalization. Moreover, due to the rich set of Ward identities, we are able to obtain some important exact features of the (connected and one-particle irreducible) two-point functions. Specifically, we show that all two-point functions are tree-level exact.}
+      \field{eprintclass}{hep-th}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Physical Review D}
+      \field{month}{10}
+      \field{number}{8}
+      \field{title}{Topological Yang-Mills theories in self-dual and anti-self-dual Landau gauges revisited}
+      \field{volume}{96}
+      \field{year}{2017}
+      \field{pages}{085008}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.96.085008
+      \endverb
+      \verb{eprint}
+      \verb 1707.06666
+      \endverb
+      \verb{file}
+      \verb sadovski2017c
+      \endverb
+    \endentry
+    \entry{sadovski2018a}{article}{}
+      \name{author}{5}{}{%
+        {{hash=6451fb668ef942147f2afc27041473ff}{%
+           family={O.\bibnamedelimi C.\bibnamedelimi Junqueira},
+           familyi={O\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=e427e91bff97e0dd68bb9b03cce7f6b1}{%
+           family={A.\bibnamedelimi D.\bibnamedelimi Pereira},
+           familyi={A\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=3e8c7b8d2cfbd9eed194fa75f320648d}{%
+           family={Sadovski},
+           familyi={S\bibinitperiod},
+           given={G.\bibnamedelimi },
+           giveni={G\bibinitperiod}}}%
+        {{hash=33310e9befeaa82757fd08906de88422}{%
+           family={Sobreiro},
+           familyi={S\bibinitperiod},
+           given={R.\bibnamedelimi F.\bibnamedelimi },
+           giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=ba5b20b948ea432f85ecf9f885598e08}{%
+           family={A.\bibnamedelimi A.\bibnamedelimi Tomaz},
+           familyi={A\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{05ed5e3cfa94c61b2859a4ed234b5b8c}
+      \strng{fullhash}{3cbc1b003025bb2a592c6de45f1d52ba}
+      \strng{bibnamehash}{05ed5e3cfa94c61b2859a4ed234b5b8c}
+      \strng{authorbibnamehash}{05ed5e3cfa94c61b2859a4ed234b5b8c}
+      \strng{authornamehash}{05ed5e3cfa94c61b2859a4ed234b5b8c}
+      \strng{authorfullhash}{3cbc1b003025bb2a592c6de45f1d52ba}
+      \field{extraname}{3}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We prove that all connected n-point Green functions of four-dimensional topological Yang-Mills theories quantized in the (anti-)self-dual Landau gauges are tree-level exact, i.e., there are no radiative corrections in this gauge choice.}
+      \field{eprintclass}{hep-th}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Physical Review D}
+      \field{month}{7}
+      \field{number}{2}
+      \field{title}{{Absence of radiative corrections in four-dimensional topological Yang-Mills theories}}
+      \field{volume}{98}
+      \field{year}{2018}
+      \field{pages}{021701(R)}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.98.021701
+      \endverb
+      \verb{eprint}
+      \verb 1805.01850
+      \endverb
+      \verb{file}
+      \verb sadovski2018a
+      \endverb
+    \endentry
+    \entry{labastida1988b}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b663b0ec44d95f4d80bac451c41675c5}{%
+           family={J.\bibnamedelimi M.\bibnamedelimi F.\bibnamedelimi Labastida},
+           familyi={J\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=1a8aa6fb174b1a3e07001b52d72f3b73}{%
+           family={M.\bibnamedelimi Pernici},
+           familyi={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{b4bc0b5bd73cbccb35e91994303aa8c7}
+      \strng{fullhash}{b4bc0b5bd73cbccb35e91994303aa8c7}
+      \strng{bibnamehash}{b4bc0b5bd73cbccb35e91994303aa8c7}
+      \strng{authorbibnamehash}{b4bc0b5bd73cbccb35e91994303aa8c7}
+      \strng{authornamehash}{b4bc0b5bd73cbccb35e91994303aa8c7}
+      \strng{authorfullhash}{b4bc0b5bd73cbccb35e91994303aa8c7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A gauge invariant lagrangian for topological gravity is presented. The BRST action associated to this lagrangian has features similar to the one proposed by Witten. It is found that topological gravity can be consistently BRST quantized without coupling gravity to matter fields, while preserving conformal invatriance.}
+      \field{journaltitle}{Physical Letters B}
+      \field{month}{10}
+      \field{number}{3}
+      \field{title}{A lagrangian for topological gravity and its BRST quantization}
+      \field{volume}{213}
+      \field{year}{1988}
+      \field{pages}{319\bibrangedash 324}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1016/0370-2693(88)91768-6
+      \endverb
+      \verb{file}
+      \verb labastida1988b
+      \endverb
+    \endentry
+    \entry{labastida1988a}{article}{}
+      \name{author}{3}{}{%
+        {{hash=954977711197bfb042f951077809a45a}{%
+           family={Labastida},
+           familyi={L\bibinitperiod},
+           given={J.\bibnamedelimi M.\bibnamedelimi F.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=1a8aa6fb174b1a3e07001b52d72f3b73}{%
+           family={M.\bibnamedelimi Pernici},
+           familyi={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=5fd767e204922c0d88342cf69d53a70e}{%
+           family={E.\bibnamedelimi Witten},
+           familyi={E\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{2ad2ddfba92fd13d874b23987e0b95e9}
+      \strng{fullhash}{2ad2ddfba92fd13d874b23987e0b95e9}
+      \strng{bibnamehash}{2ad2ddfba92fd13d874b23987e0b95e9}
+      \strng{authorbibnamehash}{2ad2ddfba92fd13d874b23987e0b95e9}
+      \strng{authornamehash}{2ad2ddfba92fd13d874b23987e0b95e9}
+      \strng{authorfullhash}{2ad2ddfba92fd13d874b23987e0b95e9}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We derive two-dimensional topological gravity , which previously has been discussed in a BRST framework, by gauge fixing of an underlying gauge invariant system. The underlying Lagrangian is zero.}
+      \field{issn}{05503213}
+      \field{journaltitle}{Nuclear Physics B}
+      \field{month}{12}
+      \field{number}{3-4}
+      \field{title}{Topological gravity in two dimensions}
+      \field{volume}{310}
+      \field{year}{1988}
+      \field{pages}{611\bibrangedash 624}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/0550-3213(88)90094-6
+      \endverb
+      \verb{file}
+      \verb labastida1988a
+      \endverb
+    \endentry
+    \entry{douglas1990a}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b40e78759beadde759df19d400faef9d}{%
+           family={Michael\bibnamedelima R.\bibnamedelimi Douglas},
+           familyi={M\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=454c0bc0d3fbf0010be209bfdcb781e0}{%
+           family={Stephen\bibnamedelima H.\bibnamedelimi Shenker},
+           familyi={S\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{3e888a4a3a65ac6a7d66449ff2f63d61}
+      \strng{fullhash}{3e888a4a3a65ac6a7d66449ff2f63d61}
+      \strng{bibnamehash}{3e888a4a3a65ac6a7d66449ff2f63d61}
+      \strng{authorbibnamehash}{3e888a4a3a65ac6a7d66449ff2f63d61}
+      \strng{authornamehash}{3e888a4a3a65ac6a7d66449ff2f63d61}
+      \strng{authorfullhash}{3e888a4a3a65ac6a7d66449ff2f63d61}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Starting from the random triangulation definition of two-dimensional euclidean quantum gravity, we define the continuum limit and compute the partition function for closed surfaces of any genus. We discuss the appropriate way to define continuum string perturbation theory in these systems and show that the coefficients (as well as the critical exponents) are universal. The universality classes are just the multicritical points described by Kazakov. We show how the exact non-perturbative string theory is described by a non-linear ordinary differential equation whose properties we study. The behavior of the simplest theory, {$ c = 0 $} pure gravity, is governed by the Painlevé transcendent of the first kind.}
+      \field{journaltitle}{Nuclear Physics B}
+      \field{month}{5}
+      \field{number}{3}
+      \field{title}{Strings in less than one dimension}
+      \field{volume}{335}
+      \field{year}{1990}
+      \field{pages}{635\bibrangedash 654}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1016/0550-3213(90)90522-F
+      \endverb
+      \verb{file}
+      \verb douglas1990a
+      \endverb
+    \endentry
+    \entry{dijkgraaf1991a}{article}{}
+      \name{author}{3}{}{%
+        {{hash=172fd7928e3a4c38d7f1dbd222419286}{%
+           family={Robbert\bibnamedelima Dijkgraaf},
+           familyi={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=d95223e86fae1c52cd3367ffe91487f4}{%
+           family={Herman\bibnamedelima L.\bibnamedelimi Verlinde},
+           familyi={H\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=999e803f0c92184535157a1249230938}{%
+           family={Erik\bibnamedelima P.\bibnamedelimi Verlinde},
+           familyi={E\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \strng{namehash}{85dcf0dc256c7c8044d21a78a3ec28eb}
+      \strng{fullhash}{85dcf0dc256c7c8044d21a78a3ec28eb}
+      \strng{bibnamehash}{85dcf0dc256c7c8044d21a78a3ec28eb}
+      \strng{authorbibnamehash}{85dcf0dc256c7c8044d21a78a3ec28eb}
+      \strng{authornamehash}{85dcf0dc256c7c8044d21a78a3ec28eb}
+      \strng{authorfullhash}{85dcf0dc256c7c8044d21a78a3ec28eb}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We calculate correlation functions in minimal topological field theories. These twisted versions of {$ N = 2 $} minimal models have recently been proposed to describe {$ d < 1 $} matrix models, once coupled to topological gravity. In our calculation we make use of the Landau-Ginzburg formulation of the {$ N = 2 $} models, and we find a direct relation between the Landau-Ginzburg superpotential and the KdV differential operator. Using this correspondence we show that the minimal topological models are in perfect agreement with the matrix models as solved in terms of the KdV hierarchy. This proves the equivalence at tree-level of topological and ordinary string theory in {$ d < 1 $}.}
+      \field{journaltitle}{Nuclear Physics B}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{Topological strings in {$ d < 1 $}}
+      \field{volume}{352}
+      \field{year}{1991}
+      \field{pages}{59\bibrangedash 86}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1016/0550-3213(91)90129-L
+      \endverb
+      \verb{file}
+      \verb dijkgraaf1991a
+      \endverb
+    \endentry
+    \entry{gross1990a}{article}{}
+      \name{author}{2}{}{%
+        {{hash=77e5d773d459c6212a6531f46411c09c}{%
+           family={Gross},
+           familyi={G\bibinitperiod},
+           given={David\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=7d55ca47d84060e131aaa7170886014f}{%
+           family={Migdal},
+           familyi={M\bibinitperiod},
+           given={Alexander\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{f147f34ff0aabc9c09d872a1db13b36d}
+      \strng{fullhash}{f147f34ff0aabc9c09d872a1db13b36d}
+      \strng{bibnamehash}{f147f34ff0aabc9c09d872a1db13b36d}
+      \strng{authorbibnamehash}{f147f34ff0aabc9c09d872a1db13b36d}
+      \strng{authornamehash}{f147f34ff0aabc9c09d872a1db13b36d}
+      \strng{authorfullhash}{f147f34ff0aabc9c09d872a1db13b36d}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We propose a nonperturbative definition of two-dimensional quantum gravity, based on a double-scaling limit of the random-matrix model. We derive an exact differential equation for the partition function of two-dimensional gravity coupled to conformal matter as a function of the string coupling constant that governs the genus expansion of two-dimensional surfaces, and discuss its properties and consequences. We also construct and discuss the correlation functions of an infinite set of local operators for spherical topology.}
+      \field{journaltitle}{Physical Review Letters}
+      \field{month}{1}
+      \field{number}{2}
+      \field{title}{Nonperturbative two-dimensional quantum gravity}
+      \field{volume}{64}
+      \field{year}{1990}
+      \field{pages}{127}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.64.127
+      \endverb
+      \verb{file}
+      \verb gross1990a
+      \endverb
+    \endentry
+    \entry{witten1990a}{article}{}
+      \name{author}{1}{}{%
+        {{hash=499139cc4d3fda9ba3955fa766a07270}{%
+           family={Witten},
+           familyi={W\bibinitperiod},
+           given={Edward},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{499139cc4d3fda9ba3955fa766a07270}
+      \strng{fullhash}{499139cc4d3fda9ba3955fa766a07270}
+      \strng{bibnamehash}{499139cc4d3fda9ba3955fa766a07270}
+      \strng{authorbibnamehash}{499139cc4d3fda9ba3955fa766a07270}
+      \strng{authornamehash}{499139cc4d3fda9ba3955fa766a07270}
+      \strng{authorfullhash}{499139cc4d3fda9ba3955fa766a07270}
+      \field{extraname}{4}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The topological phase of two-dimensional gravity is re-examined. The correlation functions of the naturally occuring operators in the minimal topological model are computed, using topological methods, in genus zero and genus one. The genus-zero results agree with recent results obtained in exact solutions of , suggesting that the two approaches to two-dimensional gravity are equivalent. The coupling of two-dimensional topological gravity to topological sigma models is investigated. The CP 1 model appears to be almost as simple as the pure topological gravity theory. General , model-independent properties of the correlation functions are obtained which hold in coupling to arbitrary topological field theories and can serve as a qualitative definition of the topological phase of two-dimensional gravity. A number of facts that are familiar in the usual phase of string theory, such as the relation between vanishing of the canonical line bundle of a Kähler manifold and scale invariance of the corresponding field theory, have simpler echoes in the topological phase.}
+      \field{journaltitle}{Nuclear Physics B}
+      \field{month}{8}
+      \field{number}{2--3}
+      \field{title}{On the structure of the topological phase of two-dimensional gravity}
+      \field{volume}{340}
+      \field{year}{1990}
+      \field{pages}{281\bibrangedash 332}
+      \range{pages}{52}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0550-3213(90)90449-N
+      \endverb
+      \verb{file}
+      \verb witten1990a
+      \endverb
+    \endentry
+    \entry{kontsevich1992a}{article}{}
+      \name{author}{1}{}{%
+        {{hash=376720c3d3491abcbf64f719178f4468}{%
+           family={Maxim\bibnamedelima Kontsevich},
+           familyi={M\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{376720c3d3491abcbf64f719178f4468}
+      \strng{fullhash}{376720c3d3491abcbf64f719178f4468}
+      \strng{bibnamehash}{376720c3d3491abcbf64f719178f4468}
+      \strng{authorbibnamehash}{376720c3d3491abcbf64f719178f4468}
+      \strng{authornamehash}{376720c3d3491abcbf64f719178f4468}
+      \strng{authorfullhash}{376720c3d3491abcbf64f719178f4468}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We show that two natural approaches to quantum gravity coincide. This identity is nontrivial and relies on the equivalence of each approach to KdV equations. We also investigate related mathematical problems.}
+      \field{journaltitle}{Communications in Mathematical Physics}
+      \field{month}{6}
+      \field{title}{Intersection theory on moduli space of curves and the matrix airy function}
+      \field{volume}{147}
+      \field{year}{1992}
+      \field{pages}{1\bibrangedash 23}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1007/BF02099526
+      \endverb
+      \verb{file}
+      \verb kontsevich1992a
+      \endverb
+    \endentry
+    \entry{dijkgraaf2002a}{article}{}
+      \name{author}{2}{}{%
+        {{hash=172fd7928e3a4c38d7f1dbd222419286}{%
+           family={Robbert\bibnamedelima Dijkgraaf},
+           familyi={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=b9e24517d76792da98b5c3b875e153c5}{%
+           family={Cumrun\bibnamedelima Vafa},
+           familyi={C\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \strng{namehash}{49dfe8f0b999cc1921ea1cd06221e1dd}
+      \strng{fullhash}{49dfe8f0b999cc1921ea1cd06221e1dd}
+      \strng{bibnamehash}{49dfe8f0b999cc1921ea1cd06221e1dd}
+      \strng{authorbibnamehash}{49dfe8f0b999cc1921ea1cd06221e1dd}
+      \strng{authornamehash}{49dfe8f0b999cc1921ea1cd06221e1dd}
+      \strng{authorfullhash}{49dfe8f0b999cc1921ea1cd06221e1dd}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We show that B-model topological strings on local Calabi–Yau threefolds are large-{$ N $} duals of matrix models, which in the planar limit naturally give rise to special geometry. These matrix models directly compute F-terms in an associated {$ \mathcal{N} = 1 $} supersymmetric gauge theory, obtained by deforming {$ \mathcal{N} = 1 $} theories by a superpotential term that can be directly identified with the potential of the matrix model. Moreover by tuning some of the parameters of the geometry in a double scaling limit we recover {$ (p, q) $} conformal minimal models coupled to 2d gravity, thereby relating non-critical string theories to type II superstrings on Calabi–Yau backgrounds.}
+      \field{eprintclass}{hep-th}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Nuclear Physics B}
+      \field{month}{11}
+      \field{number}{1--2}
+      \field{title}{Matrix models, topological strings, and supersymmetric gauge theories}
+      \field{volume}{644}
+      \field{year}{2002}
+      \field{pages}{3\bibrangedash 20}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1016/S0550-3213(02)00766-6
+      \endverb
+      \verb{eprint}
+      \verb hep-th/0206225
+      \endverb
+      \verb{file}
+      \verb dijkgraaf2002a
+      \endverb
+    \endentry
+    \entry{achucarro1986a}{article}{}
+      \name{author}{2}{}{%
+        {{hash=dfef06664083d8c3323ac6f612ead3ca}{%
+           family={Achúcarro},
+           familyi={A\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a54c7d8cf4324ee8f6b231acd35ec72b}{%
+           family={Townsend},
+           familyi={T\bibinitperiod},
+           given={P.\bibnamedelimi K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{92a9993557160cdfdb8a323d71c0ba5c}
+      \strng{fullhash}{92a9993557160cdfdb8a323d71c0ba5c}
+      \strng{bibnamehash}{92a9993557160cdfdb8a323d71c0ba5c}
+      \strng{authorbibnamehash}{92a9993557160cdfdb8a323d71c0ba5c}
+      \strng{authornamehash}{92a9993557160cdfdb8a323d71c0ba5c}
+      \strng{authorfullhash}{92a9993557160cdfdb8a323d71c0ba5c}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We construct the {$(p,q)$}-type anti-de Sitter (AdS) supergravity theories associated with the three-dimensional AdS supergroups { $OSp(p|2;R) \times OSp(q|2;R)$}. They are distinguished, for { $N=p+q$ }, by the gravitini mass-matrix, which has signature { $p-q$ } . We show that the action can be written as the integral of the Chern-Simons three-form associated with the (AdS) supergroup.}
+      \field{issn}{03702693}
+      \field{journaltitle}{Physical Letters B}
+      \field{month}{11}
+      \field{number}{1-2}
+      \field{title}{A Chern-Simons action for three-dimensional anti-de Sitter supergravity theories}
+      \field{volume}{180}
+      \field{year}{1986}
+      \field{pages}{89\bibrangedash 92}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1016/0370-2693(86)90140-1
+      \endverb
+      \verb{file}
+      \verb achucarro1986a
+      \endverb
+    \endentry
+    \entry{witten1988b}{article}{}
+      \name{author}{1}{}{%
+        {{hash=499139cc4d3fda9ba3955fa766a07270}{%
+           family={Witten},
+           familyi={W\bibinitperiod},
+           given={Edward},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{499139cc4d3fda9ba3955fa766a07270}
+      \strng{fullhash}{499139cc4d3fda9ba3955fa766a07270}
+      \strng{bibnamehash}{499139cc4d3fda9ba3955fa766a07270}
+      \strng{authorbibnamehash}{499139cc4d3fda9ba3955fa766a07270}
+      \strng{authornamehash}{499139cc4d3fda9ba3955fa766a07270}
+      \strng{authorfullhash}{499139cc4d3fda9ba3955fa766a07270}
+      \field{extraname}{5}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{By disentangling the hamiltonian constraint equations, {$2+1$} dimensional gravity (with or without a cosmological constant) is shown to be exactly soluble at the classical and quantum levels. Indeed, it is closely related to Yang-Mills theory with purely the Chern-Simons action, which recently has turned out to define a soluble quantum field theory. {$2+1$} dimensional gravity has a straightforward renormalized perturbation expansion, with vanishing beta function. {$2+1$} dimensional quantum gravity may provide a testing ground for understanding the role of classical singularities in quantum mechanics, may be related to the discrete series of Virasoro representations in {$1+1$} dimensions, and may be a useful tool in studying three-dimensional geometry.}
+      \field{journaltitle}{Nuclear Physics B}
+      \field{month}{9}
+      \field{number}{1}
+      \field{title}{{$(2+1)$}-dimensional gravity as an exactly soluble system}
+      \field{volume}{311}
+      \field{year}{1988}
+      \field{pages}{46\bibrangedash 78}
+      \range{pages}{33}
+      \verb{doi}
+      \verb 10.1016/0550-3213(88)90143-5
+      \endverb
+      \verb{file}
+      \verb witten1988b
+      \endverb
+    \endentry
+    \entry{witten2007a}{online}{}
+      \name{author}{1}{}{%
+        {{hash=499139cc4d3fda9ba3955fa766a07270}{%
+           family={Witten},
+           familyi={W\bibinitperiod},
+           given={Edward},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{499139cc4d3fda9ba3955fa766a07270}
+      \strng{fullhash}{499139cc4d3fda9ba3955fa766a07270}
+      \strng{bibnamehash}{499139cc4d3fda9ba3955fa766a07270}
+      \strng{authorbibnamehash}{499139cc4d3fda9ba3955fa766a07270}
+      \strng{authornamehash}{499139cc4d3fda9ba3955fa766a07270}
+      \strng{authorfullhash}{499139cc4d3fda9ba3955fa766a07270}
+      \field{extraname}{6}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We consider the problem of identifying the CFT{'}s that may be dual to pure gravity in three dimensions with negative cosmological constant. The c-theorem indicates that three-dimensional pure gravity is consistent only at certain values of the coupling constant , and the relation to Chern-Simons gauge theory hints that these may be the values at which the dual CFT can be holomorphically factorized. If so, and one takes at face value the minimum mass of a BTZ black hole, then the energy spectrum of three-dimensional gravity with negative cosmological constant can be determined exactly. At the most negative possible value of the cosmological constant, the dual CFT is very likely the monster theory of Frenkel, Lepowsky, and Meurman. The monster theory may be the first in a discrete series of CFT{'}s that are dual to three-dimensional gravity. The partition function of the second theory in the sequence can be determined on a hyperelliptic Riemann surface of any genus. We also make a similar analysis of supergravity.}
+      \field{eprintclass}{hep-th}
+      \field{eprinttype}{arXiv}
+      \field{month}{6}
+      \field{title}{Three-dimensional gravity revisited}
+      \field{year}{2007}
+      \verb{eprint}
+      \verb 0706.3359
+      \endverb
+      \verb{file}
+      \verb witten2007a
+      \endverb
+    \endentry
+    \entry{gurau2024a}{online}{}
+      \name{author}{2}{}{%
+        {{hash=fa36377458ac56d39e6672e7e9a58637}{%
+           family={Razvan\bibnamedelima Gurau},
+           familyi={R\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=4ada8df5669849d4a50a7278d91b2682}{%
+           family={Vincent\bibnamedelima Rivasseau},
+           familyi={V\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{15f994841d6cddbab311b3560c366358}
+      \strng{fullhash}{15f994841d6cddbab311b3560c366358}
+      \strng{bibnamehash}{15f994841d6cddbab311b3560c366358}
+      \strng{authorbibnamehash}{15f994841d6cddbab311b3560c366358}
+      \strng{authornamehash}{15f994841d6cddbab311b3560c366358}
+      \strng{authorfullhash}{15f994841d6cddbab311b3560c366358}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Random tensors are the natural generalization of random matrices to higher order objects. They provide generating functions for random geometries and, assuming some familiarity with random matrix theory and quantum field theory, we discuss in the first part of this note the applications of such models to quantum gravity. In a second part we review tensor field theories, that is standard field theories in {$ \mathbb{R}^{ d } $} but with tensor fields, which lead to a new family of large {$ N $} conformal field theories relevant for the study of the {$ AdS/CFT $} correspondence.}
+      \field{eprintclass}{hep-th}
+      \field{eprinttype}{arXiv}
+      \field{month}{1}
+      \field{title}{Quantum gravity and random tensors}
+      \field{year}{2024}
+      \verb{eprint}
+      \verb 2401.13510
+      \endverb
+      \verb{file}
+      \verb gurau2024a
+      \endverb
+    \endentry
+    \entry{carrozza2024a}{online}{}
+      \name{author}{1}{}{%
+        {{hash=42ee5be9ebee2294ef5628f2a9c7cf4b}{%
+           family={Sylvian\bibnamedelima Carrozza},
+           familyi={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{42ee5be9ebee2294ef5628f2a9c7cf4b}
+      \strng{fullhash}{42ee5be9ebee2294ef5628f2a9c7cf4b}
+      \strng{bibnamehash}{42ee5be9ebee2294ef5628f2a9c7cf4b}
+      \strng{authorbibnamehash}{42ee5be9ebee2294ef5628f2a9c7cf4b}
+      \strng{authornamehash}{42ee5be9ebee2294ef5628f2a9c7cf4b}
+      \strng{authorfullhash}{42ee5be9ebee2294ef5628f2a9c7cf4b}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We provide a brief overview of tensor models and group field theories, focusing on their main common features. Both frameworks arose in the context of quantum gravity research, and can be understood as higher-dimensional generalizations of matrix models. We describe the common combinatorial structure underlying such models and review some of the key mathematical results that have been obtained in this area. Of central importance is the discovery of a new family of large {$ N $} expansions for random tensors. It has driven applications of tensor models to random geometry and non-perturbative local quantum field theory, and has also enabled the development of rigorous renormalization methods for group field theories and other non-local quantum field theories.}
+      \field{eprintclass}{math-ph}
+      \field{eprinttype}{arXiv}
+      \field{month}{4}
+      \field{title}{Tensor models and group field theories: combinatorics, large {$ N $} and renormalization}
+      \field{year}{2024}
+      \verb{eprint}
+      \verb 2404.07834
+      \endverb
+      \verb{file}
+      \verb carrozza2024a2024a
+      \endverb
+    \endentry
+    \entry{carlip2005a}{article}{}
+      \name{author}{1}{}{%
+        {{hash=8a70908cc6e3989599cd1c9641a543fc}{%
+           family={Carlip},
+           familyi={C\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{8a70908cc6e3989599cd1c9641a543fc}
+      \strng{fullhash}{8a70908cc6e3989599cd1c9641a543fc}
+      \strng{bibnamehash}{8a70908cc6e3989599cd1c9641a543fc}
+      \strng{authorbibnamehash}{8a70908cc6e3989599cd1c9641a543fc}
+      \strng{authornamehash}{8a70908cc6e3989599cd1c9641a543fc}
+      \strng{authorfullhash}{8a70908cc6e3989599cd1c9641a543fc}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In three spacetime dimensions, general relativity becomes a topological field theory, whose dynamics can be largely described holographically by a two-dimensional conformal field theory at the \mkbibquote{boundary} of spacetime. I review what is known about this reduction-mainly within the context of pure { $(2+1)$} -dimensional gravity --- and discuss its implications for our understanding of the statistical mechanics and quantum mechanics of black holes.}
+      \field{eprintclass}{gr-qc}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Classical and Quantum Gravity}
+      \field{month}{6}
+      \field{number}{12}
+      \field{title}{Conformal field theory, {$(2+1)$}-dimensional gravity, and the BTZ black hole}
+      \field{volume}{22}
+      \field{year}{2005}
+      \field{pages}{R85\bibrangedash R123}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/0264-9381/22/12/r01
+      \endverb
+      \verb{eprint}
+      \verb gr-qc/0503022
+      \endverb
+      \verb{file}
+      \verb carlip2005a
+      \endverb
+    \endentry
+    \entry{manschot2007a}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a7ac7a14c4147504b9bdc21496bc0e21}{%
+           family={Jan\bibnamedelima Manschot},
+           familyi={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{a7ac7a14c4147504b9bdc21496bc0e21}
+      \strng{fullhash}{a7ac7a14c4147504b9bdc21496bc0e21}
+      \strng{bibnamehash}{a7ac7a14c4147504b9bdc21496bc0e21}
+      \strng{authorbibnamehash}{a7ac7a14c4147504b9bdc21496bc0e21}
+      \strng{authornamehash}{a7ac7a14c4147504b9bdc21496bc0e21}
+      \strng{authorfullhash}{a7ac7a14c4147504b9bdc21496bc0e21}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{For pure gravity in {$ AdS_3 $}, Witten has given a recipe for the construction of holomorphically factorizable partition functions of pure gravity theories with central charge {$ c=24k $}. The partition function was found to be a polynomial in the modular invariant {$ j $}-function. We show that the partition function can be obtained instead as a modular sum which has a more physical interpretation as a sum over geometries. We express both the {$ j $}-function and its derivative in terms of such a sum.}
+      \field{eprintclass}{hep-th}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Journal of High Energy Physics}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{{$ {AdS}_3 $} partition functions reconstructed}
+      \field{volume}{2007}
+      \field{year}{2007}
+      \field{pages}{103}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1126-6708/2007/10/103
+      \endverb
+      \verb{eprint}
+      \verb 0707.1159
+      \endverb
+      \verb{file}
+      \verb manschot2007a
+      \endverb
+    \endentry
+    \entry{yin2008a}{article}{}
+      \name{author}{1}{}{%
+        {{hash=78144a8e7e80223ab660b9e6e9a88e02}{%
+           family={Xi\bibnamedelima Yin},
+           familyi={X\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{78144a8e7e80223ab660b9e6e9a88e02}
+      \strng{fullhash}{78144a8e7e80223ab660b9e6e9a88e02}
+      \strng{bibnamehash}{78144a8e7e80223ab660b9e6e9a88e02}
+      \strng{authorbibnamehash}{78144a8e7e80223ab660b9e6e9a88e02}
+      \strng{authornamehash}{78144a8e7e80223ab660b9e6e9a88e02}
+      \strng{authorfullhash}{78144a8e7e80223ab660b9e6e9a88e02}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The three-dimensional pure quantum gravity with a negative cosmological constant has been conjectured to be dual to an extremal conformal field theory (ECFT), of central charge {$ c=24k $} for some positive integer {$ k $}. We compute the partition function of the dual ECFT by summing over gravitational instanton contributions. In particular, we conjecture an exact expression for the contribution from handlebodies to the partition function for all genera and all values of k, and provide nontrivial evidences for the conjecture at genus two.}
+      \field{eprintclass}{hep-th}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Communications in Number Theory and Physics}
+      \field{month}{1}
+      \field{number}{2}
+      \field{title}{Partition functions of three-dimensional pure gravity}
+      \field{volume}{2}
+      \field{year}{2008}
+      \field{pages}{285\bibrangedash 324}
+      \range{pages}{40}
+      \verb{doi}
+      \verb 10.4310/CNTP.2008.v2.n2.a1
+      \endverb
+      \verb{eprint}
+      \verb 0710.2129
+      \endverb
+      \verb{file}
+      \verb yin2008a
+      \endverb
+    \endentry
+    \entry{elshowk2012a}{article}{}
+      \name{author}{2}{}{%
+        {{hash=4c542008c21ca7c4db5200d8d62c3e6e}{%
+           family={Sheer\bibnamedelima El-Showk},
+           familyi={S\bibinitperiod\bibinitdelim E\bibinithyphendelim S\bibinitperiod}}}%
+        {{hash=19157f8ee953f16676a93f61047a164f}{%
+           family={Kyriakos\bibnamedelima Papadodimas},
+           familyi={K\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{7dc63e147ca56b33ab5420faeb94b429}
+      \strng{fullhash}{7dc63e147ca56b33ab5420faeb94b429}
+      \strng{bibnamehash}{7dc63e147ca56b33ab5420faeb94b429}
+      \strng{authorbibnamehash}{7dc63e147ca56b33ab5420faeb94b429}
+      \strng{authornamehash}{7dc63e147ca56b33ab5420faeb94b429}
+      \strng{authorfullhash}{7dc63e147ca56b33ab5420faeb94b429}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We discuss universal properties of conformal field theories with holographic duals. A central feature of these theories is the existence of a low-lying sector of operators whose correlators factorize. We demonstrate that factorization can only hold in the large central charge limit. Using conformal invariance and factorization we argue that these operators are naturally represented as fields in AdS as this makes the underlying linearity of the system manifest. In this class of CFTs the solution of the conformal bootstrap conditions can be naturally organized in structures which coincide with Witten diagrams in the bulk. The large value of the central charge suggests that the theory must include a large number of new operators not captured by the factorized sector. Consequently we may think of the AdS hologram as an effective representation of a small sector of the CFT, which is embedded inside a much larger Hilbert space corresponding to the black hole microstates.}
+      \field{eprintclass}{hep-th}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Journal of High Energy Physics}
+      \field{month}{10}
+      \field{number}{106}
+      \field{title}{Emergent spacetime and holographic CFTs}
+      \field{volume}{2012}
+      \field{year}{2012}
+      \verb{doi}
+      \verb 10.1007/JHEP10(2012)106
+      \endverb
+      \verb{eprint}
+      \verb 1101.4163
+      \endverb
+      \verb{file}
+      \verb elshowk2012a
+      \endverb
+    \endentry
+    \entry{carlip2023a}{online}{}
+      \name{author}{1}{}{%
+        {{hash=675932ec1b9ef8c3c61f39cac1a56b84}{%
+           family={Steven\bibnamedelima Carlip},
+           familyi={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{675932ec1b9ef8c3c61f39cac1a56b84}
+      \strng{fullhash}{675932ec1b9ef8c3c61f39cac1a56b84}
+      \strng{bibnamehash}{675932ec1b9ef8c3c61f39cac1a56b84}
+      \strng{authorbibnamehash}{675932ec1b9ef8c3c61f39cac1a56b84}
+      \strng{authornamehash}{675932ec1b9ef8c3c61f39cac1a56b84}
+      \strng{authorfullhash}{675932ec1b9ef8c3c61f39cac1a56b84}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{General relativity becomes vastly simpler in three spacetime dimensions: all vacuum solutions have constant curvature, and the moduli space of solutions can be almost completely characterized. As a result, this lower dimensional setting becomes an ideal test bed for a wide range of approaches to quantum gravity, from reduced phase phase space quantization to covariant canonical quantization to path integral methods to asymptotic quantization of \textquote{edge states}. Here I review a variety of classical descriptions of the moduli space of solutions and a broad range of quantizations, with special attention to implications for realistic quantum gravity in four spacetime dimensions.}
+      \field{eprintclass}{gr-qc}
+      \field{eprinttype}{arXiv}
+      \field{month}{12}
+      \field{title}{Quantum gravity in {$ 2+1 $} dimensions}
+      \field{year}{2023}
+      \verb{eprint}
+      \verb 2312.12596
+      \endverb
+      \verb{file}
+      \verb carlip2023a
+      \endverb
+    \endentry
+    \entry{ma2024a}{article}{}
+      \name{author}{1}{}{%
+        {{hash=3d243b953d10a343162b0d460a9410e0}{%
+           family={Chen-Te\bibnamedelima Ma},
+           familyi={C\bibinithyphendelim T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{3d243b953d10a343162b0d460a9410e0}
+      \strng{fullhash}{3d243b953d10a343162b0d460a9410e0}
+      \strng{bibnamehash}{3d243b953d10a343162b0d460a9410e0}
+      \strng{authorbibnamehash}{3d243b953d10a343162b0d460a9410e0}
+      \strng{authornamehash}{3d243b953d10a343162b0d460a9410e0}
+      \strng{authorfullhash}{3d243b953d10a343162b0d460a9410e0}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We review the various aspects of the 3D Einstein gravity theory with a negative cosmological constant and its boundary description. We also explore its connections to conformal field theories (CFTs), modular symmetry, and holography. It is worth noting that this particular theory is topological in nature, which means that all the physical degrees of freedom are located on the boundary. Additionally, we can derive the boundary description on a torus, which takes the form of a 2D Schwarzian theory. This observation suggests that the relevant degrees of freedom for the theory can be described using this 2D theory. Because of the renormalizability of the 3D gravity theory, one can probe the quantum regime. This suggests that it is possible to investigate quantum phenomena. Unlike the conventional CFTs, when considering the {$ AdS_3 $} background, the boundary theory loses modular symmetry. This represents a departure from the usual behavior of CFT and is quite intriguing. The Weyl transformation induces anomaly in CFTs, and we indicate that applying this transformation to the 2D Schwarzian theory leads to similar results. Summing over all geometries with the asymptotic {$ AdS_3 $} boundary condition is equivalent to summing over a modular group. The partition function is one-loop exact and therefore an analytical expression from the summation. This theory holds potential applications in Quantum Information and is a recurring theme in the study of holography, where gravitational theories are connected with CFTs.}
+      \field{eprintclass}{hep-th}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Classical and Quantum Gravity}
+      \field{month}{1}
+      \field{number}{2}
+      \field{title}{{$ AdS_3 $} Einstein gravity and boundary description: pedagogical review}
+      \field{volume}{41}
+      \field{year}{2024}
+      \field{pages}{023001}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1361-6382/ad17f0
+      \endverb
+      \verb{eprint}
+      \verb 2310.04665
+      \endverb
+      \verb{file}
+      \verb ma2024a
+      \endverb
+    \endentry
+    \entry{sako1997a}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9ea60f5b025285bf433eaf713c986ec4}{%
+           family={Sako},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{9ea60f5b025285bf433eaf713c986ec4}
+      \strng{fullhash}{9ea60f5b025285bf433eaf713c986ec4}
+      \strng{bibnamehash}{9ea60f5b025285bf433eaf713c986ec4}
+      \strng{authorbibnamehash}{9ea60f5b025285bf433eaf713c986ec4}
+      \strng{authornamehash}{9ea60f5b025285bf433eaf713c986ec4}
+      \strng{authorfullhash}{9ea60f5b025285bf433eaf713c986ec4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{It is known that if gauge conditions have Gribov zero modes, then topological symmetry is broken. In this paper we apply it to topological gravity in dimension {$ n \ge 3 $}. Our choice of the gauge condition for conformal invariance is {$ R + \alpha = 0 $}, where {$ R $} is the Ricci scalar curvature. We find when {$ \alpha \neq 0 $}, topological symmetry is not broken, but when {$\alpha = 0 $} and solutions of the Einstein equations exist then topological symmetry is broken. This conditions connect to the Yamabe conjecture. Namely negative constant scalar curvature exist on manifolds of any topology, but existence of nonnegative constant scalar curvature is restricted by topology. This fact is easily seen in this theory. Topological symmetry breaking means that BRS symmetry breaking in cohomological field theory. But it is found that another BRS symmetry can be defined and physical states are redefined. The divergence due to the Gribov zero modes is regularized, and the theory after topological symmetry breaking become semiclassical Einstein gravitational theory under a special definition of observables.}
+      \field{eprintclass}{hep-th}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{International Journal of Modern Physics A}
+      \field{number}{10}
+      \field{title}{Topological symmetry breaking on Einstein manifolds}
+      \field{volume}{12}
+      \field{year}{1997}
+      \field{pages}{1915\bibrangedash 1931}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1142/S0217751X97001201
+      \endverb
+      \verb{eprint}
+      \verb hep-th/9603160
+      \endverb
+      \verb{file}
+      \verb sako1997a
+      \endverb
+    \endentry
+    \entry{mielke2011a}{article}{}
+      \name{author}{1}{}{%
+        {{hash=3fa07dcfc5bd044bad831a7eab7a2ada}{%
+           family={Mielke},
+           familyi={M\bibinitperiod},
+           given={Eckehard\bibnamedelima W.},
+           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{3fa07dcfc5bd044bad831a7eab7a2ada}
+      \strng{fullhash}{3fa07dcfc5bd044bad831a7eab7a2ada}
+      \strng{bibnamehash}{3fa07dcfc5bd044bad831a7eab7a2ada}
+      \strng{authorbibnamehash}{3fa07dcfc5bd044bad831a7eab7a2ada}
+      \strng{authornamehash}{3fa07dcfc5bd044bad831a7eab7a2ada}
+      \strng{authorfullhash}{3fa07dcfc5bd044bad831a7eab7a2ada}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A completely metric-free {$SL(5,\mathbb{R})$} gauge framework is developed in four dimensions. After spontaneous symmetry breaking of the corresponding topological {$BF$} scheme, Einstein spaces with a tiny cosmological constant emerge, similarly as in (anti-)de Sitter gauge theories of gravity. The induced { $\Lambda$} is related to the scale of the symmetry breaking. A \mkbibquote{ background} metric surfaces from a Higgs-like mechanism. The finiteness of such a topological scheme converts into asymptotic safeness after quantization of the spontaneously broken model.}
+      \field{journaltitle}{Physical Review D}
+      \field{month}{2}
+      \field{number}{4}
+      \field{title}{Spontaneously broken topological {$SL(5,\mathbb{ R})$} gauge theory with standard gravity emerging}
+      \field{volume}{83}
+      \field{year}{2011}
+      \field{pages}{044004}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.83.044004
+      \endverb
+      \verb{file}
+      \verb mielke2011a
+      \endverb
+    \endentry
+    \entry{sadovski2017a}{article}{}
+      \name{author}{6}{}{%
+        {{hash=6451fb668ef942147f2afc27041473ff}{%
+           family={O.\bibnamedelimi C.\bibnamedelimi Junqueira},
+           familyi={O\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=e427e91bff97e0dd68bb9b03cce7f6b1}{%
+           family={A.\bibnamedelimi D.\bibnamedelimi Pereira},
+           familyi={A\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=3e8c7b8d2cfbd9eed194fa75f320648d}{%
+           family={Sadovski},
+           familyi={S\bibinitperiod},
+           given={G.\bibnamedelimi },
+           giveni={G\bibinitperiod}}}%
+        {{hash=a542e2248ca68f536d7efe7a127c6722}{%
+           family={Santos},
+           familyi={S\bibinitperiod},
+           given={T.\bibnamedelimi R.\bibnamedelimi S.\bibnamedelimi },
+           giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=71cd21e8e72234578c569947706f3551}{%
+           family={R.\bibnamedelimi F.\bibnamedelimi Sobreiro},
+           familyi={R\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=ba5b20b948ea432f85ecf9f885598e08}{%
+           family={A.\bibnamedelimi A.\bibnamedelimi Tomaz},
+           familyi={A\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{05ed5e3cfa94c61b2859a4ed234b5b8c}
+      \strng{fullhash}{32bbc1ce92ad8623b22310b8e6582e5d}
+      \strng{bibnamehash}{05ed5e3cfa94c61b2859a4ed234b5b8c}
+      \strng{authorbibnamehash}{05ed5e3cfa94c61b2859a4ed234b5b8c}
+      \strng{authornamehash}{05ed5e3cfa94c61b2859a4ed234b5b8c}
+      \strng{authorfullhash}{32bbc1ce92ad8623b22310b8e6582e5d}
+      \field{extraname}{4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We show that the four-dimensional Lovelock-Cartan action can be derived from a massless gauge theory for the SO(1,3) group with an additional BRST trivial part. The model is originally composed by a topological sector and a BRST exact piece and has no explicit dependence on the metric, the vierbein or a mass parameter. The vierbein is introduced together with a mass parameter through some BRST trivial constraints. The effect of the constraints is to identify the vierbein with some of the additional fields, transforming the original action into the Lovelock-Cartan one. In this scenario, the mass parameter is identified with Newton{'}s constant while the gauge field is identified with the spin-connection. The symmetries of the model are also explored. Moreover, the extension of the model to a quantum version is qualitatively discussed.}
+      \field{eprintclass}{hep-th}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{European Physical Journal C}
+      \field{month}{4}
+      \field{number}{4}
+      \field{title}{Equivalence between the Lovelock-Cartan action and a constrained gauge theory}
+      \field{volume}{77}
+      \field{year}{2017}
+      \field{pages}{249}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1140/epjc/s10052-017-4820-y
+      \endverb
+      \verb{eprint}
+      \verb 1612.05590
+      \endverb
+      \verb{file}
+      \verb sadovski2017a
+      \endverb
+    \endentry
+    \entry{gu2017a}{online}{}
+      \name{author}{1}{}{%
+        {{hash=0fa19486de159d326c004832416d85c8}{%
+           family={Zheng-Cheng\bibnamedelima Gu},
+           familyi={Z\bibinithyphendelim C\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{0fa19486de159d326c004832416d85c8}
+      \strng{fullhash}{0fa19486de159d326c004832416d85c8}
+      \strng{bibnamehash}{0fa19486de159d326c004832416d85c8}
+      \strng{authorbibnamehash}{0fa19486de159d326c004832416d85c8}
+      \strng{authornamehash}{0fa19486de159d326c004832416d85c8}
+      \strng{authorfullhash}{0fa19486de159d326c004832416d85c8}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Quantum field theory successfully explains the origin of all fundamental forces except gravity due to the renormalizability and ultraviolet(UV) completion puzzles. The ADS/CFT correspondence conjecture might naturally resolve the above two puzzles for ADS space gravity. In this paper, we propose a topological scenario to resolve the above two puzzles for generic cases (e.g., with or without cosmological constant term). First, we propose a {$ 3+1D $} topological (quantum) gravity theory which is perturbatively renormalizable and potentially UV complete, this step can be regarded as a straightforward generalization of Edward Witten{'}s Chern-Simons theory proposal for {$ 2+1D $} topological gravity. Then, we show that Einstein-Cartan equation and classical space-time naturally emerge from topological (quantum) gravity via loop condensation. The second step is a unique feature in {$ 3+1D $} and it might even naturally explain why our space-time is four dimensional. Experimentally measurable low energy predictions are also discussed.}
+      \field{eprintclass}{gr-qc}
+      \field{eprinttype}{arXiv}
+      \field{month}{9}
+      \field{title}{The emergence of {$ 3+1D $} Einstein gravity from topological gravity}
+      \field{year}{2017}
+      \verb{eprint}
+      \verb 1709.09806
+      \endverb
+      \verb{file}
+      \verb gu2017a
+      \endverb
+    \endentry
+    \entry{agrawal2020a}{online}{}
+      \name{author}{4}{}{%
+        {{hash=492d6dde12fdde47202e214d6755487a}{%
+           family={Agrawal},
+           familyi={A\bibinitperiod},
+           given={Prateek},
+           giveni={P\bibinitperiod}}}%
+        {{hash=d957d2534fb9bafe1537fc75ab2f4e1e}{%
+           family={Gukov},
+           familyi={G\bibinitperiod},
+           given={Sergei},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b3f5eae4b5236e7ee0514e0f099df4aa}{%
+           family={Obied},
+           familyi={O\bibinitperiod},
+           given={Georges},
+           giveni={G\bibinitperiod}}}%
+        {{hash=9bb2a2ed1567f070b3932817dc57b53f}{%
+           family={Vafa},
+           familyi={V\bibinitperiod},
+           given={Cumrun},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{7f225456638568029ef5ea5b3dad55dc}
+      \strng{fullhash}{b7544f5385064d1388deaeea3f7c4cf1}
+      \strng{bibnamehash}{7f225456638568029ef5ea5b3dad55dc}
+      \strng{authorbibnamehash}{7f225456638568029ef5ea5b3dad55dc}
+      \strng{authornamehash}{7f225456638568029ef5ea5b3dad55dc}
+      \strng{authorfullhash}{b7544f5385064d1388deaeea3f7c4cf1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Motivated by string dualities we propose topological gravity as the early phase of our universe. The topological nature of this phase naturally leads to the explanation of many of the puzzles of early universe cosmology. A concrete realization of this scenario using Witten{'}s four dimensional topological gravity is considered. This model leads to the power spectrum of CMB fluctuations which is controlled by the conformal anomaly coefficients {$a,\; c$}. In particular the strength of the fluctuation is controlled by { $1/a$} and its tilt by {$cg^2$} where {$g$} is the coupling constant of topological gravity. The positivity of {$c$}, a consequence of unitarity, leads automatically to an IR tilt for the power spectrum. In contrast with standard inflationary models, this scenario predicts {$O(1)$} non-Gaussianities for four- and higher-point correlators and the absence of tensor modes in the CMB fluctuations.}
+      \field{eprintclass}{hep-th}
+      \field{eprinttype}{arXiv}
+      \field{month}{9}
+      \field{title}{Topological Gravity as the early phase of our Universe}
+      \field{year}{2020}
+      \verb{eprint}
+      \verb 2009.10077
+      \endverb
+      \verb{file}
+      \verb agrawal2020a
+      \endverb
+    \endentry
+    \entry{kehagias2021a}{online}{}
+      \name{author}{2}{}{%
+        {{hash=f9edfc65f20c60cb8396d6d5aa4fc8d6}{%
+           family={Kehagias},
+           familyi={K\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e97b72c743ea71554b4db7282710dd89}{%
+           family={Riotto},
+           familyi={R\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{1c48f4255958c885e9f1f2161631674f}
+      \strng{fullhash}{1c48f4255958c885e9f1f2161631674f}
+      \strng{bibnamehash}{1c48f4255958c885e9f1f2161631674f}
+      \strng{authorbibnamehash}{1c48f4255958c885e9f1f2161631674f}
+      \strng{authornamehash}{1c48f4255958c885e9f1f2161631674f}
+      \strng{authorfullhash}{1c48f4255958c885e9f1f2161631674f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The early history of the universe might be described by a topological phase followed by a standard second phase of Einstein gravity. To study this scenario in its full generality, we consider a four-manifold of Euclidean signature in the topological phase, which shares a common boundary with a corresponding manifold of Lorentzian signature in the Einstein phase. We find that the boundary should have vanishing extrinsic curvature, whereas the manifold in the topological phase should have zero Euler number. In addition, we show that the second phase must be characterized by an initial vanishing Weyl tensor and that the standard cosmological flatness problem is not automatically solved unless a conformal invariant boundary term is added. We also characterize the scalar perturbations in the standard Einstein phase. We show that they must contain an initial non-vanishing shear component inherited from the topological phase and we estimate the non-Gaussian parameters. Finally, we argue that the topological early universe cosmology shares common features of previous ideas, such as the so-called Weyl curvature hypothesis, the universe{'}s creation out of nothing and the no-boundary proposal.}
+      \field{eprintclass}{hep-th}
+      \field{eprinttype}{arXiv}
+      \field{month}{5}
+      \field{title}{Topological early universe cosmology}
+      \field{year}{2021}
+      \verb{eprint}
+      \verb 2105.10669
+      \endverb
+      \verb{file}
+      \verb kehagias2021a
+      \endverb
+    \endentry
+    \entry{fang2023a}{online}{}
+      \name{author}{2}{}{%
+        {{hash=9333410d046be59eb23ea9c580171011}{%
+           family={Fang},
+           familyi={F\bibinitperiod},
+           given={Tianyao},
+           giveni={T\bibinitperiod}}}%
+        {{hash=3e4082cb49fa8aa3c6899ebc4c74ca14}{%
+           family={Gu},
+           familyi={G\bibinitperiod},
+           given={Zheng-Cheng},
+           giveni={Z\bibinithyphendelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{5912ac16290d14d987e6c775ed8522af}
+      \strng{fullhash}{5912ac16290d14d987e6c775ed8522af}
+      \strng{bibnamehash}{5912ac16290d14d987e6c775ed8522af}
+      \strng{authorbibnamehash}{5912ac16290d14d987e6c775ed8522af}
+      \strng{authornamehash}{5912ac16290d14d987e6c775ed8522af}
+      \strng{authorfullhash}{5912ac16290d14d987e6c775ed8522af}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The topological aspects of Einstein gravity suggest that topological invariance could be a more profound principle in understanding quantum gravity. In this work, we explore a topological supergravity action that initially describes a universe without Riemann curvature, which seems trivial. However, we made a surprising discovery by introducing a small deformation parameter {$ \lambda $}, which can be regarded as an AdS generalization of supersymmetry (SUSY). We find that the deformed topological quantum field theory (TQFT) becomes unstable at low energy, resulting in the emergence of a classical metric, whose dynamics are controlled by the Einstein equation. Our findings suggest that a quantum theory of gravity could be governed by a UV fixed point of a SUSY TQFT, and classical spacetime ceases to exist beyond the Planck scale.}
+      \field{eprintclass}{gr-qc}
+      \field{eprinttype}{arXiv}
+      \field{month}{12}
+      \field{title}{The emergence of Einstein gravity from topological supergravity in {$3+1$}D}
+      \field{year}{2023}
+      \verb{eprint}
+      \verb 2312.17196
+      \endverb
+      \verb{file}
+      \verb fang2023a
+      \endverb
+    \endentry
+    \entry{fang2021a}{online}{}
+      \name{author}{2}{}{%
+        {{hash=9333410d046be59eb23ea9c580171011}{%
+           family={Fang},
+           familyi={F\bibinitperiod},
+           given={Tianyao},
+           giveni={T\bibinitperiod}}}%
+        {{hash=3e4082cb49fa8aa3c6899ebc4c74ca14}{%
+           family={Gu},
+           familyi={G\bibinitperiod},
+           given={Zheng-Cheng},
+           giveni={Z\bibinithyphendelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{5912ac16290d14d987e6c775ed8522af}
+      \strng{fullhash}{5912ac16290d14d987e6c775ed8522af}
+      \strng{bibnamehash}{5912ac16290d14d987e6c775ed8522af}
+      \strng{authorbibnamehash}{5912ac16290d14d987e6c775ed8522af}
+      \strng{authornamehash}{5912ac16290d14d987e6c775ed8522af}
+      \strng{authorfullhash}{5912ac16290d14d987e6c775ed8522af}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Dark matter is one of the deepest mystery of the universe. So far there is no natural explanation why the dark matter should exist and even dominate the universe. In this paper, we begin with a {$ 3+1D $} topological gravity theory which is super renormalizable with vanishing beta functions, then we argue that Einstein gravity can emerge by condensing loop-like excitation from the underlying topological gravity theory. In the meanwhile, the uncondensed loop-like excitations serve as a natural candidate of dark matter and a generalized Einstein equation can be derived in the presence of loop-source (dark matter) background. Surprisingly, we find that such kind of dark matter will not contribute to scalar curvature, however, it will become a source of torsion. Finally, we derive the generalized Einstein equation in the presence of Dirac field. Very different from the usual Einstein-Cartan theory, our theory further predicts that any type of normal matter, including Dirac field will not produce torsion. All these unique predictions can be tested by future experiments. Our framework suggests that topological invariant principle might play a more profound role than the well-known general covariance principle, especially towards understanding the nature of dark matter and quantum gravity in {$ 3+1D $}.}
+      \field{eprintclass}{gr-qc}
+      \field{eprinttype}{arXiv}
+      \field{month}{6}
+      \field{title}{Topological gravity in {$ 3+1D $} and a possible origin of dark matter}
+      \field{year}{2021}
+      \verb{eprint}
+      \verb 2106.10242
+      \endverb
+      \verb{file}
+      \verb fang2021a
+      \endverb
+    \endentry
+    \entry{raitio2024a}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ff2759b7e60c8a4ca01e91eeb7fac749}{%
+           family={Raitio},
+           familyi={R\bibinitperiod},
+           given={Risto},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{ff2759b7e60c8a4ca01e91eeb7fac749}
+      \strng{fullhash}{ff2759b7e60c8a4ca01e91eeb7fac749}
+      \strng{bibnamehash}{ff2759b7e60c8a4ca01e91eeb7fac749}
+      \strng{authorbibnamehash}{ff2759b7e60c8a4ca01e91eeb7fac749}
+      \strng{authornamehash}{ff2759b7e60c8a4ca01e91eeb7fac749}
+      \strng{authorfullhash}{ff2759b7e60c8a4ca01e91eeb7fac749}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We analyze the significance of supersymmetry in two topological models and the standard model (SM). We conclude that the two topological field theory models favor hidden supersymmetry. The SM superpartners, instead, have not been found.}
+      \field{eprintclass}{hep-th}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Journal of High Energy Physics, Gravitation and Cosmology}
+      \field{month}{4}
+      \field{number}{2}
+      \field{title}{The fate of supersymmetry in quantum field theory}
+      \field{volume}{10}
+      \field{year}{2024}
+      \field{pages}{609\bibrangedash 620}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.4236/jhepgc.2024.102038
+      \endverb
+      \verb{eprint}
+      \verb 2307.13017
+      \endverb
+      \verb{file}
+      \verb raitio2024a
+      \endverb
+    \endentry
+    \entry{mardones1991a}{article}{}
+      \name{author}{2}{}{%
+        {{hash=cb84f59040f9ab9ce0052892c8b26303}{%
+           family={Alejandro\bibnamedelima Mardones},
+           familyi={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=7c07f928800a6bc944059fcafa9be2de}{%
+           family={Jorge\bibnamedelima Zanelli},
+           familyi={J\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{787ff2cfe50b894c6d0d9c22b0358e2e}
+      \strng{fullhash}{787ff2cfe50b894c6d0d9c22b0358e2e}
+      \strng{bibnamehash}{787ff2cfe50b894c6d0d9c22b0358e2e}
+      \strng{authorbibnamehash}{787ff2cfe50b894c6d0d9c22b0358e2e}
+      \strng{authornamehash}{787ff2cfe50b894c6d0d9c22b0358e2e}
+      \strng{authorfullhash}{787ff2cfe50b894c6d0d9c22b0358e2e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The most general theory of gravity with torsion in D dimensions is discussed. The Lagrangian is required to be: (i) a D-form scalar under local Lorentz transformations; (ii) a local polynomial of the vielbein, the spin connection, and their exterior derivatives; (iii) constructed without the Hodge dual (*-operation). Besides the purely metric Lovelock action, there is a series of torsion terms related to the Pontryagin classes in a way analogous to the relation between the Lovelock action and the Euler classes. Also, a family of global invariants of the differentiable structure of the manifold, constructed with the torsion, is identified. Relaxing the condition of invariance of the Lagrangian under local Lorentz rotations, but still requiring the action to be invariant, another family of torsional actions that generalizes the Chern-Simons theories is found. Systematic algorithms for the explicit construction of these actions are provided.}
+      \field{journaltitle}{Classical and Quantum Gravity}
+      \field{number}{8}
+      \field{title}{Lovelock-Cartan theory of gravity}
+      \field{volume}{8}
+      \field{year}{1991}
+      \field{pages}{1545\bibrangedash 1558}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1088/0264-9381/8/8/018
+      \endverb
+      \verb{file}
+      \verb zanelli1991a
+      \endverb
+    \endentry
+    \entry{hassaine2016a}{book}{}
+      \name{author}{2}{}{%
+        {{hash=46be154a0a89009a88af5c865367ee00}{%
+           family={Hassaine},
+           familyi={H\bibinitperiod},
+           given={Mokhtar},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4239b76df1c759b8fc31159c0f915dad}{%
+           family={Zanelli},
+           familyi={Z\bibinitperiod},
+           given={Jorge},
+           giveni={J\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=e28cc3e6f7f6ef55fcce6814f02de871}{%
+           family={Ashtekar},
+           familyi={A\bibinitperiod},
+           given={Abhay},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Singapore}%
+      }
+      \list{publisher}{1}{%
+        {World Scientific}%
+      }
+      \strng{namehash}{a1d935d66817e6b1f389d7a1c1e24d36}
+      \strng{fullhash}{a1d935d66817e6b1f389d7a1c1e24d36}
+      \strng{bibnamehash}{a1d935d66817e6b1f389d7a1c1e24d36}
+      \strng{authorbibnamehash}{a1d935d66817e6b1f389d7a1c1e24d36}
+      \strng{authornamehash}{a1d935d66817e6b1f389d7a1c1e24d36}
+      \strng{authorfullhash}{a1d935d66817e6b1f389d7a1c1e24d36}
+      \strng{editorbibnamehash}{e28cc3e6f7f6ef55fcce6814f02de871}
+      \strng{editornamehash}{e28cc3e6f7f6ef55fcce6814f02de871}
+      \strng{editorfullhash}{e28cc3e6f7f6ef55fcce6814f02de871}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This book grew out of a set of lecture notes on gravitational Chern–Simons (CS) theories developed over the past decade for several schools and different audiences including graduate students and researchers. CS theories are gauge-invariant theories that can include gravity consistently. They are only defined in odd dimensions and represent a very special class of theories in the Lovelock family. Lovelock gravitation theories are the natural extensions of General Relativity for dimensions greater than four that yield second-order field equations for the metric. These theories also admit local supersymmetric extensions where supersymmetry is an off-shell symmetry of the action, as in a standard gauge theory. Apart from the arguments of mathematical elegance and beauty, the gravitational CS actions are exceptionally endowed with physical attributes that suggest the viability of a quantum interpretation. CS theories are gauge-invariant , scale-invariant and background independent; they have no dimensional coupling constants. All constants in the Lagrangian are fixed rational coefficients that cannot be adjusted without destroying gauge invariance. This exceptional status of CS systems makes them classically interesting to study, and quantum mechanically intriguing and promising.}
+      \field{edition}{1}
+      \field{isbn}{9789814730952}
+      \field{series}{100 years of General Relativity}
+      \field{title}{Chern-Simons (Super-)Gravity}
+      \field{volume}{2}
+      \field{year}{2016}
+      \verb{doi}
+      \verb 10.1142/9863
+      \endverb
+      \verb{file}
+      \verb hassaine2016a
+      \endverb
+    \endentry
+    \entry{corichi2016a}{article}{}
+      \name{author}{3}{}{%
+        {{hash=41625b3a4da41ff636e54f09eb6b5da1}{%
+           family={Corichi},
+           familyi={C\bibinitperiod},
+           given={Alejandro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8bc192ba06d504b608b0332192e7da8c}{%
+           family={Rubalcava-Garc{\'{i\bibnamedelimb }}a},
+           familyi={R\bibinithyphendelim G\bibinitperiod},
+           given={Irais},
+           giveni={I\bibinitperiod}}}%
+        {{hash=a03976e930325ced9a1f67c072598c9c}{%
+           family={Vukašinac},
+           familyi={V\bibinitperiod},
+           given={Tatjana},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{1a193f02895d713f2bbd61ac3a4d5fce}
+      \strng{fullhash}{1a193f02895d713f2bbd61ac3a4d5fce}
+      \strng{bibnamehash}{1a193f02895d713f2bbd61ac3a4d5fce}
+      \strng{authorbibnamehash}{1a193f02895d713f2bbd61ac3a4d5fce}
+      \strng{authornamehash}{1a193f02895d713f2bbd61ac3a4d5fce}
+      \strng{authorfullhash}{1a193f02895d713f2bbd61ac3a4d5fce}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this review, we consider first-order gravity in four dimensions. In particular, we focus our attention in formulations where the fundamental variables are a tetrad {$ \tensor{e }{^I_a}$} and a {$ SO(3,1) $} connection {$ \tensor{\omega}{_{aI}^J} $}. We study the most general action principle compatible with diffeomorphism invariance. This implies, in particular, considering besides the standard Einstein–Hilbert–Palatini term, other terms that either do not change the equations of motion, or are topological in nature. Having a well defined action principle sometimes involves the need for additional boundary terms , whose detailed form may depend on the particular boundary conditions at hand. In this work, we consider spacetimes that include a boundary at infinity, satisfying asymptotically flat boundary conditions and/or an internal boundary satisfying isolated horizons boundary conditions. We focus on the covariant Hamiltonian formalism where the phase space {$ \Gamma $} is given by solutions to the equations of motion. For each of the possible terms contributing to the action, we consider the well-posedness of the action, its finiteness, the contribution to the symplectic structure, and the Hamiltonian and Noether charges. For the chosen boundary conditions, standard boundary terms warrant a well posed theory. Furthermore, the boundary and topological terms do not contribute to the symplectic structure, nor the Hamiltonian conserved charges. The Noether conserved charges, on the other hand, do depend on such additional terms. The aim of this manuscript is to present a comprehensive and self-contained treatment of the subject, so the style is somewhat pedagogical. Furthermore, along the way, we point out and clarify some issues that have not been clearly understood in the literature.}
+      \field{eprintclass}{gr-qc}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{International Journal of Modern Physics D}
+      \field{number}{4}
+      \field{subtitle}{A review}
+      \field{title}{Actions, topological terms and boundaries in first-order gravity}
+      \field{volume}{25}
+      \field{year}{2016}
+      \field{pages}{1630011}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1142/S0218271816300111
+      \endverb
+      \verb{eprint}
+      \verb 1604.07764
+      \endverb
+      \verb{file}
+      \verb corichi2016a
+      \endverb
+    \endentry
+    \entry{baulieu1985a}{article}{}
+      \name{author}{1}{}{%
+        {{hash=219460161a9bbf08c110118795c6edff}{%
+           family={Baulieu},
+           familyi={B\bibinitperiod},
+           given={Laurent},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{219460161a9bbf08c110118795c6edff}
+      \strng{fullhash}{219460161a9bbf08c110118795c6edff}
+      \strng{bibnamehash}{219460161a9bbf08c110118795c6edff}
+      \strng{authorbibnamehash}{219460161a9bbf08c110118795c6edff}
+      \strng{authornamehash}{219460161a9bbf08c110118795c6edff}
+      \strng{authorfullhash}{219460161a9bbf08c110118795c6edff}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We study the quantization of gauge theories by giving a central role to the Becchi-Rouet-Stora (BRS) symmetry. We analyze as far as possible the case of a general gauge theory. Algebraic as well as geometrical properties of the BRS symmetry are discussed. The problem of anomalies, renormalizability, gauge independence and unitarity in Yang-Mills theories is carefully examined.}
+      \field{journaltitle}{Physics Reports}
+      \field{month}{12}
+      \field{title}{Perturbative gauge theories}
+      \field{volume}{129}
+      \field{year}{1985}
+      \field{pages}{1\bibrangedash 74}
+      \range{pages}{74}
+      \verb{doi}
+      \verb 10.1016/0370-1573(85)90091-2
+      \endverb
+      \verb{file}
+      \verb baulieu1985a
+      \endverb
+    \endentry
+    \entry{baulieu1988a}{article}{}
+      \name{author}{2}{}{%
+        {{hash=15fdb6d97d9cb57e648974f7ea014377}{%
+           family={Baulieu},
+           familyi={B\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=876038e84cb3257667a2fb42c783d694}{%
+           family={Singer},
+           familyi={S\bibinitperiod},
+           given={I.\bibnamedelimi M.},
+           giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{12a62d97f7b35f6e7f74be02cd480f03}
+      \strng{fullhash}{12a62d97f7b35f6e7f74be02cd480f03}
+      \strng{bibnamehash}{12a62d97f7b35f6e7f74be02cd480f03}
+      \strng{authorbibnamehash}{12a62d97f7b35f6e7f74be02cd480f03}
+      \strng{authornamehash}{12a62d97f7b35f6e7f74be02cd480f03}
+      \strng{authorfullhash}{12a62d97f7b35f6e7f74be02cd480f03}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{09205632}
+      \field{journaltitle}{Nuclear Physics B --- Proceedings Supplements}
+      \field{month}{12}
+      \field{number}{2}
+      \field{title}{Topological Yang-Mills symmetry}
+      \field{volume}{5}
+      \field{year}{1988}
+      \field{pages}{12\bibrangedash 19}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/0920-5632(88)90366-0
+      \endverb
+      \verb{file}
+      \verb baulieu1988a
+      \endverb
+    \endentry
+    \entry{donaldson1983a}{article}{}
+      \name{author}{1}{}{%
+        {{hash=dd21bb8d5763df33fb21f3efec032f3e}{%
+           family={Donaldson},
+           familyi={D\bibinitperiod},
+           given={Simon\bibnamedelima Kirwan},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{dd21bb8d5763df33fb21f3efec032f3e}
+      \strng{fullhash}{dd21bb8d5763df33fb21f3efec032f3e}
+      \strng{bibnamehash}{dd21bb8d5763df33fb21f3efec032f3e}
+      \strng{authorbibnamehash}{dd21bb8d5763df33fb21f3efec032f3e}
+      \strng{authornamehash}{dd21bb8d5763df33fb21f3efec032f3e}
+      \strng{authorfullhash}{dd21bb8d5763df33fb21f3efec032f3e}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Differential Topology}
+      \field{number}{2}
+      \field{title}{An application of gauge theory to four dimensional topology}
+      \field{volume}{18}
+      \field{year}{1983}
+      \field{pages}{279\bibrangedash 315}
+      \range{pages}{37}
+      \verb{doi}
+      \verb 10.4310/jdg/1214437665
+      \endverb
+      \verb{file}
+      \verb donaldson1983a
+      \endverb
+    \endentry
+    \entry{donaldson1990a}{article}{}
+      \name{author}{1}{}{%
+        {{hash=dd21bb8d5763df33fb21f3efec032f3e}{%
+           family={Donaldson},
+           familyi={D\bibinitperiod},
+           given={Simon\bibnamedelima Kirwan},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{dd21bb8d5763df33fb21f3efec032f3e}
+      \strng{fullhash}{dd21bb8d5763df33fb21f3efec032f3e}
+      \strng{bibnamehash}{dd21bb8d5763df33fb21f3efec032f3e}
+      \strng{authorbibnamehash}{dd21bb8d5763df33fb21f3efec032f3e}
+      \strng{authornamehash}{dd21bb8d5763df33fb21f3efec032f3e}
+      \strng{authorfullhash}{dd21bb8d5763df33fb21f3efec032f3e}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Topology}
+      \field{number}{3}
+      \field{title}{Polynomial invariants for smooth four-manifolds}
+      \field{volume}{29}
+      \field{year}{1990}
+      \field{pages}{257\bibrangedash 315}
+      \range{pages}{59}
+      \verb{doi}
+      \verb 10.1016/0040-9383(90)90001-Z
+      \endverb
+      \verb{file}
+      \verb donaldson1990a
+      \endverb
+    \endentry
+    \entry{atiyah1988a}{article}{}
+      \name{author}{1}{}{%
+        {{hash=dc8e3148a6567202d3cb06286c641120}{%
+           family={Atiyah},
+           familyi={A\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{dc8e3148a6567202d3cb06286c641120}
+      \strng{fullhash}{dc8e3148a6567202d3cb06286c641120}
+      \strng{bibnamehash}{dc8e3148a6567202d3cb06286c641120}
+      \strng{authorbibnamehash}{dc8e3148a6567202d3cb06286c641120}
+      \strng{authornamehash}{dc8e3148a6567202d3cb06286c641120}
+      \strng{authorfullhash}{dc8e3148a6567202d3cb06286c641120}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Publications Mathématiques de l{'} Institut des Hautes Études Scientifiques}
+      \field{month}{1}
+      \field{title}{Topological quantum field theories}
+      \field{volume}{68}
+      \field{year}{1988}
+      \field{pages}{175\bibrangedash 186}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1007/BF02698547
+      \endverb
+      \verb{file}
+      \verb atiyah1988a
+      \endverb
+    \endentry
+    \entry{segal1988a}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=822dcdda8936ec523542dba9468907ff}{%
+           family={Segal},
+           familyi={S\bibinitperiod},
+           given={G.\bibnamedelimi B.},
+           giveni={G\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Dordrecht}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{822dcdda8936ec523542dba9468907ff}
+      \strng{fullhash}{822dcdda8936ec523542dba9468907ff}
+      \strng{bibnamehash}{822dcdda8936ec523542dba9468907ff}
+      \strng{authorbibnamehash}{822dcdda8936ec523542dba9468907ff}
+      \strng{authornamehash}{822dcdda8936ec523542dba9468907ff}
+      \strng{authorfullhash}{822dcdda8936ec523542dba9468907ff}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{I shall propose a definition of 2-dimensional conformal field theory which I believe is equivalent to that used by physicists.}
+      \field{booktitle}{Differential Geometrical Methods in Theoretical Physics}
+      \field{isbn}{978-94-015-7809-7}
+      \field{series}{NATO ASI Series}
+      \field{title}{The definition of conformal field theory}
+      \field{volume}{250}
+      \field{year}{1988}
+      \field{pages}{165\bibrangedash 171}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1007/978-94-015-7809-7_9
+      \endverb
+      \verb{file}
+      \verb segal1988a
+      \endverb
+    \endentry
+    \entry{baez1995a}{article}{}
+      \name{author}{2}{}{%
+        {{hash=77c130b1ed4688a565b29481eee08ae3}{%
+           family={Baez},
+           familyi={B\bibinitperiod},
+           given={John\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=9b4b17234c0b36cca484e60803290135}{%
+           family={Dolan},
+           familyi={D\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{0e216f5c63a9e417305f6998cd1c996d}
+      \strng{fullhash}{0e216f5c63a9e417305f6998cd1c996d}
+      \strng{bibnamehash}{0e216f5c63a9e417305f6998cd1c996d}
+      \strng{authorbibnamehash}{0e216f5c63a9e417305f6998cd1c996d}
+      \strng{authornamehash}{0e216f5c63a9e417305f6998cd1c996d}
+      \strng{authorfullhash}{0e216f5c63a9e417305f6998cd1c996d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The study of topological quantum field theories increasingly relies upon concepts from higher-dimensional algebra such as {$n$} -categories and {$n$}-vector spaces. We review progress towards a definition of {$n$}-category suited for this purpose, and outline a program in which {$n$}-dimensional TQFTs are to be described as {$n$}-category representations. First we describe a \mkbibquote{suspension} operation on {$n$}-categories, and hypothesize that the {$k$}-fold suspension of a weak {$n$} -category stabilizes for {$k \ge n+2$}. We give evidence for this hypothesis and describe its relation to stable homotopy theory. We then propose a description of {$n$}-dimensional unitary extended TQFTs as weak {$n$}-functors from the \mkbibquote{free stable weak {$n$} -category with duals on one object} to the {$n$ }-category of \mkbibquote{{$n$}-Hilbert spaces} . We conclude by describing {$n$}-categorical generalizations of deformation quantization and the quantum}
+      \field{eprintclass}{q-alg}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Journal of Mathematical Physics}
+      \field{month}{5}
+      \field{number}{11}
+      \field{title}{Higher-dimensional algebra and topological quantum field theory}
+      \field{volume}{36}
+      \field{year}{1995}
+      \field{pages}{6073\bibrangedash 6105}
+      \range{pages}{33}
+      \verb{doi}
+      \verb 10.1063/1.531236
+      \endverb
+      \verb{eprint}
+      \verb q-alg/9503002
+      \endverb
+      \verb{file}
+      \verb baez1995a
+      \endverb
+    \endentry
+    \entry{schreiber2009a}{article}{}
+      \name{author}{1}{}{%
+        {{hash=22bb4311878b35b2db2b84b4f2ade791}{%
+           family={Schreiber},
+           familyi={S\bibinitperiod},
+           given={Urs},
+           giveni={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{22bb4311878b35b2db2b84b4f2ade791}
+      \strng{fullhash}{22bb4311878b35b2db2b84b4f2ade791}
+      \strng{bibnamehash}{22bb4311878b35b2db2b84b4f2ade791}
+      \strng{authorbibnamehash}{22bb4311878b35b2db2b84b4f2ade791}
+      \strng{authornamehash}{22bb4311878b35b2db2b84b4f2ade791}
+      \strng{authorfullhash}{22bb4311878b35b2db2b84b4f2ade791}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{There are essentially two different approaches to the axiomatization of quantum field theory (QFT): algebraic QFT, going back to Haag and Kastler, and functorial QFT, going back to Atiyah and Segal. More recently, based on ideas by Baez and Dolan, the latter is being refined to \mkbibquote{extended} functorial QFT by Freed, Hopkins, Lurie and others. The first approach uses local nets of operator algebras which assign to each patch an algebra \mkbibquote{of observables}, the latter uses { $n$}-functors which assign to each patch a \mkbibquote{propagator of states}. In this note we present an observation about how these two axiom systems are naturally related: we demonstrate under mild assumptions that every 2-dimensional extended Minkowskian QFT 2-functor (\mkbibquote{parallel surface transport}) naturally yields a local net. This is obtained by postcomposing the propagation 2-functor with an operation that mimics the passage from the \textit{Schrödinger picture} to the \textit{Heisenberg picture} in quantum mechanics. The argument has a straightforward generalization to general Lorentzian structure, bare lightcone structure and higher dimensions. It does not, however, by itself imply anything about the existence of a vacuum state or about positive energy representations.}
+      \field{eprintclass}{math}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Communications in Mathematical Physics}
+      \field{month}{5}
+      \field{number}{2}
+      \field{title}{AQFT from {$n$}-functorial QFT}
+      \field{volume}{291}
+      \field{year}{2009}
+      \field{pages}{357\bibrangedash 401}
+      \range{pages}{45}
+      \verb{doi}
+      \verb 10.1007/s00220-009-0840-2
+      \endverb
+      \verb{eprint}
+      \verb 0806.1079
+      \endverb
+      \verb{file}
+      \verb schreiber2009a
+      \endverb
+    \endentry
+    \entry{baez2009a}{online}{}
+      \name{author}{2}{}{%
+        {{hash=77c130b1ed4688a565b29481eee08ae3}{%
+           family={Baez},
+           familyi={B\bibinitperiod},
+           given={John\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=17cb0cdbbffd43a62a10bd2bb15b3377}{%
+           family={Lauda},
+           familyi={L\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{5296938b4f66b1ac9d8d9e94963877b6}
+      \strng{fullhash}{5296938b4f66b1ac9d8d9e94963877b6}
+      \strng{bibnamehash}{5296938b4f66b1ac9d8d9e94963877b6}
+      \strng{authorbibnamehash}{5296938b4f66b1ac9d8d9e94963877b6}
+      \strng{authornamehash}{5296938b4f66b1ac9d8d9e94963877b6}
+      \strng{authorfullhash}{5296938b4f66b1ac9d8d9e94963877b6}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper traces the growing role of categories and {$n$}-categories in physics, starting with groups and their role in relativity, and leading up to more sophisticated concepts which manifest themselves in Feynman diagrams, spin networks, string theory, loop quantum gravity, and topological quantum field theory. Our chronology ends around 2000, with just a taste of later developments such as open-closed topological string theory, the categorification of quantum groups, Khovanov homology, and Lurie {'}s work on the classification of topological quantum field theories.}
+      \field{eprintclass}{hep-th}
+      \field{eprinttype}{arXiv}
+      \field{month}{8}
+      \field{title}{A prehistory of {$n$}-categorical physics}
+      \field{year}{2009}
+      \verb{eprint}
+      \verb 0908.2469
+      \endverb
+      \verb{file}
+      \verb baez2009a
+      \endverb
+    \endentry
+    \entry{myers1990c}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4f2a8d71b346e8fdf1ffc950902028c4}{%
+           family={Myers},
+           familyi={M\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{4f2a8d71b346e8fdf1ffc950902028c4}
+      \strng{fullhash}{4f2a8d71b346e8fdf1ffc950902028c4}
+      \strng{bibnamehash}{4f2a8d71b346e8fdf1ffc950902028c4}
+      \strng{authorbibnamehash}{4f2a8d71b346e8fdf1ffc950902028c4}
+      \strng{authornamehash}{4f2a8d71b346e8fdf1ffc950902028c4}
+      \strng{authorfullhash}{4f2a8d71b346e8fdf1ffc950902028c4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We examine two methods of fixing the gauge symmetry in Witten{'}s topological Yang-Mills theory. We find that both procedures produce the same nontrivial correlation functions. Our results also apply to other topological field theories, such as topological gravity.}
+      \field{journaltitle}{International Journal of Modern Physics A}
+      \field{number}{7}
+      \field{title}{Gauge fixing topological Yang-Mills}
+      \field{volume}{5}
+      \field{year}{1990}
+      \field{pages}{1369\bibrangedash 1381}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1142/S0217751X90000635
+      \endverb
+      \verb{file}
+      \verb myers1990c
+      \endverb
+    \endentry
+    \entry{benn1987a}{book}{}
+      \name{author}{2}{}{%
+        {{hash=530e0a4790daa8b6306d0df7e2584646}{%
+           family={Benn},
+           familyi={B\bibinitperiod},
+           given={Ian\bibnamedelima M.},
+           giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=8c466c800703c49c8ba07a63d0454ffd}{%
+           family={Tucker},
+           familyi={T\bibinitperiod},
+           given={Robin\bibnamedelima W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Adam Hilger}%
+      }
+      \strng{namehash}{d0ab8a0cbb7a3af098abd15b16de3869}
+      \strng{fullhash}{d0ab8a0cbb7a3af098abd15b16de3869}
+      \strng{bibnamehash}{d0ab8a0cbb7a3af098abd15b16de3869}
+      \strng{authorbibnamehash}{d0ab8a0cbb7a3af098abd15b16de3869}
+      \strng{authornamehash}{d0ab8a0cbb7a3af098abd15b16de3869}
+      \strng{authorfullhash}{d0ab8a0cbb7a3af098abd15b16de3869}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This graduate textbook dealing with the modern mathematical techniques of differential geometry and Clifford algebras is written with students of theoretical physics in mind.}
+      \field{edition}{1}
+      \field{isbn}{0-85274-261-4}
+      \field{title}{An introduction to spinors and geometry with applications in Physics}
+      \field{year}{1987}
+      \verb{file}
+      \verb benn1987a
+      \endverb
+    \endentry
+    \entry{mielke2001a}{article}{}
+      \name{author}{1}{}{%
+        {{hash=3fa07dcfc5bd044bad831a7eab7a2ada}{%
+           family={Mielke},
+           familyi={M\bibinitperiod},
+           given={Eckehard\bibnamedelima W.},
+           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{3fa07dcfc5bd044bad831a7eab7a2ada}
+      \strng{fullhash}{3fa07dcfc5bd044bad831a7eab7a2ada}
+      \strng{bibnamehash}{3fa07dcfc5bd044bad831a7eab7a2ada}
+      \strng{authorbibnamehash}{3fa07dcfc5bd044bad831a7eab7a2ada}
+      \strng{authornamehash}{3fa07dcfc5bd044bad831a7eab7a2ada}
+      \strng{authorfullhash}{3fa07dcfc5bd044bad831a7eab7a2ada}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{By combining the tetrads of unholonomic frames of spacetime with the Dirac matrices to a one-form {$\gamma$ }, we can reformulate not only the Dirac equation, but also the Einstein equations and supergravity in a very concise form. These \mkbibquote{Clifforms} also shed some light on the chiral decomposition à la Ashtekar, the role of the axion as a dynamical degree of freedom dual to the torsion of the Einstein-—Cartan theory, and the role of the Seiberg-Witten equation for S-duality.}
+      \field{journaltitle}{International Journal of Theoretical Physics}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Beatiful gauge field equations in Clifforms}
+      \field{volume}{40}
+      \field{year}{2001}
+      \field{pages}{171\bibrangedash 190}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1023/A:1003787428183
+      \endverb
+      \verb{file}
+      \verb mielke2001a
+      \endverb
+    \endentry
+    \entry{mielke2017a}{book}{}
+      \name{author}{1}{}{%
+        {{hash=3fa07dcfc5bd044bad831a7eab7a2ada}{%
+           family={Mielke},
+           familyi={M\bibinitperiod},
+           given={Eckehard\bibnamedelima W.},
+           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Switzerland}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{3fa07dcfc5bd044bad831a7eab7a2ada}
+      \strng{fullhash}{3fa07dcfc5bd044bad831a7eab7a2ada}
+      \strng{bibnamehash}{3fa07dcfc5bd044bad831a7eab7a2ada}
+      \strng{authorbibnamehash}{3fa07dcfc5bd044bad831a7eab7a2ada}
+      \strng{authornamehash}{3fa07dcfc5bd044bad831a7eab7a2ada}
+      \strng{authorfullhash}{3fa07dcfc5bd044bad831a7eab7a2ada}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This revised monograph still aims at an unified geometric foundation of gauge theories of elementary particle physics and gravity. The underlying geometric structure is unfolded in a coordinate-free manner via the modern mathematical notions of fiber bundles, exterior differential forms, and their Clifford-algebra-valued generalizations.}
+      \field{edition}{2}
+      \field{isbn}{978-3-319-29734-7}
+      \field{series}{Mathematical Physics Studies}
+      \field{subtitle}{On the geometry of Yang-Mills and gravitational gauge theories}
+      \field{title}{Geometrodynamics of gauge fields}
+      \field{volume}{1}
+      \field{year}{2017}
+      \verb{doi}
+      \verb 10.1007/978-3-319-29734-7
+      \endverb
+      \verb{file}
+      \verb mielke2017a
+      \endverb
+    \endentry
+    \entry{holst1996a}{article}{}
+      \name{author}{1}{}{%
+        {{hash=cc2662d3838241c91c4c725ee7a559d3}{%
+           family={Holst},
+           familyi={H\bibinitperiod},
+           given={Soren},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{cc2662d3838241c91c4c725ee7a559d3}
+      \strng{fullhash}{cc2662d3838241c91c4c725ee7a559d3}
+      \strng{bibnamehash}{cc2662d3838241c91c4c725ee7a559d3}
+      \strng{authorbibnamehash}{cc2662d3838241c91c4c725ee7a559d3}
+      \strng{authornamehash}{cc2662d3838241c91c4c725ee7a559d3}
+      \strng{authorfullhash}{cc2662d3838241c91c4c725ee7a559d3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Barbero recently suggested a modification of Ashtekar{'}s choice of canonical variables for general relativity. Although leading to a more complicated Hamiltonian constraint this modified version, in which the configuration variable still is a connection, has the advantage of being real. In this article we derive Barbero{'}s Hamiltonian formulation from an action, which can be considered as a generalization of the ordinary Hilbert-Palatini action.}
+      \field{eprintclass}{gr-qc}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Physical Review D}
+      \field{month}{5}
+      \field{number}{10}
+      \field{title}{Barbero{'}s Hamiltonian derived from a generalized Hilbert-Palatini action}
+      \field{volume}{53}
+      \field{year}{1996}
+      \field{pages}{5966\bibrangedash 5969}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.53.5966
+      \endverb
+      \verb{eprint}
+      \verb gr-qc/9511026
+      \endverb
+      \verb{file}
+      \verb holst1996a
+      \endverb
+    \endentry
+    \entry{nieh1982a}{article}{}
+      \name{author}{2}{}{%
+        {{hash=963c2b64e13fa16664730ec6fb77881e}{%
+           family={Nieh},
+           familyi={N\bibinitperiod},
+           given={H.\bibnamedelimi T.},
+           giveni={H\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=b4b5ffca5aaf71a11f69ad6461b43c47}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={M.\bibnamedelimi L.},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{176d98b689b8046c50b8409cacae3f39}
+      \strng{fullhash}{176d98b689b8046c50b8409cacae3f39}
+      \strng{bibnamehash}{176d98b689b8046c50b8409cacae3f39}
+      \strng{authorbibnamehash}{176d98b689b8046c50b8409cacae3f39}
+      \strng{authornamehash}{176d98b689b8046c50b8409cacae3f39}
+      \strng{authorfullhash}{176d98b689b8046c50b8409cacae3f39}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We derive a new Gauss–Bonnet type identity in Riemann‐Cartan geometry: {$ \sqrt{-g} \epsilon^ {\mu \nu \lambda \rho} \left( R_{\mu \nu \lambda \rho} + \frac{ 1 }{ 2 } \tensor{C}{^{ \alpha}_{\mu \nu} } C_{\alpha \lambda \nu} \right) = \partial_{ \mu } \left( - \sqrt{-g} \epsilon^{\mu \nu \alpha \rho} C_{\nu \alpha \rho} \right) $}, where {$ \tensor{C}{^{\alpha} _{\mu \nu} } $} is the torsion tensor.}
+      \field{journaltitle}{Journal of Mathematical Physics}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{An identity in Riemann-Cartan geometry}
+      \field{volume}{23}
+      \field{year}{1982}
+      \field{pages}{373\bibrangedash 374}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1063/1.525379
+      \endverb
+      \verb{file}
+      \verb nieh1982a
+      \endverb
+    \endentry
+    \entry{chandia1997a}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a9ffbdefe3a45b993a12865c79d9668d}{%
+           family={Chandía},
+           familyi={C\bibinitperiod},
+           given={Osvaldo},
+           giveni={O\bibinitperiod}}}%
+        {{hash=4239b76df1c759b8fc31159c0f915dad}{%
+           family={Zanelli},
+           familyi={Z\bibinitperiod},
+           given={Jorge},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{ec59d2c029cfbaf68ab2344cc4a9c2b3}
+      \strng{fullhash}{ec59d2c029cfbaf68ab2344cc4a9c2b3}
+      \strng{bibnamehash}{ec59d2c029cfbaf68ab2344cc4a9c2b3}
+      \strng{authorbibnamehash}{ec59d2c029cfbaf68ab2344cc4a9c2b3}
+      \strng{authornamehash}{ec59d2c029cfbaf68ab2344cc4a9c2b3}
+      \strng{authorfullhash}{ec59d2c029cfbaf68ab2344cc4a9c2b3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In a spacetime with nonvanishing torsion there can occur topologically stable configurations associated with the frame bundle which are independent of the curvature. The relevant topological invariants are integrals of local scalar densities first discussed by Nieh and Yan (N-Y). In four dimensions, the N-Y form {$ N = \left( T_a T^a - R_{ab} e^a e^b \right) $} is the only closed 4-form invariant under local Lorentz rotations associated with the torsion of the manifold. The integral of {$ N $} over a compact {$ D $}-dimensional (Euclidean) manifold is shown to be a topological invariant related to the Pontryagin classes of {$ SO(D+1) $} and {$ SO(D) $}. An explicit example of a topologically nontrivial configuration carrying nonvanishing instanton number proportional to {$ \int N $} is constructed. The chiral anomaly in a four-dimensional spacetime with torsion is also shown to contain a contribution proportional to {$ N $}, besides the usual Pontryagin density related to the spacetime curvature. The violation of chiral symmetry can thus depend on the instanton number of the tangent frame bundle of the manifold. Similar invariants can be constructed in {$ D>4 $} dimensions and the existence of the corresponding nontrivial excitations is also discussed.}
+      \field{eprintclass}{hep-th}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Physical Review D}
+      \field{number}{12}
+      \field{title}{Topological invariants, instantons, and the chiral anomaly on spaces with torsion}
+      \field{volume}{55}
+      \field{year}{1997}
+      \field{pages}{7580}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.55.7580
+      \endverb
+      \verb{eprint}
+      \verb hep-th/9702025
+      \endverb
+      \verb{file}
+      \verb chandia1997a
+      \endverb
+    \endentry
+    \entry{nieh2007a}{article}{}
+      \name{author}{1}{}{%
+        {{hash=963c2b64e13fa16664730ec6fb77881e}{%
+           family={Nieh},
+           familyi={N\bibinitperiod},
+           given={H.\bibnamedelimi T.},
+           giveni={H\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{963c2b64e13fa16664730ec6fb77881e}
+      \strng{fullhash}{963c2b64e13fa16664730ec6fb77881e}
+      \strng{bibnamehash}{963c2b64e13fa16664730ec6fb77881e}
+      \strng{authorbibnamehash}{963c2b64e13fa16664730ec6fb77881e}
+      \strng{authornamehash}{963c2b64e13fa16664730ec6fb77881e}
+      \strng{authorfullhash}{963c2b64e13fa16664730ec6fb77881e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Curvature and torsion are the two tensors characterizing a general Riemannian space–time. In Einstein{'}s general theory of gravitation, with torsion postulated to vanish and the affine connection identified to the Christoffel symbol, only the curvature tensor plays the central role. For such a purely metric geometry , two well-known topological invariants, namely the Euler class and the Pontryagin class, are useful in characterizing the topological properties of the space–time. From a gauge theory point of view, and especially in the presence of spin, torsion naturally comes into play, and the underlying space–time is no longer purely metric. We describe a torsional topological invariant, discovered in 1982, that has now found increasing usefulness in recent developments.}
+      \field{eprintclass}{gr-qc}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{International Journal of Modern Physics A}
+      \field{month}{11}
+      \field{number}{29}
+      \field{title}{A torsional topological invariant}
+      \field{volume}{22}
+      \field{year}{2007}
+      \field{pages}{5237\bibrangedash 5244}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1142/9789812794185_0003
+      \endverb
+      \verb{eprint}
+      \verb 1309.0915
+      \endverb
+      \verb{file}
+      \verb nieh2007a
+      \endverb
+    \endentry
+    \entry{piguet1995b}{book}{}
+      \name{author}{2}{}{%
+        {{hash=6aafc5184ac3009ebbf480f40559dc12}{%
+           family={Piguet},
+           familyi={P\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod}}}%
+        {{hash=c7ec974298b3e334c5842e4b6d79f0a1}{%
+           family={Sorella},
+           familyi={S\bibinitperiod},
+           given={Silvio\bibnamedelima Paolo},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{3178cc1617890c05d5ca216a836a8dc2}
+      \strng{fullhash}{3178cc1617890c05d5ca216a836a8dc2}
+      \strng{bibnamehash}{3178cc1617890c05d5ca216a836a8dc2}
+      \strng{authorbibnamehash}{3178cc1617890c05d5ca216a836a8dc2}
+      \strng{authornamehash}{3178cc1617890c05d5ca216a836a8dc2}
+      \strng{authorfullhash}{3178cc1617890c05d5ca216a836a8dc2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The idea of this book originated from two series of lectures given by us at the Physics Department of the Catholic University of Petr{ ô}polis, in Brazil. Its aim is to present an introduction to the \mkbibquote{algebraic} method in the perturbative renormalization of relativistic quantum field theory. Although this approach goes back to the pioneering works of Symanzik in the early 1970s and was systematized by Becchi, Rouet and Stora as early as 1972-1974, its full value has not yet been widely appreciated by the practitioners of quantum field theory. Becchi, Rouet and Stora have, however, shown it to be a powerful tool for proving the renormalizability of theories with (broken) symmetries and of gauge theories. We have thus found it pertinent to collect in a self-contained manner the available information on algebraic renormalization, which was previously scattered in many original papers and in a few older review articles. Although we have taken care to adapt the level of this book to that of a postgraduate (Ph.D.) course, more advanced researchers will also certainly find it useful. The deeper knowledge of renormalization theory we hope readers will acquire should help them to face the difficult problems of quantum field theory. It should also be very helpful to the more phenomenology oriented readers who want to familiarize themselves with the formalism of renormalization theory, a necessity in view of the sophisticated perturbative calculations currently being done, in particular in the standard model of particle interactions.}
+      \field{edition}{1}
+      \field{isbn}{978-3-540-49192-7}
+      \field{series}{Lecture Notes in Physics Monographs}
+      \field{subtitle}{Perturbative renormalization, symmetries and anomalies}
+      \field{title}{Algebraic renormalization}
+      \field{volume}{28}
+      \field{year}{1995}
+      \verb{doi}
+      \verb 10.1007/978-3-540-49192-7
+      \endverb
+      \verb{file}
+      \verb piguet1995b
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
