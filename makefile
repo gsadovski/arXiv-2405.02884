@@ -9,7 +9,7 @@
 # DEFINITIONS OF VARIABLES #
 ############################
 TMPNAME=main
-JOBNAME = sadovski2024
+JOBNAME = sadovski2024b
 DESTINY = $(CLOUD)/work/research/$(JOBNAME)
 
 ###############
