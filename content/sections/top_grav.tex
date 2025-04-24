@@ -76,7 +76,7 @@ where $g_1$ and $g_2$ are dimensionless coupling parameters. Of course, coupling
 \subsection{Adding a BRST boundary}%
 \label{ssec:brst_boundary;sec:top_grav}
 
-If we add an $s$-boundary to~\eqref{eq:top_grav_action}, we strictly define a new dynamics. However, since $s$-boundaries lie outside the $s$-cohomology groups, the set of observables remains unchanged. In other words, we are still describing the same physical system. This is exactly what we did in Section~\ref{ssec:quantum-properties;sec:tym} to gauge fix TYM theory.\@ However, at this point, our objective here is not to gauge fix any symmetries. Consider the pair of new fields, $X$ and $Y$, satisfying the $s$-doublet condition
+If we add an $s$-boundary to~\eqref{eq:top_grav_action}, we strictly define a new dynamics. However, since $s$-boundaries lie outside the $s$-cohomology groups, the set of observables remains unchanged. In other words, we are still describing the same physical system. This is exactly what we did in Section~\ref{ssec:quantum-properties;sec:tym} to gauge fix TYM theory.\@ However, our objective here is not to gauge fix any symmetries, \textbf{but to employ Symanzik's technique~\cite{symanzik1970a}}. Consider the pair of \textbf{classical external fields}, $X$ and $Y$, satisfying the $s$-doublet condition
 \begin{equation}
   \label{eq:s-doublet}
   sY = X \;, \;\; sX = 0 \;.
@@ -108,7 +108,7 @@ The action $S_{\text{sb}}$ is not a topological invariant. Nevertheless, we emph
 \end{equation}
 still is a topological field theory. And, it is physically indistinguishable from $S_{\text{TG}}$.
 \begin{table}[htpb]
-  \caption{Grading of $X$ and $Y$.}%
+  \caption{Grading of \textbf{Symanzik sources}.}%
   \label{tab:grading2}
   \begin{tabular}{ccc}
     \toprule
@@ -128,7 +128,7 @@ Before finally proceeding to the connection between our topological model and gr
 
 Gravity is described by a special kind of gauge theory in the sense that $ \mathrm{Cl}Fr $ is isomorphic to the Clifford bundle of spacetime. The isomorphism is given by $\gamma_a = \tensor{ e }{ _a^\mu } \gamma_\mu $, where $e^a \equiv \tensor{ e }{ ^a_\mu } dx^\mu $ is the $\mathrm{Cl}Fr$-valued soldering 1-form --- also known as the vierbein field ---, and $ e_a \equiv \tensor{ e }{ _a^\mu }\partial_{ \mu }$ is its dual vector. Finally, for latter use, we define $ \gamma \equiv \gamma_a e^a $. And, it is straightforward to show that $\star \gamma^2 = {\left( \gamma^2 \right)}^*= \gamma_5 \gamma^2$.
 
-Returning to the $SO(4)$ TYM theory, the term \textquote{topological symmetry-restored phase of gravity}, used in Section~\ref{ssec:so4tym;sec:top_grav}, was deliberately chosen to suggest that a traditional gravity theory, with propagating local degrees of freedom, can be obtained from~\eqref{eq:tg+sb} via a symmetry breaking mechanism. In particular, an explicit symmetry breaking (ESB) that achieves that is obtained by forcing $X$ and $Y$ to attain physical values:
+Returning to the $SO(4)$ TYM theory, the term \textquote{topological symmetry-restored phase of gravity}, used in Section~\ref{ssec:so4tym;sec:top_grav}, was deliberately chosen to suggest that a traditional gravity theory, with propagating local degrees of freedom, can be obtained from~\eqref{eq:tg+sb} via a symmetry breaking mechanism. In particular, an explicit symmetry breaking (ESB) that achieves that is obtained by forcing \textbf{Symanzik sources}, $X$ and $Y$, to attain physical values:
 \begin{subequations}%
   \label{eq:physicalxy}
   \begin{align}
@@ -143,6 +143,8 @@ where $\mu$ is a mass scale. Indeed, when $X$ and $Y$ are identified accordingly
                         & \left. + \left. \left( g_3 + g_6 \right) R \gamma^2 \right] \right\} \;,
 \end{align}
 can be immediately recognized as the Lovelock-Cartan theory of gravity on non-compact 4-manifolds~\cite{mardones1991a,hassaine2016a,corichi2016a}. The coupling $\tr \left( R \star \gamma^2 \right)$ is the Einstein-Palatini Lagrangian density, $\tr \left( \gamma^2 \star \gamma^2 \right)$ is the cosmological constant term, and $\tr \left( R \gamma^2 \right)$ is the Holst term~\cite{holst1996a} --- related to the torsional Nieh-Yan invariant polynomial~\cite{nieh1982a,chandia1997a,nieh2007a}.
+
+\textbf{It is important to clarify that the ESB employed here is inspired by the well-established Symanzik source technique~\cite{symanzik1970a}. There are two equivalent ways to approach it. One can start with a symmetry broken theory, \textit{e.g.}, defined by the action~\eqref{eq:llc_action}, then external sources are introduced in order to control it. This effectively embeds the theory into a larger --- more symmetric --- one. After the calculations are performed, the sources can be set to values which explicitly undo the embedding. Just as well, one can start with the larger theory. Then, Symanzik sources are introduced, and their attained value represent an ESB\footnote{\textbf{We remark that the Symanzik method is employed in a wide range of field theoretical models in which one wishes to control broken symmetries. The Gribov-Zwanziger model~\cite{zwanziger1981a,zwanziger1989a,dudal2005a,vandersickel2012a}, and Lorentz violating models~\cite{sobreiro2015a,sobreiro2016b,sobreiro2017b}, are just a few examples.}}.}
 
 The field equations for the gravitational fields $\gamma$ and $\omega$ are, respectively,
 \begin{subequations}%
