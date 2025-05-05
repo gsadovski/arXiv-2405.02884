@@ -1,0 +1,10 @@
+./metadata/manuscript.sty
+./metadata/titlepage.tex
+./main.tex
+./content/sections/introduction.tex
+./content/sections/conclusions.tex
+./content/sections/acknowledgements.tex
+./content/sections/tym.tex
+./content/sections/top_grav.tex
+./content/sections/quantum.tex
+./main.bbl
